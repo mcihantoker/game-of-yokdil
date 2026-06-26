@@ -1,0 +1,102 @@
+[
+  {
+    "id": "fen_001",
+    "word": "hypothesis",
+    "phonetic": "/haɪˈpɒθɪsɪs/",
+    "tr_meaning": "hipotez, varsayım",
+    "example_sentence": "The researchers proposed a hypothesis that higher temperatures accelerate chemical reactions.",
+    "department": "fen",
+    "theme": "Araştırma Yöntemleri",
+    "exam_years": [2019, 2021, 2023]
+  },
+  {
+    "id": "fen_002",
+    "word": "catalyst",
+    "phonetic": "/ˈkætəlɪst/",
+    "tr_meaning": "katalizör",
+    "example_sentence": "Enzymes act as biological catalysts that speed up metabolic reactions.",
+    "department": "fen",
+    "theme": "Kimya",
+    "exam_years": [2020, 2022]
+  },
+  {
+    "id": "fen_003",
+    "word": "empirical",
+    "phonetic": "/ɪmˈpɪrɪkəl/",
+    "tr_meaning": "deneysel, ampirik",
+    "example_sentence": "The theory was supported by empirical evidence gathered over decades.",
+    "department": "fen",
+    "theme": "Araştırma Yöntemleri",
+    "exam_years": [2018, 2021]
+  },
+  {
+    "id": "fen_004",
+    "word": "synthesis",
+    "phonetic": "/ˈsɪnθɪsɪs/",
+    "tr_meaning": "sentez",
+    "example_sentence": "The synthesis of new compounds requires precise temperature control.",
+    "department": "fen",
+    "theme": "Kimya",
+    "exam_years": [2019, 2022, 2024]
+  },
+  {
+    "id": "fen_005",
+    "word": "osmosis",
+    "phonetic": "/ɒzˈməʊsɪs/",
+    "tr_meaning": "ozmoz",
+    "example_sentence": "Water moves through cell membranes by osmosis from low to high solute concentration.",
+    "department": "fen",
+    "theme": "Biyoloji",
+    "exam_years": [2020, 2023]
+  },
+  {
+    "id": "fen_006",
+    "word": "magnitude",
+    "phonetic": "/ˈmæɡnɪtjuːd/",
+    "tr_meaning": "büyüklük, şiddet",
+    "example_sentence": "Scientists measured the magnitude of the earthquake on the Richter scale.",
+    "department": "fen",
+    "theme": "Fizik",
+    "exam_years": [2021, 2024]
+  },
+  {
+    "id": "fen_007",
+    "word": "variable",
+    "phonetic": "/ˈveəriəbəl/",
+    "tr_meaning": "değişken",
+    "example_sentence": "The independent variable was manipulated to observe its effect on the outcome.",
+    "department": "fen",
+    "theme": "Araştırma Yöntemleri",
+    "exam_years": [2018, 2020, 2022]
+  },
+  {
+    "id": "fen_008",
+    "word": "organism",
+    "phonetic": "/ˈɔːɡənɪzəm/",
+    "tr_meaning": "organizma, canlı",
+    "example_sentence": "Single-celled organisms were among the first life forms on Earth.",
+    "department": "fen",
+    "theme": "Biyoloji",
+    "exam_years": [2019, 2021]
+  },
+  {
+    "id": "fen_009",
+    "word": "precipitation",
+    "phonetic": "/prɪˌsɪpɪˈteɪʃən/",
+    "tr_meaning": "yağış; çökelme",
+    "example_sentence": "Annual precipitation in the region averages 800 millimetres.",
+    "department": "fen",
+    "theme": "Çevre Bilimleri",
+    "exam_years": [2022, 2024]
+  },
+  {
+    "id": "fen_010",
+    "word": "equilibrium",
+    "phonetic": "/ˌiːkwɪˈlɪbriəm/",
+    "tr_meaning": "denge",
+    "example_sentence": "Chemical equilibrium is reached when forward and reverse reactions occur at the same rate.",
+    "department": "fen",
+    "theme": "Kimya",
+    "exam_years": [2020, 2023]
+  }
+]
