@@ -1,0 +1,3072 @@
+[
+  {
+    "id": "sosyal_001",
+    "word": "admit",
+    "phonetic": "",
+    "tr_meaning": "kabul etmek, itiraf etmek",
+    "example_sentence": "Researchers admit that social media has reshaped political communication.",
+    "department": "sosyal",
+    "theme": "Araştırma",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_002",
+    "word": "abandon",
+    "phonetic": "",
+    "tr_meaning": "terk etmek, bırakmak",
+    "example_sentence": "Many rural communities have abandoned traditional farming due to urban migration.",
+    "department": "sosyal",
+    "theme": "Değişim",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_003",
+    "word": "absorb",
+    "phonetic": "",
+    "tr_meaning": "emmek, içine çekmek",
+    "example_sentence": "Children absorb social norms and cultural values from their environment.",
+    "department": "sosyal",
+    "theme": "Süreç",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_004",
+    "word": "abuse",
+    "phonetic": "",
+    "tr_meaning": "kötüye kullanmak, istismar etmek",
+    "example_sentence": "Authoritarian regimes have historically abused power to suppress dissent.",
+    "department": "sosyal",
+    "theme": "Sorun",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_005",
+    "word": "accelerate",
+    "phonetic": "",
+    "tr_meaning": "hızlandırmak",
+    "example_sentence": "Technological advances have accelerated social change over the past century.",
+    "department": "sosyal",
+    "theme": "Değişim",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_006",
+    "word": "accept",
+    "phonetic": "",
+    "tr_meaning": "kabul etmek",
+    "example_sentence": "Modern societies are gradually accepting more diverse definitions of family.",
+    "department": "sosyal",
+    "theme": "Tutum",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_007",
+    "word": "accommodate",
+    "phonetic": "",
+    "tr_meaning": "yer sağlamak, uyum sağlamak",
+    "example_sentence": "Education systems are accommodating students with diverse learning needs.",
+    "department": "sosyal",
+    "theme": "Uyum",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_008",
+    "word": "accompany",
+    "phonetic": "",
+    "tr_meaning": "eşlik etmek",
+    "example_sentence": "Social unrest often accompanies periods of rapid economic transformation.",
+    "department": "sosyal",
+    "theme": "Birliktelik",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_009",
+    "word": "accomplish",
+    "phonetic": "",
+    "tr_meaning": "başarmak, tamamlamak",
+    "example_sentence": "Non-profit organisations accomplish more with digital fundraising platforms.",
+    "department": "sosyal",
+    "theme": "Başarı",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_010",
+    "word": "accumulate",
+    "phonetic": "",
+    "tr_meaning": "biriktirmek, toplamak",
+    "example_sentence": "Sociologists have accumulated decades of data on urban migration patterns.",
+    "department": "sosyal",
+    "theme": "Birikim",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_011",
+    "word": "accuse",
+    "phonetic": "",
+    "tr_meaning": "suçlamak",
+    "example_sentence": "Activists have accused corporations of exploiting child labour in supply chains.",
+    "department": "sosyal",
+    "theme": "Eleştiri",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_012",
+    "word": "achieve",
+    "phonetic": "",
+    "tr_meaning": "elde etmek, başarmak",
+    "example_sentence": "Educators have achieved better student engagement through interactive digital methods.",
+    "department": "sosyal",
+    "theme": "Başarı",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_013",
+    "word": "acknowledge",
+    "phonetic": "",
+    "tr_meaning": "kabul etmek, onaylamak",
+    "example_sentence": "Governments have formally acknowledged historical injustices against minority communities.",
+    "department": "sosyal",
+    "theme": "Onay",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_014",
+    "word": "address",
+    "phonetic": "",
+    "tr_meaning": "ele almak, çözümlemek",
+    "example_sentence": "Sociologists have addressed the growing problem of digital inequality in education.",
+    "department": "sosyal",
+    "theme": "Çözüm",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_015",
+    "word": "adjust",
+    "phonetic": "",
+    "tr_meaning": "uyarlamak, ayarlamak",
+    "example_sentence": "Teachers are adjusting their methods to accommodate diverse cultural learning styles.",
+    "department": "sosyal",
+    "theme": "Uyarlama",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_016",
+    "word": "administer",
+    "phonetic": "",
+    "tr_meaning": "uygulamak, yönetmek",
+    "example_sentence": "Aid organisations are administering emergency relief programs in conflict-affected regions.",
+    "department": "sosyal",
+    "theme": "Yönetim",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_017",
+    "word": "admire",
+    "phonetic": "",
+    "tr_meaning": "hayran kalmak, takdir etmek",
+    "example_sentence": "Students admire social reformers who dedicated their lives to fighting inequality.",
+    "department": "sosyal",
+    "theme": "Değer",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_018",
+    "word": "adopt",
+    "phonetic": "",
+    "tr_meaning": "benimsemek, kabul etmek",
+    "example_sentence": "Many countries have adopted universal basic income policies to reduce poverty.",
+    "department": "sosyal",
+    "theme": "Benimseme",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_019",
+    "word": "aggravate",
+    "phonetic": "",
+    "tr_meaning": "kötüleştirmek, ağırlaştırmak",
+    "example_sentence": "Economic inequality further aggravates social tensions within urban communities.",
+    "department": "sosyal",
+    "theme": "Kötüleşme",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_020",
+    "word": "agree",
+    "phonetic": "",
+    "tr_meaning": "katılmak, aynı fikirde olmak",
+    "example_sentence": "Sociologists agree that poverty is a root cause of increased crime rates.",
+    "department": "sosyal",
+    "theme": "Uzlaşı",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_021",
+    "word": "alienate",
+    "phonetic": "",
+    "tr_meaning": "yabancılaştırmak, uzaklaştırmak",
+    "example_sentence": "Polarising political rhetoric has alienated moderate voters from mainstream parties.",
+    "department": "sosyal",
+    "theme": "Yabancılaşma",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_022",
+    "word": "alleviate",
+    "phonetic": "",
+    "tr_meaning": "hafifletmek, azaltmak",
+    "example_sentence": "Microfinance programmes aim to alleviate poverty in developing economies.",
+    "department": "sosyal",
+    "theme": "Azaltma",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_023",
+    "word": "allocate",
+    "phonetic": "",
+    "tr_meaning": "tahsis etmek, ayırmak",
+    "example_sentence": "Educational authorities allocate resources to underserved schools to reduce achievement gaps.",
+    "department": "sosyal",
+    "theme": "Kaynak",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_024",
+    "word": "allow",
+    "phonetic": "",
+    "tr_meaning": "izin vermek, olanak tanımak",
+    "example_sentence": "Freedom of speech laws allow citizens to criticise government policies openly.",
+    "department": "sosyal",
+    "theme": "İmkân",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_025",
+    "word": "alter",
+    "phonetic": "",
+    "tr_meaning": "değiştirmek",
+    "example_sentence": "Social media has dramatically altered the way people consume political information.",
+    "department": "sosyal",
+    "theme": "Değişim",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_026",
+    "word": "appear",
+    "phonetic": "",
+    "tr_meaning": "görünmek, ortaya çıkmak",
+    "example_sentence": "New social movements appear in response to growing economic and political inequality.",
+    "department": "sosyal",
+    "theme": "Ortaya Çıkış",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_027",
+    "word": "apply",
+    "phonetic": "",
+    "tr_meaning": "uygulamak, başvurmak",
+    "example_sentence": "Sociologists apply qualitative methods to study community behaviour and social structures.",
+    "department": "sosyal",
+    "theme": "Uygulama",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_028",
+    "word": "appoint",
+    "phonetic": "",
+    "tr_meaning": "atamak",
+    "example_sentence": "Governments appoint independent commissioners to investigate corruption allegations.",
+    "department": "sosyal",
+    "theme": "Yönetim",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_029",
+    "word": "appraise",
+    "phonetic": "",
+    "tr_meaning": "değerlendirmek, kıymet biçmek",
+    "example_sentence": "Policy analysts appraise the economic impact of new social welfare programmes.",
+    "department": "sosyal",
+    "theme": "Değerlendirme",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_030",
+    "word": "appreciate",
+    "phonetic": "",
+    "tr_meaning": "takdir etmek, değerini bilmek",
+    "example_sentence": "Educators appreciate the cultural diversity that international students bring to campuses.",
+    "department": "sosyal",
+    "theme": "Değer",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_031",
+    "word": "approve",
+    "phonetic": "",
+    "tr_meaning": "onaylamak",
+    "example_sentence": "Parliaments approve legislation that protects workers' rights and fair wages.",
+    "department": "sosyal",
+    "theme": "Onay",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_032",
+    "word": "arise",
+    "phonetic": "",
+    "tr_meaning": "ortaya çıkmak, meydana gelmek",
+    "example_sentence": "Social conflicts arise when rapid economic growth benefits only a small minority.",
+    "department": "sosyal",
+    "theme": "Ortaya Çıkış",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_033",
+    "word": "articulate",
+    "phonetic": "",
+    "tr_meaning": "açıkça ifade etmek",
+    "example_sentence": "Community leaders articulate the needs of marginalised groups to government authorities.",
+    "department": "sosyal",
+    "theme": "İfade",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_034",
+    "word": "assess",
+    "phonetic": "",
+    "tr_meaning": "değerlendirmek",
+    "example_sentence": "Researchers assess the effectiveness of social programmes using standardised evaluation tools.",
+    "department": "sosyal",
+    "theme": "Değerlendirme",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_035",
+    "word": "attach",
+    "phonetic": "",
+    "tr_meaning": "eklemek, iliştirmek",
+    "example_sentence": "Immigrants often attach strong cultural identities to their communities abroad.",
+    "department": "sosyal",
+    "theme": "Bağlantı",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_036",
+    "word": "attain",
+    "phonetic": "",
+    "tr_meaning": "erişmek, elde etmek",
+    "example_sentence": "Education is widely regarded as the primary means of attaining social mobility.",
+    "department": "sosyal",
+    "theme": "Ulaşma",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_037",
+    "word": "attribute",
+    "phonetic": "",
+    "tr_meaning": "atfetmek, bağlamak",
+    "example_sentence": "Sociologists attribute youth radicalisation to social exclusion and lack of opportunity.",
+    "department": "sosyal",
+    "theme": "Neden",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_038",
+    "word": "avert",
+    "phonetic": "",
+    "tr_meaning": "önlemek",
+    "example_sentence": "Diplomatic negotiations help avert armed conflicts between rival nations.",
+    "department": "sosyal",
+    "theme": "Önleme",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_039",
+    "word": "avoid",
+    "phonetic": "",
+    "tr_meaning": "kaçınmak",
+    "example_sentence": "Governments try to avoid policies that could increase social inequality.",
+    "department": "sosyal",
+    "theme": "Kaçınma",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_040",
+    "word": "become",
+    "phonetic": "",
+    "tr_meaning": "olmak",
+    "example_sentence": "Social media platforms have become the primary source of news for younger generations.",
+    "department": "sosyal",
+    "theme": "Dönüşüm",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_041",
+    "word": "begin",
+    "phonetic": "",
+    "tr_meaning": "başlamak",
+    "example_sentence": "Civil rights movements begin when marginalised communities organise collective action.",
+    "department": "sosyal",
+    "theme": "Başlangıç",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_042",
+    "word": "block",
+    "phonetic": "",
+    "tr_meaning": "engellemek",
+    "example_sentence": "Censorship laws can block citizens' access to independent sources of information.",
+    "department": "sosyal",
+    "theme": "Engelleme",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_043",
+    "word": "blur",
+    "phonetic": "",
+    "tr_meaning": "bulanıklaştırmak",
+    "example_sentence": "Remote working has blurred the traditional boundaries between professional and personal life.",
+    "department": "sosyal",
+    "theme": "Belirsizleşme",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_044",
+    "word": "boost",
+    "phonetic": "",
+    "tr_meaning": "artırmak, güçlendirmek",
+    "example_sentence": "Investment in education can boost economic productivity and social equality.",
+    "department": "sosyal",
+    "theme": "Artış",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_045",
+    "word": "capture",
+    "phonetic": "",
+    "tr_meaning": "yakalamak, ele geçirmek",
+    "example_sentence": "Documentary films capture the lived experiences of marginalised social groups.",
+    "department": "sosyal",
+    "theme": "Yakalama",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_046",
+    "word": "celebrate",
+    "phonetic": "",
+    "tr_meaning": "kutlamak",
+    "example_sentence": "Communities celebrate cultural traditions to preserve their collective identity and heritage.",
+    "department": "sosyal",
+    "theme": "Kutlama",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_047",
+    "word": "challenge",
+    "phonetic": "",
+    "tr_meaning": "zorlamak, meydan okumak",
+    "example_sentence": "Globalisation challenges traditional notions of national sovereignty and cultural identity.",
+    "department": "sosyal",
+    "theme": "Meydan Okuma",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_048",
+    "word": "change",
+    "phonetic": "",
+    "tr_meaning": "değişmek, değiştirmek",
+    "example_sentence": "The rise of digital media has changed how political campaigns are conducted globally.",
+    "department": "sosyal",
+    "theme": "Değişim",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_049",
+    "word": "check",
+    "phonetic": "",
+    "tr_meaning": "kontrol etmek",
+    "example_sentence": "Election officials check voter registration records to prevent electoral fraud.",
+    "department": "sosyal",
+    "theme": "Kontrol",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_050",
+    "word": "circulate",
+    "phonetic": "",
+    "tr_meaning": "dolaşmak",
+    "example_sentence": "Misinformation circulates rapidly through social media and erodes public trust in institutions.",
+    "department": "sosyal",
+    "theme": "Dolaşım",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_051",
+    "word": "claim",
+    "phonetic": "",
+    "tr_meaning": "iddia etmek",
+    "example_sentence": "Political leaders often claim that immigration threatens national cultural identity.",
+    "department": "sosyal",
+    "theme": "İddia",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_052",
+    "word": "collect",
+    "phonetic": "",
+    "tr_meaning": "toplamak",
+    "example_sentence": "Sociologists collect qualitative data through in-depth interviews and focus groups.",
+    "department": "sosyal",
+    "theme": "Veri Toplama",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_053",
+    "word": "commit",
+    "phonetic": "",
+    "tr_meaning": "adamak, söz vermek",
+    "example_sentence": "Governments commit to addressing systemic inequality through targeted social policies.",
+    "department": "sosyal",
+    "theme": "Taahhüt",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_054",
+    "word": "compensate",
+    "phonetic": "",
+    "tr_meaning": "telafi etmek",
+    "example_sentence": "Social welfare systems compensate workers who lose their jobs due to automation.",
+    "department": "sosyal",
+    "theme": "Telafi",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_055",
+    "word": "compete",
+    "phonetic": "",
+    "tr_meaning": "rekabet etmek",
+    "example_sentence": "Universities compete internationally to attract the most talented academic researchers.",
+    "department": "sosyal",
+    "theme": "Rekabet",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_056",
+    "word": "compile",
+    "phonetic": "",
+    "tr_meaning": "derlemek",
+    "example_sentence": "Sociologists compile historical records to trace patterns of social inequality over time.",
+    "department": "sosyal",
+    "theme": "Derleme",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_057",
+    "word": "complain",
+    "phonetic": "",
+    "tr_meaning": "şikayet etmek",
+    "example_sentence": "Citizens complain that government policies fail to address growing income inequality.",
+    "department": "sosyal",
+    "theme": "Şikayet",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_058",
+    "word": "comprise",
+    "phonetic": "",
+    "tr_meaning": "oluşmak, kapsamak",
+    "example_sentence": "A democratic society comprises citizens who actively participate in governance.",
+    "department": "sosyal",
+    "theme": "Kapsam",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_059",
+    "word": "conceal",
+    "phonetic": "",
+    "tr_meaning": "gizlemek",
+    "example_sentence": "Authoritarian governments conceal economic failures to maintain public support.",
+    "department": "sosyal",
+    "theme": "Gizleme",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_060",
+    "word": "conduct",
+    "phonetic": "",
+    "tr_meaning": "yürütmek, iletmek",
+    "example_sentence": "Anthropologists conduct ethnographic fieldwork to document cultural practices and traditions.",
+    "department": "sosyal",
+    "theme": "Yürütme",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_061",
+    "word": "confirm",
+    "phonetic": "",
+    "tr_meaning": "doğrulamak",
+    "example_sentence": "Historical records confirm that economic crises often precede major political upheavals.",
+    "department": "sosyal",
+    "theme": "Doğrulama",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_062",
+    "word": "confront",
+    "phonetic": "",
+    "tr_meaning": "yüzleşmek",
+    "example_sentence": "Societies must confront systemic racism to achieve genuine equality and social justice.",
+    "department": "sosyal",
+    "theme": "Yüzleşme",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_063",
+    "word": "confuse",
+    "phonetic": "",
+    "tr_meaning": "şaşırtmak, karıştırmak",
+    "example_sentence": "Conflicting political messages often confuse voters about candidates' actual policy positions.",
+    "department": "sosyal",
+    "theme": "Karışıklık",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_064",
+    "word": "conquer",
+    "phonetic": "",
+    "tr_meaning": "yenmek, fethetmek",
+    "example_sentence": "Social movements conquer systemic oppression through sustained collective action.",
+    "department": "sosyal",
+    "theme": "Zafer",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_065",
+    "word": "consider",
+    "phonetic": "",
+    "tr_meaning": "göz önünde bulundurmak",
+    "example_sentence": "Policy makers must consider long-term social consequences when designing welfare programmes.",
+    "department": "sosyal",
+    "theme": "Değerlendirme",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_066",
+    "word": "constitute",
+    "phonetic": "",
+    "tr_meaning": "oluşturmak",
+    "example_sentence": "Migrant workers constitute a significant portion of the labour force in many economies.",
+    "department": "sosyal",
+    "theme": "Oluşum",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_067",
+    "word": "constrain",
+    "phonetic": "",
+    "tr_meaning": "sınırlamak",
+    "example_sentence": "Legal and institutional barriers constrain the social and economic advancement of minorities.",
+    "department": "sosyal",
+    "theme": "Kısıtlama",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_068",
+    "word": "construct",
+    "phonetic": "",
+    "tr_meaning": "inşa etmek, oluşturmak",
+    "example_sentence": "Sociologists construct conceptual models to understand patterns of social stratification.",
+    "department": "sosyal",
+    "theme": "İnşa",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_069",
+    "word": "consult",
+    "phonetic": "",
+    "tr_meaning": "danışmak",
+    "example_sentence": "Policy makers consult community leaders to ensure inclusive and representative governance.",
+    "department": "sosyal",
+    "theme": "Danışma",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_070",
+    "word": "contain",
+    "phonetic": "",
+    "tr_meaning": "kontrol altında tutmak",
+    "example_sentence": "International institutions work to contain violent conflicts before they escalate.",
+    "department": "sosyal",
+    "theme": "Kontrol",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_071",
+    "word": "contend",
+    "phonetic": "",
+    "tr_meaning": "mücadele etmek, savunmak",
+    "example_sentence": "Human rights advocates contend that poverty is the primary cause of social exclusion.",
+    "department": "sosyal",
+    "theme": "Savunma",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_072",
+    "word": "contradict",
+    "phonetic": "",
+    "tr_meaning": "çelişmek",
+    "example_sentence": "Recent surveys contradict official government reports on poverty reduction progress.",
+    "department": "sosyal",
+    "theme": "Çelişki",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_073",
+    "word": "control",
+    "phonetic": "",
+    "tr_meaning": "kontrol etmek",
+    "example_sentence": "Governments implement regulations to control corporate monopolies and protect competition.",
+    "department": "sosyal",
+    "theme": "Kontrol",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_074",
+    "word": "convert",
+    "phonetic": "",
+    "tr_meaning": "dönüştürmek",
+    "example_sentence": "Social entrepreneurs convert community challenges into sustainable economic opportunities.",
+    "department": "sosyal",
+    "theme": "Dönüşüm",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_075",
+    "word": "convince",
+    "phonetic": "",
+    "tr_meaning": "ikna etmek",
+    "example_sentence": "Activists use social media to convince citizens to participate in democratic processes.",
+    "department": "sosyal",
+    "theme": "İkna",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_076",
+    "word": "counter",
+    "phonetic": "",
+    "tr_meaning": "karşı koymak, dengelemek",
+    "example_sentence": "Education is the most effective tool to counter extremist ideologies in society.",
+    "department": "sosyal",
+    "theme": "Karşı Koyma",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_077",
+    "word": "create",
+    "phonetic": "",
+    "tr_meaning": "oluşturmak, yaratmak",
+    "example_sentence": "Social media platforms create new opportunities for civic engagement and political activism.",
+    "department": "sosyal",
+    "theme": "Yaratım",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_078",
+    "word": "cultivate",
+    "phonetic": "",
+    "tr_meaning": "geliştirmek, yetiştirmek",
+    "example_sentence": "Schools cultivate critical thinking and civic responsibility in future generations.",
+    "department": "sosyal",
+    "theme": "Geliştirme",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_079",
+    "word": "curtail",
+    "phonetic": "",
+    "tr_meaning": "azaltmak, kısaltmak",
+    "example_sentence": "Anti-corruption laws curtail the misuse of public funds by government officials.",
+    "department": "sosyal",
+    "theme": "Kısıtlama",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_080",
+    "word": "decide",
+    "phonetic": "",
+    "tr_meaning": "karar vermek",
+    "example_sentence": "Citizens decide the future direction of their country through democratic elections.",
+    "department": "sosyal",
+    "theme": "Karar",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_081",
+    "word": "declare",
+    "phonetic": "",
+    "tr_meaning": "ilan etmek, açıklamak",
+    "example_sentence": "Governments declare states of emergency to mobilise rapid responses to crises.",
+    "department": "sosyal",
+    "theme": "İlan",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_082",
+    "word": "dedicate",
+    "phonetic": "",
+    "tr_meaning": "adamak",
+    "example_sentence": "Social activists dedicate their lives to achieving equality and human rights for all.",
+    "department": "sosyal",
+    "theme": "Adanma",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_083",
+    "word": "defeat",
+    "phonetic": "",
+    "tr_meaning": "yenmek",
+    "example_sentence": "Social movements have defeated oppressive political systems throughout modern history.",
+    "department": "sosyal",
+    "theme": "Zafer",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_084",
+    "word": "defend",
+    "phonetic": "",
+    "tr_meaning": "savunmak",
+    "example_sentence": "Lawyers defend the rights of individuals who face unjust discrimination or prosecution.",
+    "department": "sosyal",
+    "theme": "Savunma",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_085",
+    "word": "delay",
+    "phonetic": "",
+    "tr_meaning": "geciktirmek, ertelemek",
+    "example_sentence": "Political disagreements delay the implementation of critical environmental protection laws.",
+    "department": "sosyal",
+    "theme": "Gecikme",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_086",
+    "word": "deliver",
+    "phonetic": "",
+    "tr_meaning": "ulaştırmak, sunmak",
+    "example_sentence": "Governments must deliver on their commitments to social justice and poverty reduction.",
+    "department": "sosyal",
+    "theme": "Teslimat",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_087",
+    "word": "demand",
+    "phonetic": "",
+    "tr_meaning": "talep etmek",
+    "example_sentence": "Citizens demand greater transparency and accountability from their elected representatives.",
+    "department": "sosyal",
+    "theme": "Talep",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_088",
+    "word": "demonstrate",
+    "phonetic": "",
+    "tr_meaning": "göstermek, kanıtlamak",
+    "example_sentence": "Historical evidence demonstrates that economic inequality leads to political instability.",
+    "department": "sosyal",
+    "theme": "Kanıtlama",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_089",
+    "word": "deny",
+    "phonetic": "",
+    "tr_meaning": "reddetmek",
+    "example_sentence": "Governments sometimes deny the existence of social problems to avoid political accountability.",
+    "department": "sosyal",
+    "theme": "Reddetme",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_090",
+    "word": "derive",
+    "phonetic": "",
+    "tr_meaning": "türetmek, elde etmek",
+    "example_sentence": "Economists derive policy insights from large-scale longitudinal sociological studies.",
+    "department": "sosyal",
+    "theme": "Türetme",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_091",
+    "word": "descend",
+    "phonetic": "",
+    "tr_meaning": "inmek, çökmek",
+    "example_sentence": "Societies can descend into conflict when political institutions fail to represent all citizens.",
+    "department": "sosyal",
+    "theme": "İniş",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_092",
+    "word": "designate",
+    "phonetic": "",
+    "tr_meaning": "belirlemek, atamak",
+    "example_sentence": "UNESCO designates World Heritage Sites to protect cultural and natural treasures.",
+    "department": "sosyal",
+    "theme": "Belirleme",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_093",
+    "word": "destroy",
+    "phonetic": "",
+    "tr_meaning": "yok etmek",
+    "example_sentence": "Wars destroy not only physical infrastructure but also the social fabric of communities.",
+    "department": "sosyal",
+    "theme": "Yıkım",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_094",
+    "word": "detect",
+    "phonetic": "",
+    "tr_meaning": "tespit etmek",
+    "example_sentence": "Algorithms can detect patterns of fraud in financial transaction data.",
+    "department": "sosyal",
+    "theme": "Tespit",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_095",
+    "word": "deter",
+    "phonetic": "",
+    "tr_meaning": "caydırmak",
+    "example_sentence": "International sanctions deter authoritarian governments from violating human rights.",
+    "department": "sosyal",
+    "theme": "Caydırma",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_096",
+    "word": "deteriorate",
+    "phonetic": "",
+    "tr_meaning": "kötüleşmek, bozulmak",
+    "example_sentence": "Public trust in democratic institutions has deteriorated in many countries in recent years.",
+    "department": "sosyal",
+    "theme": "Kötüleşme",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_097",
+    "word": "determine",
+    "phonetic": "",
+    "tr_meaning": "belirlemek",
+    "example_sentence": "Socioeconomic background often determines access to quality education and healthcare.",
+    "department": "sosyal",
+    "theme": "Belirleme",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_098",
+    "word": "differ",
+    "phonetic": "",
+    "tr_meaning": "farklılık göstermek",
+    "example_sentence": "Cultural attitudes toward gender roles differ widely across different societies and regions.",
+    "department": "sosyal",
+    "theme": "Farklılık",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_099",
+    "word": "differentiate",
+    "phonetic": "",
+    "tr_meaning": "ayırt etmek",
+    "example_sentence": "Sociologists differentiate between social stratification based on class, race, and gender.",
+    "department": "sosyal",
+    "theme": "Ayırt Etme",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_100",
+    "word": "diminish",
+    "phonetic": "",
+    "tr_meaning": "azalmak, azaltmak",
+    "example_sentence": "Economic opportunities in rural areas have diminished due to automation and urbanisation.",
+    "department": "sosyal",
+    "theme": "Azalma",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_101",
+    "word": "disapprove",
+    "phonetic": "",
+    "tr_meaning": "onaylamamak",
+    "example_sentence": "Citizens disapprove of policies that increase social inequality and reduce public services.",
+    "department": "sosyal",
+    "theme": "Onaylamamak",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_102",
+    "word": "discover",
+    "phonetic": "",
+    "tr_meaning": "keşfetmek",
+    "example_sentence": "Anthropologists have discovered ancient civilisations that challenge conventional historical narratives.",
+    "department": "sosyal",
+    "theme": "Keşif",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_103",
+    "word": "discriminate",
+    "phonetic": "",
+    "tr_meaning": "ayrım yapmak",
+    "example_sentence": "Legal frameworks prohibit employers from discriminating based on race, gender, or religion.",
+    "department": "sosyal",
+    "theme": "Ayrımcılık",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_104",
+    "word": "dislike",
+    "phonetic": "",
+    "tr_meaning": "hoşlanmamak",
+    "example_sentence": "Many citizens dislike political parties that do not represent their values or interests.",
+    "department": "sosyal",
+    "theme": "Tutum",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_105",
+    "word": "dismiss",
+    "phonetic": "",
+    "tr_meaning": "reddetmek, önemsememek",
+    "example_sentence": "Authorities sometimes dismiss legitimate protests as extremist threats to social order.",
+    "department": "sosyal",
+    "theme": "Reddetme",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_106",
+    "word": "dispel",
+    "phonetic": "",
+    "tr_meaning": "gidermek, dağıtmak",
+    "example_sentence": "Media literacy programmes dispel misinformation spread by political propaganda.",
+    "department": "sosyal",
+    "theme": "Giderme",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_107",
+    "word": "display",
+    "phonetic": "",
+    "tr_meaning": "göstermek, sergilemek",
+    "example_sentence": "Protesters display placards and banners to communicate their political demands publicly.",
+    "department": "sosyal",
+    "theme": "Gösterme",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_108",
+    "word": "disrupt",
+    "phonetic": "",
+    "tr_meaning": "bozmak, kesintiye uğratmak",
+    "example_sentence": "Economic crises disrupt established social structures and increase political polarisation.",
+    "department": "sosyal",
+    "theme": "Bozulma",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_109",
+    "word": "dissolve",
+    "phonetic": "",
+    "tr_meaning": "çözünmek, feshetmek",
+    "example_sentence": "Political parties dissolve when internal disagreements make unified governance impossible.",
+    "department": "sosyal",
+    "theme": "Çözülme",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_110",
+    "word": "distinguish",
+    "phonetic": "",
+    "tr_meaning": "ayırt etmek",
+    "example_sentence": "Historians distinguish between primary and secondary sources when analysing historical events.",
+    "department": "sosyal",
+    "theme": "Ayırt Etme",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_111",
+    "word": "distract",
+    "phonetic": "",
+    "tr_meaning": "dikkatini dağıtmak",
+    "example_sentence": "Political scandals often distract public attention from important structural economic issues.",
+    "department": "sosyal",
+    "theme": "Dikkat Dağınıklığı",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_112",
+    "word": "disturb",
+    "phonetic": "",
+    "tr_meaning": "rahatsız etmek, bozmak",
+    "example_sentence": "Political violence disturbs social cohesion and undermines democratic institutions.",
+    "department": "sosyal",
+    "theme": "Rahatsızlık",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_113",
+    "word": "divide",
+    "phonetic": "",
+    "tr_meaning": "bölmek, ayırmak",
+    "example_sentence": "Polarised political discourse divides societies into opposing ideological camps.",
+    "department": "sosyal",
+    "theme": "Bölünme",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_114",
+    "word": "elaborate",
+    "phonetic": "",
+    "tr_meaning": "ayrıntılı açıklamak",
+    "example_sentence": "Researchers elaborate on conceptual frameworks to explain complex sociological phenomena.",
+    "department": "sosyal",
+    "theme": "Açıklama",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_115",
+    "word": "eliminate",
+    "phonetic": "",
+    "tr_meaning": "ortadan kaldırmak",
+    "example_sentence": "International agreements aim to eliminate child labour in global supply chains.",
+    "department": "sosyal",
+    "theme": "Ortadan Kaldırma",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_116",
+    "word": "elucidate",
+    "phonetic": "",
+    "tr_meaning": "açıklığa kavuşturmak",
+    "example_sentence": "Ethnographic research elucidates the complex social dynamics within marginalised communities.",
+    "department": "sosyal",
+    "theme": "Açıklama",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_117",
+    "word": "embody",
+    "phonetic": "",
+    "tr_meaning": "temsil etmek, somutlaştırmak",
+    "example_sentence": "Democratic institutions embody the principles of equality, justice, and citizen participation.",
+    "department": "sosyal",
+    "theme": "Temsil",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_118",
+    "word": "emigrate",
+    "phonetic": "",
+    "tr_meaning": "göç etmek",
+    "example_sentence": "Economic hardship causes many young people to emigrate from their home countries.",
+    "department": "sosyal",
+    "theme": "Göç",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_119",
+    "word": "employ",
+    "phonetic": "",
+    "tr_meaning": "kullanmak, istihdam etmek",
+    "example_sentence": "Governments employ community development officers to address neighbourhood deprivation.",
+    "department": "sosyal",
+    "theme": "Kullanım",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_120",
+    "word": "encompass",
+    "phonetic": "",
+    "tr_meaning": "kapsamak",
+    "example_sentence": "The concept of social justice encompasses equality, inclusion, and human dignity.",
+    "department": "sosyal",
+    "theme": "Kapsam",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_121",
+    "word": "endure",
+    "phonetic": "",
+    "tr_meaning": "dayanmak, katlanmak",
+    "example_sentence": "Marginalised communities endure systemic discrimination that limits their social and economic mobility.",
+    "department": "sosyal",
+    "theme": "Dayanma",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_122",
+    "word": "enforce",
+    "phonetic": "",
+    "tr_meaning": "uygulamak",
+    "example_sentence": "International courts enforce human rights law to protect individuals from state abuse.",
+    "department": "sosyal",
+    "theme": "Uygulama",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_123",
+    "word": "enhance",
+    "phonetic": "",
+    "tr_meaning": "artırmak, geliştirmek",
+    "example_sentence": "Investment in education enhances social mobility and reduces long-term inequality.",
+    "department": "sosyal",
+    "theme": "Geliştirme",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_124",
+    "word": "ensure",
+    "phonetic": "",
+    "tr_meaning": "sağlamak, güvence altına almak",
+    "example_sentence": "Legal frameworks ensure equal rights and opportunities for all citizens regardless of background.",
+    "department": "sosyal",
+    "theme": "Güvence",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_125",
+    "word": "entertain",
+    "phonetic": "",
+    "tr_meaning": "eğlendirmek",
+    "example_sentence": "Public media platforms entertain audiences while promoting social and cultural dialogue.",
+    "department": "sosyal",
+    "theme": "Eğlence",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_126",
+    "word": "entitle",
+    "phonetic": "",
+    "tr_meaning": "hak kazandırmak",
+    "example_sentence": "Citizenship entitles individuals to legal protection, voting rights, and public services.",
+    "department": "sosyal",
+    "theme": "Hak",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_127",
+    "word": "envisage",
+    "phonetic": "",
+    "tr_meaning": "öngörmek",
+    "example_sentence": "Urban planners envisage smart cities where technology enhances quality of life for all.",
+    "department": "sosyal",
+    "theme": "Öngörme",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_128",
+    "word": "eradicate",
+    "phonetic": "",
+    "tr_meaning": "ortadan kaldırmak, yok etmek",
+    "example_sentence": "International development programmes aim to eradicate extreme poverty by 2030.",
+    "department": "sosyal",
+    "theme": "Yok Etme",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_129",
+    "word": "escalate",
+    "phonetic": "",
+    "tr_meaning": "tırmanmak, artmak",
+    "example_sentence": "Ethnic tensions escalate when governments fail to address underlying social grievances.",
+    "department": "sosyal",
+    "theme": "Tırmanma",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_130",
+    "word": "estimate",
+    "phonetic": "",
+    "tr_meaning": "tahmin etmek",
+    "example_sentence": "Economists estimate that automation will eliminate millions of low-skilled jobs by 2030.",
+    "department": "sosyal",
+    "theme": "Tahmin",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_131",
+    "word": "evacuate",
+    "phonetic": "",
+    "tr_meaning": "tahliye etmek",
+    "example_sentence": "Governments evacuate civilians from conflict zones to prevent civilian casualties.",
+    "department": "sosyal",
+    "theme": "Tahliye",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_132",
+    "word": "evoke",
+    "phonetic": "",
+    "tr_meaning": "uyandırmak, çağrıştırmak",
+    "example_sentence": "Historical monuments evoke collective memory and reinforce national cultural identity.",
+    "department": "sosyal",
+    "theme": "Çağrışım",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_133",
+    "word": "exaggerate",
+    "phonetic": "",
+    "tr_meaning": "abartmak",
+    "example_sentence": "Politicians often exaggerate the threats posed by immigration to mobilise voter support.",
+    "department": "sosyal",
+    "theme": "Abartma",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_134",
+    "word": "examine",
+    "phonetic": "",
+    "tr_meaning": "incelemek, muayene etmek",
+    "example_sentence": "Sociologists examine historical patterns to understand contemporary social inequalities.",
+    "department": "sosyal",
+    "theme": "İnceleme",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_135",
+    "word": "excavate",
+    "phonetic": "",
+    "tr_meaning": "kazmak",
+    "example_sentence": "Urban development projects often excavate sites that reveal previously unknown cultural artefacts.",
+    "department": "sosyal",
+    "theme": "Kazı",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_136",
+    "word": "exceed",
+    "phonetic": "",
+    "tr_meaning": "aşmak",
+    "example_sentence": "Urban poverty rates exceed national averages in cities that have undergone rapid industrialisation.",
+    "department": "sosyal",
+    "theme": "Aşma",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_137",
+    "word": "exchange",
+    "phonetic": "",
+    "tr_meaning": "değiş tokuş yapmak",
+    "example_sentence": "Cultural exchange programmes foster mutual understanding between nations and communities.",
+    "department": "sosyal",
+    "theme": "Değişim",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_138",
+    "word": "exclude",
+    "phonetic": "",
+    "tr_meaning": "hariç tutmak, dışlamak",
+    "example_sentence": "Discriminatory policies have historically excluded minorities from educational and civic life.",
+    "department": "sosyal",
+    "theme": "Dışlama",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_139",
+    "word": "exhaust",
+    "phonetic": "",
+    "tr_meaning": "tüketmek, yorulmak",
+    "example_sentence": "Economic migration exhausts human capital in developing countries, worsening inequality.",
+    "department": "sosyal",
+    "theme": "Tüketme",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_140",
+    "word": "exist",
+    "phonetic": "",
+    "tr_meaning": "var olmak",
+    "example_sentence": "Deep structural inequalities exist within societies that appear outwardly stable and prosperous.",
+    "department": "sosyal",
+    "theme": "Varlık",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_141",
+    "word": "expand",
+    "phonetic": "",
+    "tr_meaning": "genişlemek",
+    "example_sentence": "Global trade networks have expanded rapidly, creating both opportunities and new social inequalities.",
+    "department": "sosyal",
+    "theme": "Genişleme",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_142",
+    "word": "expire",
+    "phonetic": "",
+    "tr_meaning": "süresi dolmak",
+    "example_sentence": "International trade agreements expire and must be renegotiated to reflect changing economic conditions.",
+    "department": "sosyal",
+    "theme": "Süre",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_143",
+    "word": "explain",
+    "phonetic": "",
+    "tr_meaning": "açıklamak",
+    "example_sentence": "Sociologists explain social stratification through theories of class, power, and inequality.",
+    "department": "sosyal",
+    "theme": "Açıklama",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_144",
+    "word": "exploit",
+    "phonetic": "",
+    "tr_meaning": "sömürmek, faydalanmak",
+    "example_sentence": "Colonialism systematically exploited the resources and labour of subjugated populations.",
+    "department": "sosyal",
+    "theme": "Sömürü",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_145",
+    "word": "expose",
+    "phonetic": "",
+    "tr_meaning": "maruz bırakmak",
+    "example_sentence": "Documentary films expose the social conditions that perpetuate cycles of poverty.",
+    "department": "sosyal",
+    "theme": "Maruz Bırakma",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_146",
+    "word": "extend",
+    "phonetic": "",
+    "tr_meaning": "uzatmak",
+    "example_sentence": "International peacekeeping missions extend diplomatic efforts to prevent armed conflicts.",
+    "department": "sosyal",
+    "theme": "Uzatma",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_147",
+    "word": "extract",
+    "phonetic": "",
+    "tr_meaning": "çıkarmak",
+    "example_sentence": "Economists extract meaningful trends from large and complex socioeconomic datasets.",
+    "department": "sosyal",
+    "theme": "Çıkarma",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_148",
+    "word": "facilitate",
+    "phonetic": "",
+    "tr_meaning": "kolaylaştırmak",
+    "example_sentence": "Social media facilitates the rapid organisation of political protest movements.",
+    "department": "sosyal",
+    "theme": "Kolaylaştırma",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_149",
+    "word": "fail",
+    "phonetic": "",
+    "tr_meaning": "başarısız olmak",
+    "example_sentence": "Governments fail citizens when public institutions do not deliver promised social services.",
+    "department": "sosyal",
+    "theme": "Başarısızlık",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_150",
+    "word": "find",
+    "phonetic": "",
+    "tr_meaning": "bulmak",
+    "example_sentence": "Sociologists find that social capital is as important as economic capital for community wellbeing.",
+    "department": "sosyal",
+    "theme": "Bulgu",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_151",
+    "word": "fix",
+    "phonetic": "",
+    "tr_meaning": "onarmak, düzeltmek",
+    "example_sentence": "Governments must fix broken social support systems that fail vulnerable communities.",
+    "department": "sosyal",
+    "theme": "Onarma",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_152",
+    "word": "fluctuate",
+    "phonetic": "",
+    "tr_meaning": "dalgalanmak",
+    "example_sentence": "Employment rates fluctuate during economic cycles, affecting poverty and social stability.",
+    "department": "sosyal",
+    "theme": "Dalgalanma",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_153",
+    "word": "focus",
+    "phonetic": "",
+    "tr_meaning": "odaklanmak",
+    "example_sentence": "Policy makers are focusing on reducing child poverty as a long-term social investment.",
+    "department": "sosyal",
+    "theme": "Odaklanma",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_154",
+    "word": "force",
+    "phonetic": "",
+    "tr_meaning": "zorlamak",
+    "example_sentence": "Economic hardship forces families into poverty and limits children's educational opportunities.",
+    "department": "sosyal",
+    "theme": "Zorlama",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_155",
+    "word": "foresee",
+    "phonetic": "",
+    "tr_meaning": "öngörmek",
+    "example_sentence": "Economists foresee major labour market disruptions caused by artificial intelligence.",
+    "department": "sosyal",
+    "theme": "Öngörme",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_156",
+    "word": "fortify",
+    "phonetic": "",
+    "tr_meaning": "güçlendirmek",
+    "example_sentence": "Education systems fortify democratic values by teaching critical thinking and civic participation.",
+    "department": "sosyal",
+    "theme": "Güçlendirme",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_157",
+    "word": "foster",
+    "phonetic": "",
+    "tr_meaning": "teşvik etmek, geliştirmek",
+    "example_sentence": "Community programmes foster social cohesion and reduce intergroup conflict.",
+    "department": "sosyal",
+    "theme": "Teşvik",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_158",
+    "word": "fulfill",
+    "phonetic": "",
+    "tr_meaning": "yerine getirmek",
+    "example_sentence": "Democratic governments must fulfil their constitutional obligations to all citizens equally.",
+    "department": "sosyal",
+    "theme": "Yerine Getirme",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_159",
+    "word": "grow",
+    "phonetic": "",
+    "tr_meaning": "büyümek, gelişmek",
+    "example_sentence": "Urban populations have grown rapidly, creating new pressures on housing and social services.",
+    "department": "sosyal",
+    "theme": "Büyüme",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_160",
+    "word": "guess",
+    "phonetic": "",
+    "tr_meaning": "tahmin etmek",
+    "example_sentence": "Policy makers cannot simply guess social needs but must consult data and communities.",
+    "department": "sosyal",
+    "theme": "Tahmin",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_161",
+    "word": "halt",
+    "phonetic": "",
+    "tr_meaning": "durdurmak",
+    "example_sentence": "International pressure can halt human rights abuses in authoritarian states.",
+    "department": "sosyal",
+    "theme": "Durdurma",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_162",
+    "word": "hamper",
+    "phonetic": "",
+    "tr_meaning": "engellemek",
+    "example_sentence": "Political corruption hampers economic development and the equitable distribution of resources.",
+    "department": "sosyal",
+    "theme": "Engelleme",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_163",
+    "word": "happen",
+    "phonetic": "",
+    "tr_meaning": "olmak, meydana gelmek",
+    "example_sentence": "Social revolutions happen when systemic inequalities reach a tipping point of public tolerance.",
+    "department": "sosyal",
+    "theme": "Oluş",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_164",
+    "word": "help",
+    "phonetic": "",
+    "tr_meaning": "yardım etmek",
+    "example_sentence": "International aid organisations help communities rebuild after natural disasters.",
+    "department": "sosyal",
+    "theme": "Yardım",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_165",
+    "word": "herald",
+    "phonetic": "",
+    "tr_meaning": "müjdelemek, işaret etmek",
+    "example_sentence": "The fall of authoritarian regimes heralds new opportunities for democratic transition.",
+    "department": "sosyal",
+    "theme": "Müjdeleme",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_166",
+    "word": "highlight",
+    "phonetic": "",
+    "tr_meaning": "vurgulamak",
+    "example_sentence": "Research findings highlight the systemic nature of poverty and social exclusion.",
+    "department": "sosyal",
+    "theme": "Vurgulama",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_167",
+    "word": "hinder",
+    "phonetic": "",
+    "tr_meaning": "engellemek",
+    "example_sentence": "Structural racism hinders social mobility and perpetuates cycles of disadvantage.",
+    "department": "sosyal",
+    "theme": "Engelleme",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_168",
+    "word": "host",
+    "phonetic": "",
+    "tr_meaning": "ev sahipliği yapmak",
+    "example_sentence": "Major cities host large immigrant populations that contribute significantly to cultural diversity.",
+    "department": "sosyal",
+    "theme": "Ev Sahipliği",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_169",
+    "word": "identify",
+    "phonetic": "",
+    "tr_meaning": "tanımlamak",
+    "example_sentence": "Community surveys identify the specific needs and priorities of marginalised populations.",
+    "department": "sosyal",
+    "theme": "Tanımlama",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_170",
+    "word": "ignore",
+    "phonetic": "",
+    "tr_meaning": "göz ardı etmek",
+    "example_sentence": "Governments that ignore inequality risk social unrest and political instability.",
+    "department": "sosyal",
+    "theme": "Görmezden Gelme",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_171",
+    "word": "impair",
+    "phonetic": "",
+    "tr_meaning": "bozmak, zarar vermek",
+    "example_sentence": "Systemic discrimination impairs the ability of minorities to fully participate in civic life.",
+    "department": "sosyal",
+    "theme": "Bozulma",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_172",
+    "word": "implement",
+    "phonetic": "",
+    "tr_meaning": "uygulamak",
+    "example_sentence": "Governments implement social protection programmes to reduce poverty and economic insecurity.",
+    "department": "sosyal",
+    "theme": "Uygulama",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_173",
+    "word": "imply",
+    "phonetic": "",
+    "tr_meaning": "ima etmek",
+    "example_sentence": "Low voter turnout implies significant public disillusionment with political institutions.",
+    "department": "sosyal",
+    "theme": "İma",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_174",
+    "word": "improve",
+    "phonetic": "",
+    "tr_meaning": "geliştirmek",
+    "example_sentence": "Investment in early childhood education improves long-term social and economic outcomes.",
+    "department": "sosyal",
+    "theme": "Geliştirme",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_175",
+    "word": "include",
+    "phonetic": "",
+    "tr_meaning": "içermek",
+    "example_sentence": "Inclusive education policies include students with disabilities in mainstream classrooms.",
+    "department": "sosyal",
+    "theme": "Kapsama",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_176",
+    "word": "incorporate",
+    "phonetic": "",
+    "tr_meaning": "dahil etmek",
+    "example_sentence": "Urban planning increasingly incorporates community input to ensure equitable outcomes.",
+    "department": "sosyal",
+    "theme": "Dahil Etme",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_177",
+    "word": "induce",
+    "phonetic": "",
+    "tr_meaning": "tetiklemek",
+    "example_sentence": "Economic crises can induce widespread social anxiety and declining public trust.",
+    "department": "sosyal",
+    "theme": "Tetikleme",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_178",
+    "word": "influence",
+    "phonetic": "",
+    "tr_meaning": "etkilemek",
+    "example_sentence": "Media ownership influences public opinion on political and social issues.",
+    "department": "sosyal",
+    "theme": "Etki",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_179",
+    "word": "inhabit",
+    "phonetic": "",
+    "tr_meaning": "yaşamak",
+    "example_sentence": "Indigenous communities inhabit remote regions that contain unique cultural knowledge.",
+    "department": "sosyal",
+    "theme": "Yaşam",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_180",
+    "word": "inherit",
+    "phonetic": "",
+    "tr_meaning": "miras almak",
+    "example_sentence": "Each generation inherits the social structures and cultural norms of its predecessors.",
+    "department": "sosyal",
+    "theme": "Miras",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_181",
+    "word": "initiate",
+    "phonetic": "",
+    "tr_meaning": "başlatmak",
+    "example_sentence": "Community organisations initiate grassroots campaigns to address local social problems.",
+    "department": "sosyal",
+    "theme": "Başlatma",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_182",
+    "word": "insist",
+    "phonetic": "",
+    "tr_meaning": "ısrar etmek",
+    "example_sentence": "Human rights advocates insist that governments uphold international humanitarian obligations.",
+    "department": "sosyal",
+    "theme": "Israr",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_183",
+    "word": "inspire",
+    "phonetic": "",
+    "tr_meaning": "ilham vermek",
+    "example_sentence": "Social justice movements inspire civic engagement and collective action for change.",
+    "department": "sosyal",
+    "theme": "İlham",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_184",
+    "word": "interact",
+    "phonetic": "",
+    "tr_meaning": "etkileşimde bulunmak",
+    "example_sentence": "Social groups interact with one another through shared cultural practices and institutions.",
+    "department": "sosyal",
+    "theme": "Etkileşim",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_185",
+    "word": "interrupt",
+    "phonetic": "",
+    "tr_meaning": "kesmek",
+    "example_sentence": "Political crises interrupt social progress and divert resources from public services.",
+    "department": "sosyal",
+    "theme": "Kesme",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_186",
+    "word": "introduce",
+    "phonetic": "",
+    "tr_meaning": "tanıtmak, başlatmak",
+    "example_sentence": "Governments have introduced minimum wage laws to address growing income inequality.",
+    "department": "sosyal",
+    "theme": "Tanıtma",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_187",
+    "word": "involve",
+    "phonetic": "",
+    "tr_meaning": "içermek, kapsamak",
+    "example_sentence": "Community development involves engaging residents in the design of local social programmes.",
+    "department": "sosyal",
+    "theme": "Kapsama",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_188",
+    "word": "isolate",
+    "phonetic": "",
+    "tr_meaning": "izole etmek",
+    "example_sentence": "Social exclusion can isolate marginalised groups from mainstream economic opportunities.",
+    "department": "sosyal",
+    "theme": "İzolasyon",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_189",
+    "word": "justify",
+    "phonetic": "",
+    "tr_meaning": "haklı göstermek",
+    "example_sentence": "Governments justify emergency powers by citing national security threats or public health crises.",
+    "department": "sosyal",
+    "theme": "Gerekçelendirme",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_190",
+    "word": "lower",
+    "phonetic": "",
+    "tr_meaning": "düşürmek",
+    "example_sentence": "Social programmes that lower child poverty rates produce long-term economic benefits.",
+    "department": "sosyal",
+    "theme": "Düşürme",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_191",
+    "word": "magnify",
+    "phonetic": "",
+    "tr_meaning": "büyütmek",
+    "example_sentence": "Global media can magnify local social conflicts and transform them into international issues.",
+    "department": "sosyal",
+    "theme": "Büyütme",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_192",
+    "word": "maintain",
+    "phonetic": "",
+    "tr_meaning": "sürdürmek",
+    "example_sentence": "Social institutions maintain order and stability within diverse communities.",
+    "department": "sosyal",
+    "theme": "Sürdürme",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_193",
+    "word": "mandate",
+    "phonetic": "",
+    "tr_meaning": "emretmek, şart koşmak",
+    "example_sentence": "International conventions mandate that governments protect the rights of refugees.",
+    "department": "sosyal",
+    "theme": "Zorunluluk",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_194",
+    "word": "manifest",
+    "phonetic": "",
+    "tr_meaning": "açıkça göstermek",
+    "example_sentence": "Social inequality manifests in disparities in education, health, and economic opportunity.",
+    "department": "sosyal",
+    "theme": "Tezahür",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_195",
+    "word": "mitigate",
+    "phonetic": "",
+    "tr_meaning": "azaltmak, hafifletmek",
+    "example_sentence": "Social safety nets mitigate the impact of economic downturns on the most vulnerable.",
+    "department": "sosyal",
+    "theme": "Azaltma",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_196",
+    "word": "narrow",
+    "phonetic": "",
+    "tr_meaning": "daraltmak, daralmak",
+    "example_sentence": "Policies designed to increase access to education help narrow the achievement gap.",
+    "department": "sosyal",
+    "theme": "Daraltma",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_197",
+    "word": "neglect",
+    "phonetic": "",
+    "tr_meaning": "ihmal etmek",
+    "example_sentence": "Governments that neglect social infrastructure create conditions for growing inequality.",
+    "department": "sosyal",
+    "theme": "İhmal",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_198",
+    "word": "nourish",
+    "phonetic": "",
+    "tr_meaning": "beslemek",
+    "example_sentence": "Strong cultural institutions nourish social identity and community resilience.",
+    "department": "sosyal",
+    "theme": "Beslenme",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_199",
+    "word": "object",
+    "phonetic": "",
+    "tr_meaning": "itiraz etmek",
+    "example_sentence": "Civil society organisations object to legislation that restricts freedom of expression.",
+    "department": "sosyal",
+    "theme": "İtiraz",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_200",
+    "word": "obtain",
+    "phonetic": "",
+    "tr_meaning": "elde etmek",
+    "example_sentence": "Communities can obtain legal recognition of their land rights through formal judicial processes.",
+    "department": "sosyal",
+    "theme": "Elde Etme",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_201",
+    "word": "occupy",
+    "phonetic": "",
+    "tr_meaning": "işgal etmek, meşgul etmek",
+    "example_sentence": "Protest movements occupy public spaces to draw attention to social and political grievances.",
+    "department": "sosyal",
+    "theme": "Meşgul Etme",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_202",
+    "word": "occur",
+    "phonetic": "",
+    "tr_meaning": "meydana gelmek",
+    "example_sentence": "Social transformations occur when accumulated grievances reach a collective tipping point.",
+    "department": "sosyal",
+    "theme": "Oluşum",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_203",
+    "word": "offend",
+    "phonetic": "",
+    "tr_meaning": "rencide etmek",
+    "example_sentence": "Hate speech offends marginalised communities and violates their fundamental human dignity.",
+    "department": "sosyal",
+    "theme": "İncitme",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_204",
+    "word": "offer",
+    "phonetic": "",
+    "tr_meaning": "önermek, teklif etmek",
+    "example_sentence": "International institutions offer technical assistance to developing countries improving governance.",
+    "department": "sosyal",
+    "theme": "Sunma",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_205",
+    "word": "omit",
+    "phonetic": "",
+    "tr_meaning": "atlamak, dahil etmemek",
+    "example_sentence": "Government reports often omit statistics that reflect poorly on their social policies.",
+    "department": "sosyal",
+    "theme": "Atlama",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_206",
+    "word": "open",
+    "phonetic": "",
+    "tr_meaning": "açmak",
+    "example_sentence": "Democratic reforms open political participation to historically marginalised social groups.",
+    "department": "sosyal",
+    "theme": "Açılım",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_207",
+    "word": "operate",
+    "phonetic": "",
+    "tr_meaning": "işletmek, çalışmak",
+    "example_sentence": "Non-governmental organisations operate independently of government to provide humanitarian aid.",
+    "department": "sosyal",
+    "theme": "İşletme",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_208",
+    "word": "oppress",
+    "phonetic": "",
+    "tr_meaning": "baskı uygulamak",
+    "example_sentence": "Authoritarian regimes oppress minority communities through discriminatory laws and violence.",
+    "department": "sosyal",
+    "theme": "Baskı",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_209",
+    "word": "originate",
+    "phonetic": "",
+    "tr_meaning": "kaynaklanmak",
+    "example_sentence": "Many social movements originate in communities most directly affected by inequality.",
+    "department": "sosyal",
+    "theme": "Kaynak",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_210",
+    "word": "outweigh",
+    "phonetic": "",
+    "tr_meaning": "ağır basmak",
+    "example_sentence": "The social costs of inequality outweigh the short-term economic gains of low taxation.",
+    "department": "sosyal",
+    "theme": "Ağır Basma",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_211",
+    "word": "overcome",
+    "phonetic": "",
+    "tr_meaning": "üstesinden gelmek",
+    "example_sentence": "Societies can overcome systemic discrimination through legal reform and cultural change.",
+    "department": "sosyal",
+    "theme": "Üstesinden Gelme",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_212",
+    "word": "overestimate",
+    "phonetic": "",
+    "tr_meaning": "abartmak, fazla tahmin etmek",
+    "example_sentence": "Policy makers overestimate the ability of markets alone to solve social inequality.",
+    "department": "sosyal",
+    "theme": "Abartma",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_213",
+    "word": "overlook",
+    "phonetic": "",
+    "tr_meaning": "göz ardı etmek",
+    "example_sentence": "Governments cannot afford to overlook the social consequences of rapid economic change.",
+    "department": "sosyal",
+    "theme": "Göz Ardı Etme",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_214",
+    "word": "overtake",
+    "phonetic": "",
+    "tr_meaning": "yakalamak, sollamak",
+    "example_sentence": "Digital communication has overtaken traditional print media as the dominant news platform.",
+    "department": "sosyal",
+    "theme": "Geçme",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_215",
+    "word": "penetrate",
+    "phonetic": "",
+    "tr_meaning": "nüfuz etmek",
+    "example_sentence": "Global media penetrates remote communities and challenges traditional cultural norms.",
+    "department": "sosyal",
+    "theme": "Nüfuz Etme",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_216",
+    "word": "perform",
+    "phonetic": "",
+    "tr_meaning": "yerine getirmek, gerçekleştirmek",
+    "example_sentence": "Citizens perform civic duties by participating in elections and public consultations.",
+    "department": "sosyal",
+    "theme": "Gerçekleştirme",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_217",
+    "word": "perpetuate",
+    "phonetic": "",
+    "tr_meaning": "sürdürmek, devam ettirmek",
+    "example_sentence": "Unequal education systems perpetuate cycles of poverty across generations.",
+    "department": "sosyal",
+    "theme": "Sürdürme",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_218",
+    "word": "persuade",
+    "phonetic": "",
+    "tr_meaning": "ikna etmek",
+    "example_sentence": "Social movements persuade legislators to reform unjust laws and protect citizens' rights.",
+    "department": "sosyal",
+    "theme": "İkna",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_219",
+    "word": "pinpoint",
+    "phonetic": "",
+    "tr_meaning": "tam olarak belirlemek",
+    "example_sentence": "Researchers can pinpoint the specific policies that most effectively reduce poverty rates.",
+    "department": "sosyal",
+    "theme": "Kesin Belirleme",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_220",
+    "word": "plunder",
+    "phonetic": "",
+    "tr_meaning": "yağmalamak",
+    "example_sentence": "Colonial powers plundered the natural resources of subjugated nations for centuries.",
+    "department": "sosyal",
+    "theme": "Yağma",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_221",
+    "word": "pollute",
+    "phonetic": "",
+    "tr_meaning": "kirletmek",
+    "example_sentence": "Harmful ideologies pollute public discourse and undermine democratic values.",
+    "department": "sosyal",
+    "theme": "Kirletme",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_222",
+    "word": "postpone",
+    "phonetic": "",
+    "tr_meaning": "ertelemek",
+    "example_sentence": "Governments sometimes postpone addressing systemic inequality to avoid short-term political costs.",
+    "department": "sosyal",
+    "theme": "Erteleme",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_223",
+    "word": "precede",
+    "phonetic": "",
+    "tr_meaning": "önce gelmek",
+    "example_sentence": "Economic instability historically precedes major episodes of political and social unrest.",
+    "department": "sosyal",
+    "theme": "Önce Gelme",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_224",
+    "word": "predict",
+    "phonetic": "",
+    "tr_meaning": "tahmin etmek",
+    "example_sentence": "Social scientists predict demographic shifts will reshape political majorities within a decade.",
+    "department": "sosyal",
+    "theme": "Tahmin",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_225",
+    "word": "pretend",
+    "phonetic": "",
+    "tr_meaning": "numara yapmak",
+    "example_sentence": "Governments cannot pretend that social inequality is not increasing when data shows otherwise.",
+    "department": "sosyal",
+    "theme": "Numara",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_226",
+    "word": "prevent",
+    "phonetic": "",
+    "tr_meaning": "önlemek",
+    "example_sentence": "International cooperation is essential to prevent conflicts over scarce natural resources.",
+    "department": "sosyal",
+    "theme": "Önleme",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_227",
+    "word": "progress",
+    "phonetic": "",
+    "tr_meaning": "ilerlemek",
+    "example_sentence": "Gender equality has progressed in many nations, but significant barriers still remain.",
+    "department": "sosyal",
+    "theme": "İlerleme",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_228",
+    "word": "prohibit",
+    "phonetic": "",
+    "tr_meaning": "yasaklamak",
+    "example_sentence": "Human rights law prohibits governments from practising torture or cruel treatment.",
+    "department": "sosyal",
+    "theme": "Yasaklama",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_229",
+    "word": "prolong",
+    "phonetic": "",
+    "tr_meaning": "uzatmak",
+    "example_sentence": "Unresolved historical conflicts can prolong social tensions between communities.",
+    "department": "sosyal",
+    "theme": "Uzatma",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_230",
+    "word": "promise",
+    "phonetic": "",
+    "tr_meaning": "söz vermek",
+    "example_sentence": "Democratic governments promise to uphold civil liberties and protect citizens' rights.",
+    "department": "sosyal",
+    "theme": "Söz",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_231",
+    "word": "promote",
+    "phonetic": "",
+    "tr_meaning": "teşvik etmek",
+    "example_sentence": "Education policy promotes critical thinking to build informed and engaged citizenry.",
+    "department": "sosyal",
+    "theme": "Teşvik",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_232",
+    "word": "protect",
+    "phonetic": "",
+    "tr_meaning": "korumak",
+    "example_sentence": "Constitutional rights protect citizens from arbitrary arrest and state abuse of power.",
+    "department": "sosyal",
+    "theme": "Koruma",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_233",
+    "word": "provide",
+    "phonetic": "",
+    "tr_meaning": "sağlamak",
+    "example_sentence": "Social services provide essential support to families living in poverty.",
+    "department": "sosyal",
+    "theme": "Sağlama",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_234",
+    "word": "reduce",
+    "phonetic": "",
+    "tr_meaning": "azaltmak",
+    "example_sentence": "Investment in education reduces long-term unemployment and social inequality.",
+    "department": "sosyal",
+    "theme": "Azaltma",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_235",
+    "word": "regard",
+    "phonetic": "",
+    "tr_meaning": "saymak, dikkate almak",
+    "example_sentence": "Social researchers regard poverty as both a cause and consequence of limited opportunity.",
+    "department": "sosyal",
+    "theme": "Değerlendirme",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_236",
+    "word": "regret",
+    "phonetic": "",
+    "tr_meaning": "pişman olmak",
+    "example_sentence": "Communities regret the loss of cultural heritage when development displaces traditional practices.",
+    "department": "sosyal",
+    "theme": "Pişmanlık",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_237",
+    "word": "regulate",
+    "phonetic": "",
+    "tr_meaning": "düzenlemek",
+    "example_sentence": "Governments regulate financial markets to prevent exploitation and protect consumers.",
+    "department": "sosyal",
+    "theme": "Düzenleme",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_238",
+    "word": "rehearse",
+    "phonetic": "",
+    "tr_meaning": "prova yapmak",
+    "example_sentence": "Community leaders rehearse public speaking to effectively advocate for social causes.",
+    "department": "sosyal",
+    "theme": "Prova",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_239",
+    "word": "reject",
+    "phonetic": "",
+    "tr_meaning": "reddetmek",
+    "example_sentence": "Voters may reject political candidates who fail to address urgent social problems.",
+    "department": "sosyal",
+    "theme": "Reddetme",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_240",
+    "word": "release",
+    "phonetic": "",
+    "tr_meaning": "serbest bırakmak",
+    "example_sentence": "Freedom of information laws allow citizens to release classified government documents.",
+    "department": "sosyal",
+    "theme": "Serbest Bırakma",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_241",
+    "word": "relieve",
+    "phonetic": "",
+    "tr_meaning": "hafifletmek",
+    "example_sentence": "Social welfare programmes relieve financial hardship for unemployed and low-income families.",
+    "department": "sosyal",
+    "theme": "Hafifletme",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_242",
+    "word": "remain",
+    "phonetic": "",
+    "tr_meaning": "kalmak",
+    "example_sentence": "Poverty remains the defining challenge of many societies despite decades of development effort.",
+    "department": "sosyal",
+    "theme": "Kalma",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_243",
+    "word": "remove",
+    "phonetic": "",
+    "tr_meaning": "çıkarmak, kaldırmak",
+    "example_sentence": "Governments must remove structural barriers that prevent minorities from achieving equality.",
+    "department": "sosyal",
+    "theme": "Kaldırma",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_244",
+    "word": "renew",
+    "phonetic": "",
+    "tr_meaning": "yenilemek",
+    "example_sentence": "Democratic elections renew the public mandate for governing political parties.",
+    "department": "sosyal",
+    "theme": "Yenileme",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_245",
+    "word": "replace",
+    "phonetic": "",
+    "tr_meaning": "yerine koymak",
+    "example_sentence": "Digital media has largely replaced print newspapers as the primary information source.",
+    "department": "sosyal",
+    "theme": "Yerine Koyma",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_246",
+    "word": "replenish",
+    "phonetic": "",
+    "tr_meaning": "yeniden doldurmak",
+    "example_sentence": "Social capital is replenished through community events, cooperation, and civic engagement.",
+    "department": "sosyal",
+    "theme": "Yeniden Doldurma",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_247",
+    "word": "require",
+    "phonetic": "",
+    "tr_meaning": "gerektirmek",
+    "example_sentence": "Sustainable development requires balancing economic growth with social equity.",
+    "department": "sosyal",
+    "theme": "Gereklilik",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_248",
+    "word": "resign",
+    "phonetic": "",
+    "tr_meaning": "istifa etmek",
+    "example_sentence": "Politicians resign when public pressure demands accountability for misconduct.",
+    "department": "sosyal",
+    "theme": "İstifa",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_249",
+    "word": "resist",
+    "phonetic": "",
+    "tr_meaning": "direnmek",
+    "example_sentence": "Communities resist cultural assimilation to protect their traditional practices and identity.",
+    "department": "sosyal",
+    "theme": "Direnme",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_250",
+    "word": "resolve",
+    "phonetic": "",
+    "tr_meaning": "çözmek",
+    "example_sentence": "Diplomatic negotiations can resolve territorial disputes between nations peacefully.",
+    "department": "sosyal",
+    "theme": "Çözme",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_251",
+    "word": "respect",
+    "phonetic": "",
+    "tr_meaning": "saygı göstermek",
+    "example_sentence": "Democratic societies respect the rights of minorities to cultural expression and identity.",
+    "department": "sosyal",
+    "theme": "Saygı",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_252",
+    "word": "respond",
+    "phonetic": "",
+    "tr_meaning": "cevap vermek",
+    "example_sentence": "Governments respond to social protests by either reforming or suppressing public demands.",
+    "department": "sosyal",
+    "theme": "Yanıt",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_253",
+    "word": "restrain",
+    "phonetic": "",
+    "tr_meaning": "dizginlemek",
+    "example_sentence": "Constitutional law restrains governments from violating the fundamental rights of citizens.",
+    "department": "sosyal",
+    "theme": "Dizginleme",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_254",
+    "word": "restrict",
+    "phonetic": "",
+    "tr_meaning": "kısıtlamak",
+    "example_sentence": "Authoritarian governments restrict freedom of speech to prevent political opposition.",
+    "department": "sosyal",
+    "theme": "Kısıtlama",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_255",
+    "word": "retain",
+    "phonetic": "",
+    "tr_meaning": "tutmak, korumak",
+    "example_sentence": "Cultural education helps communities retain traditional knowledge across generations.",
+    "department": "sosyal",
+    "theme": "Tutma",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_256",
+    "word": "retrieve",
+    "phonetic": "",
+    "tr_meaning": "geri almak",
+    "example_sentence": "Archivists retrieve historical records to support research on social and cultural heritage.",
+    "department": "sosyal",
+    "theme": "Geri Alma",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_257",
+    "word": "return",
+    "phonetic": "",
+    "tr_meaning": "geri dönmek",
+    "example_sentence": "Refugees return to their home countries when political conditions become safe again.",
+    "department": "sosyal",
+    "theme": "Geri Dönüş",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_258",
+    "word": "reveal",
+    "phonetic": "",
+    "tr_meaning": "ortaya çıkarmak",
+    "example_sentence": "Investigative journalism reveals corruption and systemic failures within public institutions.",
+    "department": "sosyal",
+    "theme": "Ortaya Çıkarma",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_259",
+    "word": "reverse",
+    "phonetic": "",
+    "tr_meaning": "tersine çevirmek",
+    "example_sentence": "Policy reforms can reverse long-term trends of growing social inequality.",
+    "department": "sosyal",
+    "theme": "Tersine Çevirme",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_260",
+    "word": "review",
+    "phonetic": "",
+    "tr_meaning": "gözden geçirmek",
+    "example_sentence": "Governments review social policies to assess their effectiveness and make improvements.",
+    "department": "sosyal",
+    "theme": "Gözden Geçirme",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_261",
+    "word": "revive",
+    "phonetic": "",
+    "tr_meaning": "canlandırmak",
+    "example_sentence": "Cultural renewal movements revive traditional art forms and languages facing extinction.",
+    "department": "sosyal",
+    "theme": "Canlandırma",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_262",
+    "word": "revolutionise",
+    "phonetic": "",
+    "tr_meaning": "köklü değişiklikler yapmak",
+    "example_sentence": "The internet has revolutionised political participation and access to information worldwide.",
+    "department": "sosyal",
+    "theme": "Devrim",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_263",
+    "word": "ruin",
+    "phonetic": "",
+    "tr_meaning": "mahvetmek",
+    "example_sentence": "Corruption and mismanagement can ruin the social trust that sustains democratic institutions.",
+    "department": "sosyal",
+    "theme": "Yıkım",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_264",
+    "word": "seek",
+    "phonetic": "",
+    "tr_meaning": "aramak",
+    "example_sentence": "Migrants seek better economic and social opportunities when conditions at home are poor.",
+    "department": "sosyal",
+    "theme": "Arayış",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_265",
+    "word": "seize",
+    "phonetic": "",
+    "tr_meaning": "kavramak, ele geçirmek",
+    "example_sentence": "Social movements seize political moments to push for legislative reforms.",
+    "department": "sosyal",
+    "theme": "Kavrama",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_266",
+    "word": "select",
+    "phonetic": "",
+    "tr_meaning": "seçmek",
+    "example_sentence": "Voters select political representatives whose policies best reflect their social values.",
+    "department": "sosyal",
+    "theme": "Seçim",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_267",
+    "word": "sentence",
+    "phonetic": "",
+    "tr_meaning": "mahkum etmek",
+    "example_sentence": "Courts sentence perpetrators of hate crimes to send a clear message about social values.",
+    "department": "sosyal",
+    "theme": "Mahkûm Etme",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_268",
+    "word": "show",
+    "phonetic": "",
+    "tr_meaning": "göstermek",
+    "example_sentence": "Social research shows that income inequality negatively affects public health.",
+    "department": "sosyal",
+    "theme": "Gösterme",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_269",
+    "word": "specify",
+    "phonetic": "",
+    "tr_meaning": "belirtmek",
+    "example_sentence": "Legislation must specify clear criteria for determining eligibility for social benefits.",
+    "department": "sosyal",
+    "theme": "Belirtme",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_270",
+    "word": "speculate",
+    "phonetic": "",
+    "tr_meaning": "tahminde bulunmak",
+    "example_sentence": "Sociologists speculate that remote working will permanently reshape urban social dynamics.",
+    "department": "sosyal",
+    "theme": "Spekülasyon",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_271",
+    "word": "spoil",
+    "phonetic": "",
+    "tr_meaning": "berbat etmek",
+    "example_sentence": "Political polarisation can spoil constructive dialogue needed for social progress.",
+    "department": "sosyal",
+    "theme": "Bozmak",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_272",
+    "word": "spread",
+    "phonetic": "",
+    "tr_meaning": "yaymak",
+    "example_sentence": "Social media spreads information and misinformation at unprecedented speed globally.",
+    "department": "sosyal",
+    "theme": "Yayılma",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_273",
+    "word": "start",
+    "phonetic": "",
+    "tr_meaning": "başlamak",
+    "example_sentence": "Social change starts when individuals challenge the status quo and organise collectively.",
+    "department": "sosyal",
+    "theme": "Başlangıç",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_274",
+    "word": "stimulate",
+    "phonetic": "",
+    "tr_meaning": "uyarmak, teşvik etmek",
+    "example_sentence": "Government investment in infrastructure stimulates economic growth and job creation.",
+    "department": "sosyal",
+    "theme": "Uyarım",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_275",
+    "word": "stretch",
+    "phonetic": "",
+    "tr_meaning": "uzamak, germek",
+    "example_sentence": "Budget constraints stretch social services beyond their capacity to meet community needs.",
+    "department": "sosyal",
+    "theme": "Uzama",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_276",
+    "word": "suffer",
+    "phonetic": "",
+    "tr_meaning": "acı çekmek",
+    "example_sentence": "Marginalised communities suffer disproportionately from poverty, discrimination, and exclusion.",
+    "department": "sosyal",
+    "theme": "Acı",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_277",
+    "word": "suggest",
+    "phonetic": "",
+    "tr_meaning": "önermek",
+    "example_sentence": "Evidence suggests that investing in early childhood development reduces long-term inequality.",
+    "department": "sosyal",
+    "theme": "Önerme",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_278",
+    "word": "suppress",
+    "phonetic": "",
+    "tr_meaning": "bastırmak",
+    "example_sentence": "Authoritarian governments suppress opposition voices to maintain political control.",
+    "department": "sosyal",
+    "theme": "Bastırma",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_279",
+    "word": "surpass",
+    "phonetic": "",
+    "tr_meaning": "aşmak",
+    "example_sentence": "Urban poverty rates have surpassed rural rates in several rapidly developing economies.",
+    "department": "sosyal",
+    "theme": "Aşma",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_280",
+    "word": "survive",
+    "phonetic": "",
+    "tr_meaning": "hayatta kalmak",
+    "example_sentence": "Communities that maintain strong social bonds are better able to survive economic crises.",
+    "department": "sosyal",
+    "theme": "Hayatta Kalma",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_281",
+    "word": "suspect",
+    "phonetic": "",
+    "tr_meaning": "şüphelenmek",
+    "example_sentence": "Researchers suspect that political bias influences how social issues are reported in media.",
+    "department": "sosyal",
+    "theme": "Şüphe",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_282",
+    "word": "suspend",
+    "phonetic": "",
+    "tr_meaning": "askıya almak",
+    "example_sentence": "Governments suspend civil liberties during declared states of national emergency.",
+    "department": "sosyal",
+    "theme": "Askıya Alma",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_283",
+    "word": "sustain",
+    "phonetic": "",
+    "tr_meaning": "sürdürmek",
+    "example_sentence": "Strong democratic institutions sustain civil liberties and protect individual rights.",
+    "department": "sosyal",
+    "theme": "Sürdürme",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_284",
+    "word": "switch",
+    "phonetic": "",
+    "tr_meaning": "değiştirmek",
+    "example_sentence": "Voters can switch political allegiances when parties fail to address urgent social needs.",
+    "department": "sosyal",
+    "theme": "Değiştirme",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_285",
+    "word": "tackle",
+    "phonetic": "",
+    "tr_meaning": "ele almak",
+    "example_sentence": "Governments must tackle systemic inequality to create fair and inclusive societies.",
+    "department": "sosyal",
+    "theme": "Ele Alma",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_286",
+    "word": "threaten",
+    "phonetic": "",
+    "tr_meaning": "tehdit etmek",
+    "example_sentence": "Authoritarian governments threaten civil society organisations that expose corruption.",
+    "department": "sosyal",
+    "theme": "Tehdit",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_287",
+    "word": "transmit",
+    "phonetic": "",
+    "tr_meaning": "iletmek",
+    "example_sentence": "Cultural values are transmitted from generation to generation through education and tradition.",
+    "department": "sosyal",
+    "theme": "İletme",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_288",
+    "word": "treat",
+    "phonetic": "",
+    "tr_meaning": "tedavi etmek",
+    "example_sentence": "Social workers treat the underlying causes of poverty through tailored support programmes.",
+    "department": "sosyal",
+    "theme": "Tedavi",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_289",
+    "word": "trigger",
+    "phonetic": "",
+    "tr_meaning": "tetiklemek",
+    "example_sentence": "Economic downturns trigger increases in social unrest, crime, and mental health crises.",
+    "department": "sosyal",
+    "theme": "Tetikleme",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_290",
+    "word": "underestimate",
+    "phonetic": "",
+    "tr_meaning": "küçümsemek, hafife almak",
+    "example_sentence": "Policy makers frequently underestimate the resilience of marginalised communities when given resources.",
+    "department": "sosyal",
+    "theme": "Hafife Alma",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_291",
+    "word": "undergo",
+    "phonetic": "",
+    "tr_meaning": "maruz kalmak, geçirmek",
+    "example_sentence": "Societies undergo profound transformation during periods of rapid technological development.",
+    "department": "sosyal",
+    "theme": "Geçirme",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_292",
+    "word": "undermine",
+    "phonetic": "",
+    "tr_meaning": "baltalamak",
+    "example_sentence": "Corruption undermines democratic governance and erodes public trust in institutions.",
+    "department": "sosyal",
+    "theme": "Baltama",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_293",
+    "word": "underpin",
+    "phonetic": "",
+    "tr_meaning": "desteklemek",
+    "example_sentence": "Strong civic institutions underpin democratic governance and social stability.",
+    "department": "sosyal",
+    "theme": "Destekleme",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_294",
+    "word": "undertake",
+    "phonetic": "",
+    "tr_meaning": "üstlenmek",
+    "example_sentence": "International organisations undertake humanitarian missions in conflict and disaster zones.",
+    "department": "sosyal",
+    "theme": "Üstlenme",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_295",
+    "word": "unearth",
+    "phonetic": "",
+    "tr_meaning": "ortaya çıkarmak",
+    "example_sentence": "Journalists unearth evidence of corruption that leads to significant political accountability.",
+    "department": "sosyal",
+    "theme": "Ortaya Çıkarma",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_296",
+    "word": "unify",
+    "phonetic": "",
+    "tr_meaning": "birleştirmek",
+    "example_sentence": "Shared cultural values can unify diverse communities around common social goals.",
+    "department": "sosyal",
+    "theme": "Birleştirme",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_297",
+    "word": "upgrade",
+    "phonetic": "",
+    "tr_meaning": "geliştirmek, yükseltmek",
+    "example_sentence": "Governments invest in upgrading public infrastructure to improve social mobility.",
+    "department": "sosyal",
+    "theme": "Yükseltme",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_298",
+    "word": "utilize",
+    "phonetic": "",
+    "tr_meaning": "kullanmak",
+    "example_sentence": "Social enterprises utilize local knowledge to design effective community development programmes.",
+    "department": "sosyal",
+    "theme": "Kullanma",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_299",
+    "word": "vaccinate",
+    "phonetic": "",
+    "tr_meaning": "aşılamak",
+    "example_sentence": "Vaccination drives vaccinate entire communities to achieve herd immunity against infectious diseases.",
+    "department": "sosyal",
+    "theme": "Aşılama",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_300",
+    "word": "validate",
+    "phonetic": "",
+    "tr_meaning": "geçerli kılmak, doğrulamak",
+    "example_sentence": "Participatory research validates community experiences by including them in knowledge production.",
+    "department": "sosyal",
+    "theme": "Doğrulama",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_301",
+    "word": "verify",
+    "phonetic": "",
+    "tr_meaning": "doğrulamak",
+    "example_sentence": "Fact-checking organisations verify political claims to combat the spread of misinformation.",
+    "department": "sosyal",
+    "theme": "Doğrulama",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_302",
+    "word": "violate",
+    "phonetic": "",
+    "tr_meaning": "ihlal etmek",
+    "example_sentence": "Governments that violate human rights face international sanctions and diplomatic consequences.",
+    "department": "sosyal",
+    "theme": "İhlal",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_303",
+    "word": "wander",
+    "phonetic": "",
+    "tr_meaning": "dolaşmak",
+    "example_sentence": "Migrants wander across borders in search of safety and better economic opportunities.",
+    "department": "sosyal",
+    "theme": "Dolaşma",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_304",
+    "word": "weaken",
+    "phonetic": "",
+    "tr_meaning": "zayıflatmak",
+    "example_sentence": "Political polarisation weakens social cohesion and democratic institutions.",
+    "department": "sosyal",
+    "theme": "Zayıflatma",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_305",
+    "word": "withdraw",
+    "phonetic": "",
+    "tr_meaning": "geri çekilmek",
+    "example_sentence": "Governments withdraw funding from social programmes during periods of fiscal austerity.",
+    "department": "sosyal",
+    "theme": "Geri Çekilme",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_306",
+    "word": "worsen",
+    "phonetic": "",
+    "tr_meaning": "kötüleşmek",
+    "example_sentence": "Social inequality tends to worsen during economic recessions without protective policies.",
+    "department": "sosyal",
+    "theme": "Kötüleşme",
+    "exam_years": []
+  },
+  {
+    "id": "sosyal_307",
+    "word": "yield",
+    "phonetic": "",
+    "tr_meaning": "vermek, sonuç doğurmak",
+    "example_sentence": "Investment in social infrastructure yields long-term returns in productivity and wellbeing.",
+    "department": "sosyal",
+    "theme": "Verim",
+    "exam_years": []
+  }
+]

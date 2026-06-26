@@ -1,0 +1,3072 @@
+[
+  {
+    "id": "saglik_001",
+    "word": "admit",
+    "phonetic": "",
+    "tr_meaning": "kabul etmek, itiraf etmek",
+    "example_sentence": "Patients often admit that stress directly affects their physical health.",
+    "department": "saglik",
+    "theme": "Araştırma",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_002",
+    "word": "abandon",
+    "phonetic": "",
+    "tr_meaning": "terk etmek, bırakmak",
+    "example_sentence": "Doctors have abandoned invasive procedures in favour of minimally invasive techniques.",
+    "department": "saglik",
+    "theme": "Değişim",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_003",
+    "word": "absorb",
+    "phonetic": "",
+    "tr_meaning": "emmek, içine çekmek",
+    "example_sentence": "The small intestine absorbs nutrients from digested food into the bloodstream.",
+    "department": "saglik",
+    "theme": "Süreç",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_004",
+    "word": "abuse",
+    "phonetic": "",
+    "tr_meaning": "kötüye kullanmak, istismar etmek",
+    "example_sentence": "Health professionals warn that patients increasingly abuse prescription medications.",
+    "department": "saglik",
+    "theme": "Sorun",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_005",
+    "word": "accelerate",
+    "phonetic": "",
+    "tr_meaning": "hızlandırmak",
+    "example_sentence": "New drug therapies have accelerated the healing of chronic wounds.",
+    "department": "saglik",
+    "theme": "Değişim",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_006",
+    "word": "accept",
+    "phonetic": "",
+    "tr_meaning": "kabul etmek",
+    "example_sentence": "Patients are increasingly accepting alternative treatments alongside conventional medicine.",
+    "department": "saglik",
+    "theme": "Tutum",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_007",
+    "word": "accommodate",
+    "phonetic": "",
+    "tr_meaning": "yer sağlamak, uyum sağlamak",
+    "example_sentence": "Hospitals are accommodating telemedicine services to reach remote patients.",
+    "department": "saglik",
+    "theme": "Uyum",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_008",
+    "word": "accompany",
+    "phonetic": "",
+    "tr_meaning": "eşlik etmek",
+    "example_sentence": "Mental health disorders frequently accompany chronic physical illnesses.",
+    "department": "saglik",
+    "theme": "Birliktelik",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_009",
+    "word": "accomplish",
+    "phonetic": "",
+    "tr_meaning": "başarmak, tamamlamak",
+    "example_sentence": "Surgeons now accomplish complex operations using minimally invasive techniques.",
+    "department": "saglik",
+    "theme": "Başarı",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_010",
+    "word": "accumulate",
+    "phonetic": "",
+    "tr_meaning": "biriktirmek, toplamak",
+    "example_sentence": "Toxins accumulate in body tissues when the liver fails to process them.",
+    "department": "saglik",
+    "theme": "Birikim",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_011",
+    "word": "accuse",
+    "phonetic": "",
+    "tr_meaning": "suçlamak",
+    "example_sentence": "Patients sometimes accuse food additives of triggering their allergic reactions.",
+    "department": "saglik",
+    "theme": "Eleştiri",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_012",
+    "word": "achieve",
+    "phonetic": "",
+    "tr_meaning": "elde etmek, başarmak",
+    "example_sentence": "Doctors achieve high success rates in treating early-stage cancers with immunotherapy.",
+    "department": "saglik",
+    "theme": "Başarı",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_013",
+    "word": "acknowledge",
+    "phonetic": "",
+    "tr_meaning": "kabul etmek, onaylamak",
+    "example_sentence": "Medical professionals acknowledge the critical role of mental health in chronic disease.",
+    "department": "saglik",
+    "theme": "Onay",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_014",
+    "word": "address",
+    "phonetic": "",
+    "tr_meaning": "ele almak, çözümlemek",
+    "example_sentence": "Public health officials address vaccine hesitancy through targeted education campaigns.",
+    "department": "saglik",
+    "theme": "Çözüm",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_015",
+    "word": "adjust",
+    "phonetic": "",
+    "tr_meaning": "uyarlamak, ayarlamak",
+    "example_sentence": "Doctors are adjusting treatment plans based on patients' individual genetic profiles.",
+    "department": "saglik",
+    "theme": "Uyarlama",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_016",
+    "word": "administer",
+    "phonetic": "",
+    "tr_meaning": "uygulamak, yönetmek",
+    "example_sentence": "Healthcare workers have administered millions of vaccine doses across the country.",
+    "department": "saglik",
+    "theme": "Yönetim",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_017",
+    "word": "admire",
+    "phonetic": "",
+    "tr_meaning": "hayran kalmak, takdir etmek",
+    "example_sentence": "Patients admire doctors who communicate diagnoses with clarity and empathy.",
+    "department": "saglik",
+    "theme": "Değer",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_018",
+    "word": "adopt",
+    "phonetic": "",
+    "tr_meaning": "benimsemek, kabul etmek",
+    "example_sentence": "Hospitals have adopted electronic health records to reduce prescription errors.",
+    "department": "saglik",
+    "theme": "Benimseme",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_019",
+    "word": "aggravate",
+    "phonetic": "",
+    "tr_meaning": "kötüleştirmek, ağırlaştırmak",
+    "example_sentence": "Poor diet and lack of exercise aggravate the symptoms of type 2 diabetes.",
+    "department": "saglik",
+    "theme": "Kötüleşme",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_020",
+    "word": "agree",
+    "phonetic": "",
+    "tr_meaning": "katılmak, aynı fikirde olmak",
+    "example_sentence": "Medical experts agree that early diagnosis significantly improves patient survival rates.",
+    "department": "saglik",
+    "theme": "Uzlaşı",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_021",
+    "word": "alienate",
+    "phonetic": "",
+    "tr_meaning": "yabancılaştırmak, uzaklaştırmak",
+    "example_sentence": "Long hospital stays can alienate patients from their social support networks.",
+    "department": "saglik",
+    "theme": "Yabancılaşma",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_022",
+    "word": "alleviate",
+    "phonetic": "",
+    "tr_meaning": "hafifletmek, azaltmak",
+    "example_sentence": "Regular exercise has been shown to alleviate symptoms of mild depression.",
+    "department": "saglik",
+    "theme": "Azaltma",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_023",
+    "word": "allocate",
+    "phonetic": "",
+    "tr_meaning": "tahsis etmek, ayırmak",
+    "example_sentence": "Health ministries allocate budgets to preventive care to reduce hospitalisation costs.",
+    "department": "saglik",
+    "theme": "Kaynak",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_024",
+    "word": "allow",
+    "phonetic": "",
+    "tr_meaning": "izin vermek, olanak tanımak",
+    "example_sentence": "Telemedicine allows patients in remote areas to consult specialists online.",
+    "department": "saglik",
+    "theme": "İmkân",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_025",
+    "word": "alter",
+    "phonetic": "",
+    "tr_meaning": "değiştirmek",
+    "example_sentence": "Genetic mutations can alter protein structures and trigger hereditary diseases.",
+    "department": "saglik",
+    "theme": "Değişim",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_026",
+    "word": "appear",
+    "phonetic": "",
+    "tr_meaning": "görünmek, ortaya çıkmak",
+    "example_sentence": "Symptoms of the disease typically appear within two weeks of initial exposure.",
+    "department": "saglik",
+    "theme": "Ortaya Çıkış",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_027",
+    "word": "apply",
+    "phonetic": "",
+    "tr_meaning": "uygulamak, başvurmak",
+    "example_sentence": "Doctors apply evidence-based guidelines when selecting treatments for complex conditions.",
+    "department": "saglik",
+    "theme": "Uygulama",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_028",
+    "word": "appoint",
+    "phonetic": "",
+    "tr_meaning": "atamak",
+    "example_sentence": "Hospital boards appoint chief medical officers to oversee clinical governance.",
+    "department": "saglik",
+    "theme": "Yönetim",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_029",
+    "word": "appraise",
+    "phonetic": "",
+    "tr_meaning": "değerlendirmek, kıymet biçmek",
+    "example_sentence": "Clinicians appraise treatment options based on the latest clinical trial evidence.",
+    "department": "saglik",
+    "theme": "Değerlendirme",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_030",
+    "word": "appreciate",
+    "phonetic": "",
+    "tr_meaning": "takdir etmek, değerini bilmek",
+    "example_sentence": "Healthcare professionals appreciate the importance of patient-centred communication.",
+    "department": "saglik",
+    "theme": "Değer",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_031",
+    "word": "approve",
+    "phonetic": "",
+    "tr_meaning": "onaylamak",
+    "example_sentence": "Ethics committees approve medical research protocols before studies begin.",
+    "department": "saglik",
+    "theme": "Onay",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_032",
+    "word": "arise",
+    "phonetic": "",
+    "tr_meaning": "ortaya çıkmak, meydana gelmek",
+    "example_sentence": "Complications can arise when patients combine prescription drugs without medical advice.",
+    "department": "saglik",
+    "theme": "Ortaya Çıkış",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_033",
+    "word": "articulate",
+    "phonetic": "",
+    "tr_meaning": "açıkça ifade etmek",
+    "example_sentence": "Doctors need to articulate diagnoses in plain language for patients to understand.",
+    "department": "saglik",
+    "theme": "İfade",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_034",
+    "word": "assess",
+    "phonetic": "",
+    "tr_meaning": "değerlendirmek",
+    "example_sentence": "Nurses assess patient vital signs regularly to detect early signs of deterioration.",
+    "department": "saglik",
+    "theme": "Değerlendirme",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_035",
+    "word": "attach",
+    "phonetic": "",
+    "tr_meaning": "eklemek, iliştirmek",
+    "example_sentence": "Surgeons attach prosthetic limbs using advanced biocompatible materials and techniques.",
+    "department": "saglik",
+    "theme": "Bağlantı",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_036",
+    "word": "attain",
+    "phonetic": "",
+    "tr_meaning": "erişmek, elde etmek",
+    "example_sentence": "Early intervention programmes help children attain normal developmental milestones.",
+    "department": "saglik",
+    "theme": "Ulaşma",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_037",
+    "word": "attribute",
+    "phonetic": "",
+    "tr_meaning": "atfetmek, bağlamak",
+    "example_sentence": "Doctors attribute the rise in obesity largely to sedentary lifestyles and poor diet.",
+    "department": "saglik",
+    "theme": "Neden",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_038",
+    "word": "avert",
+    "phonetic": "",
+    "tr_meaning": "önlemek",
+    "example_sentence": "Preventive screenings can avert the progression of early-stage cancers.",
+    "department": "saglik",
+    "theme": "Önleme",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_039",
+    "word": "avoid",
+    "phonetic": "",
+    "tr_meaning": "kaçınmak",
+    "example_sentence": "Patients with hypertension should avoid excessive salt and saturated fat intake.",
+    "department": "saglik",
+    "theme": "Kaçınma",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_040",
+    "word": "become",
+    "phonetic": "",
+    "tr_meaning": "olmak",
+    "example_sentence": "Antibiotic resistance has become one of the greatest threats to global public health.",
+    "department": "saglik",
+    "theme": "Dönüşüm",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_041",
+    "word": "begin",
+    "phonetic": "",
+    "tr_meaning": "başlamak",
+    "example_sentence": "Hospitals began integrating mental health services into primary care settings.",
+    "department": "saglik",
+    "theme": "Başlangıç",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_042",
+    "word": "block",
+    "phonetic": "",
+    "tr_meaning": "engellemek",
+    "example_sentence": "Beta-blockers work by blocking adrenaline receptors to reduce heart rate.",
+    "department": "saglik",
+    "theme": "Engelleme",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_043",
+    "word": "blur",
+    "phonetic": "",
+    "tr_meaning": "bulanıklaştırmak",
+    "example_sentence": "Chronic fatigue blurs patients' ability to distinguish between physical and mental symptoms.",
+    "department": "saglik",
+    "theme": "Belirsizleşme",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_044",
+    "word": "boost",
+    "phonetic": "",
+    "tr_meaning": "artırmak, güçlendirmek",
+    "example_sentence": "Regular physical activity boosts the immune system and reduces chronic disease risk.",
+    "department": "saglik",
+    "theme": "Artış",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_045",
+    "word": "capture",
+    "phonetic": "",
+    "tr_meaning": "yakalamak, ele geçirmek",
+    "example_sentence": "Medical imaging techniques capture detailed images of internal organ structures.",
+    "department": "saglik",
+    "theme": "Yakalama",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_046",
+    "word": "celebrate",
+    "phonetic": "",
+    "tr_meaning": "kutlamak",
+    "example_sentence": "Medical teams celebrate recovery milestones that demonstrate treatment effectiveness.",
+    "department": "saglik",
+    "theme": "Kutlama",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_047",
+    "word": "challenge",
+    "phonetic": "",
+    "tr_meaning": "zorlamak, meydan okumak",
+    "example_sentence": "Drug-resistant infections challenge hospitals to develop new treatment protocols urgently.",
+    "department": "saglik",
+    "theme": "Meydan Okuma",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_048",
+    "word": "change",
+    "phonetic": "",
+    "tr_meaning": "değişmek, değiştirmek",
+    "example_sentence": "Advances in genomics have changed how doctors diagnose and treat inherited conditions.",
+    "department": "saglik",
+    "theme": "Değişim",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_049",
+    "word": "check",
+    "phonetic": "",
+    "tr_meaning": "kontrol etmek",
+    "example_sentence": "Nurses check patient vital signs every four hours in intensive care units.",
+    "department": "saglik",
+    "theme": "Kontrol",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_050",
+    "word": "circulate",
+    "phonetic": "",
+    "tr_meaning": "dolaşmak",
+    "example_sentence": "Viruses circulate in seasonal patterns influenced by temperature and population immunity.",
+    "department": "saglik",
+    "theme": "Dolaşım",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_051",
+    "word": "claim",
+    "phonetic": "",
+    "tr_meaning": "iddia etmek",
+    "example_sentence": "Pharmaceutical companies cannot legally claim that supplements cure specific diseases.",
+    "department": "saglik",
+    "theme": "İddia",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_052",
+    "word": "collect",
+    "phonetic": "",
+    "tr_meaning": "toplamak",
+    "example_sentence": "Epidemiologists collect health data from thousands of participants in longitudinal studies.",
+    "department": "saglik",
+    "theme": "Veri Toplama",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_053",
+    "word": "commit",
+    "phonetic": "",
+    "tr_meaning": "adamak, söz vermek",
+    "example_sentence": "Hospitals commit significant resources to improving patient safety and care quality.",
+    "department": "saglik",
+    "theme": "Taahhüt",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_054",
+    "word": "compensate",
+    "phonetic": "",
+    "tr_meaning": "telafi etmek",
+    "example_sentence": "Rehabilitation programmes help patients compensate for lost motor functions after stroke.",
+    "department": "saglik",
+    "theme": "Telafi",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_055",
+    "word": "compete",
+    "phonetic": "",
+    "tr_meaning": "rekabet etmek",
+    "example_sentence": "Pharmaceutical companies compete to develop the first effective treatment for rare diseases.",
+    "department": "saglik",
+    "theme": "Rekabet",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_056",
+    "word": "compile",
+    "phonetic": "",
+    "tr_meaning": "derlemek",
+    "example_sentence": "Health organisations compile annual statistics on disease prevalence and mortality rates.",
+    "department": "saglik",
+    "theme": "Derleme",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_057",
+    "word": "complain",
+    "phonetic": "",
+    "tr_meaning": "şikayet etmek",
+    "example_sentence": "Patients frequently complain about long waiting times in public healthcare systems.",
+    "department": "saglik",
+    "theme": "Şikayet",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_058",
+    "word": "comprise",
+    "phonetic": "",
+    "tr_meaning": "oluşmak, kapsamak",
+    "example_sentence": "A balanced diet comprises carbohydrates, proteins, fats, vitamins, and essential minerals.",
+    "department": "saglik",
+    "theme": "Kapsam",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_059",
+    "word": "conceal",
+    "phonetic": "",
+    "tr_meaning": "gizlemek",
+    "example_sentence": "Patients sometimes conceal symptoms from doctors due to fear or social stigma.",
+    "department": "saglik",
+    "theme": "Gizleme",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_060",
+    "word": "conduct",
+    "phonetic": "",
+    "tr_meaning": "yürütmek, iletmek",
+    "example_sentence": "Clinical teams conduct randomised controlled trials to test new drug effectiveness.",
+    "department": "saglik",
+    "theme": "Yürütme",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_061",
+    "word": "confirm",
+    "phonetic": "",
+    "tr_meaning": "doğrulamak",
+    "example_sentence": "Laboratory tests confirm the presence of infectious pathogens in patient samples.",
+    "department": "saglik",
+    "theme": "Doğrulama",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_062",
+    "word": "confront",
+    "phonetic": "",
+    "tr_meaning": "yüzleşmek",
+    "example_sentence": "Patients must confront chronic illness by developing effective long-term coping strategies.",
+    "department": "saglik",
+    "theme": "Yüzleşme",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_063",
+    "word": "confuse",
+    "phonetic": "",
+    "tr_meaning": "şaşırtmak, karıştırmak",
+    "example_sentence": "Similar drug names can confuse pharmacists and lead to dangerous medication errors.",
+    "department": "saglik",
+    "theme": "Karışıklık",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_064",
+    "word": "conquer",
+    "phonetic": "",
+    "tr_meaning": "yenmek, fethetmek",
+    "example_sentence": "Researchers aim to conquer antibiotic resistance through new antimicrobial therapies.",
+    "department": "saglik",
+    "theme": "Zafer",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_065",
+    "word": "consider",
+    "phonetic": "",
+    "tr_meaning": "göz önünde bulundurmak",
+    "example_sentence": "Doctors consider patient history, lifestyle, and genetics when selecting treatments.",
+    "department": "saglik",
+    "theme": "Değerlendirme",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_066",
+    "word": "constitute",
+    "phonetic": "",
+    "tr_meaning": "oluşturmak",
+    "example_sentence": "Chronic diseases constitute the leading cause of disability worldwide.",
+    "department": "saglik",
+    "theme": "Oluşum",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_067",
+    "word": "constrain",
+    "phonetic": "",
+    "tr_meaning": "sınırlamak",
+    "example_sentence": "Resource shortages constrain hospitals from providing adequate care to all patients.",
+    "department": "saglik",
+    "theme": "Kısıtlama",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_068",
+    "word": "construct",
+    "phonetic": "",
+    "tr_meaning": "inşa etmek, oluşturmak",
+    "example_sentence": "Medical researchers construct evidence-based frameworks for diagnosing complex conditions.",
+    "department": "saglik",
+    "theme": "İnşa",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_069",
+    "word": "consult",
+    "phonetic": "",
+    "tr_meaning": "danışmak",
+    "example_sentence": "Patients should consult their doctor before starting any new medication or supplement.",
+    "department": "saglik",
+    "theme": "Danışma",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_070",
+    "word": "contain",
+    "phonetic": "",
+    "tr_meaning": "kontrol altında tutmak",
+    "example_sentence": "Quarantine measures are used to contain the spread of highly contagious infections.",
+    "department": "saglik",
+    "theme": "Kontrol",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_071",
+    "word": "contend",
+    "phonetic": "",
+    "tr_meaning": "mücadele etmek, savunmak",
+    "example_sentence": "Health experts contend that mental health deserves equal funding as physical health care.",
+    "department": "saglik",
+    "theme": "Savunma",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_072",
+    "word": "contradict",
+    "phonetic": "",
+    "tr_meaning": "çelişmek",
+    "example_sentence": "Some clinical trials contradict earlier studies on the effectiveness of antidepressants.",
+    "department": "saglik",
+    "theme": "Çelişki",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_073",
+    "word": "control",
+    "phonetic": "",
+    "tr_meaning": "kontrol etmek",
+    "example_sentence": "Insulin injections help diabetic patients control their blood glucose levels effectively.",
+    "department": "saglik",
+    "theme": "Kontrol",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_074",
+    "word": "convert",
+    "phonetic": "",
+    "tr_meaning": "dönüştürmek",
+    "example_sentence": "The liver converts toxic ammonia into urea for safe excretion by the kidneys.",
+    "department": "saglik",
+    "theme": "Dönüşüm",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_075",
+    "word": "convince",
+    "phonetic": "",
+    "tr_meaning": "ikna etmek",
+    "example_sentence": "Public health campaigns aim to convince communities to adopt preventive health behaviours.",
+    "department": "saglik",
+    "theme": "İkna",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_076",
+    "word": "counter",
+    "phonetic": "",
+    "tr_meaning": "karşı koymak, dengelemek",
+    "example_sentence": "Vaccination programmes counter the spread of preventable infectious diseases.",
+    "department": "saglik",
+    "theme": "Karşı Koyma",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_077",
+    "word": "create",
+    "phonetic": "",
+    "tr_meaning": "oluşturmak, yaratmak",
+    "example_sentence": "Advanced surgical techniques create minimal scarring and faster patient recovery times.",
+    "department": "saglik",
+    "theme": "Yaratım",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_078",
+    "word": "cultivate",
+    "phonetic": "",
+    "tr_meaning": "geliştirmek, yetiştirmek",
+    "example_sentence": "Healthcare providers cultivate trusting relationships with patients to improve outcomes.",
+    "department": "saglik",
+    "theme": "Geliştirme",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_079",
+    "word": "curtail",
+    "phonetic": "",
+    "tr_meaning": "azaltmak, kısaltmak",
+    "example_sentence": "Preventive health programmes curtail unnecessary hospitalisations and medical costs.",
+    "department": "saglik",
+    "theme": "Kısıtlama",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_080",
+    "word": "decide",
+    "phonetic": "",
+    "tr_meaning": "karar vermek",
+    "example_sentence": "Doctors and patients jointly decide on treatment plans in shared decision-making models.",
+    "department": "saglik",
+    "theme": "Karar",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_081",
+    "word": "declare",
+    "phonetic": "",
+    "tr_meaning": "ilan etmek, açıklamak",
+    "example_sentence": "Doctors declare a patient clinically fit for discharge after comprehensive assessment.",
+    "department": "saglik",
+    "theme": "İlan",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_082",
+    "word": "dedicate",
+    "phonetic": "",
+    "tr_meaning": "adamak",
+    "example_sentence": "Healthcare workers dedicate long hours to providing care during public health emergencies.",
+    "department": "saglik",
+    "theme": "Adanma",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_083",
+    "word": "defeat",
+    "phonetic": "",
+    "tr_meaning": "yenmek",
+    "example_sentence": "Antibiotics were developed to defeat bacterial infections that were previously lethal.",
+    "department": "saglik",
+    "theme": "Zafer",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_084",
+    "word": "defend",
+    "phonetic": "",
+    "tr_meaning": "savunmak",
+    "example_sentence": "The immune system defends the body against pathogenic bacteria and viruses.",
+    "department": "saglik",
+    "theme": "Savunma",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_085",
+    "word": "delay",
+    "phonetic": "",
+    "tr_meaning": "geciktirmek, ertelemek",
+    "example_sentence": "Early diagnosis can delay the progression of many chronic and degenerative diseases.",
+    "department": "saglik",
+    "theme": "Gecikme",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_086",
+    "word": "deliver",
+    "phonetic": "",
+    "tr_meaning": "ulaştırmak, sunmak",
+    "example_sentence": "Mobile health units deliver essential medical services to underserved rural populations.",
+    "department": "saglik",
+    "theme": "Teslimat",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_087",
+    "word": "demand",
+    "phonetic": "",
+    "tr_meaning": "talep etmek",
+    "example_sentence": "Rising populations demand increased investment in healthcare infrastructure globally.",
+    "department": "saglik",
+    "theme": "Talep",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_088",
+    "word": "demonstrate",
+    "phonetic": "",
+    "tr_meaning": "göstermek, kanıtlamak",
+    "example_sentence": "Clinical trials demonstrate the safety and efficacy of new pharmaceutical treatments.",
+    "department": "saglik",
+    "theme": "Kanıtlama",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_089",
+    "word": "deny",
+    "phonetic": "",
+    "tr_meaning": "reddetmek",
+    "example_sentence": "Doctors should never deny patients access to second medical opinions when requested.",
+    "department": "saglik",
+    "theme": "Reddetme",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_090",
+    "word": "derive",
+    "phonetic": "",
+    "tr_meaning": "türetmek, elde etmek",
+    "example_sentence": "Doctors derive treatment recommendations from the latest systematic reviews and guidelines.",
+    "department": "saglik",
+    "theme": "Türetme",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_091",
+    "word": "descend",
+    "phonetic": "",
+    "tr_meaning": "inmek, çökmek",
+    "example_sentence": "Blood pressure descends naturally during sleep and relaxation periods.",
+    "department": "saglik",
+    "theme": "İniş",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_092",
+    "word": "designate",
+    "phonetic": "",
+    "tr_meaning": "belirlemek, atamak",
+    "example_sentence": "Hospitals designate isolation wards for patients with highly contagious infections.",
+    "department": "saglik",
+    "theme": "Belirleme",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_093",
+    "word": "destroy",
+    "phonetic": "",
+    "tr_meaning": "yok etmek",
+    "example_sentence": "Excessive alcohol consumption can destroy liver cells and cause permanent organ failure.",
+    "department": "saglik",
+    "theme": "Yıkım",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_094",
+    "word": "detect",
+    "phonetic": "",
+    "tr_meaning": "tespit etmek",
+    "example_sentence": "Blood tests detect abnormal hormone levels that indicate endocrine disorders.",
+    "department": "saglik",
+    "theme": "Tespit",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_095",
+    "word": "deter",
+    "phonetic": "",
+    "tr_meaning": "caydırmak",
+    "example_sentence": "Fear of side effects can deter patients from adhering to prescribed treatment regimens.",
+    "department": "saglik",
+    "theme": "Caydırma",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_096",
+    "word": "deteriorate",
+    "phonetic": "",
+    "tr_meaning": "kötüleşmek, bozulmak",
+    "example_sentence": "Without proper treatment, a patient's condition can deteriorate rapidly and irreversibly.",
+    "department": "saglik",
+    "theme": "Kötüleşme",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_097",
+    "word": "determine",
+    "phonetic": "",
+    "tr_meaning": "belirlemek",
+    "example_sentence": "Blood tests determine whether a patient's infection is bacterial or viral in origin.",
+    "department": "saglik",
+    "theme": "Belirleme",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_098",
+    "word": "differ",
+    "phonetic": "",
+    "tr_meaning": "farklılık göstermek",
+    "example_sentence": "Patients' responses to the same medication can differ due to individual genetic variation.",
+    "department": "saglik",
+    "theme": "Farklılık",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_099",
+    "word": "differentiate",
+    "phonetic": "",
+    "tr_meaning": "ayırt etmek",
+    "example_sentence": "Doctors differentiate between viral and bacterial infections to select appropriate treatment.",
+    "department": "saglik",
+    "theme": "Ayırt Etme",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_100",
+    "word": "diminish",
+    "phonetic": "",
+    "tr_meaning": "azalmak, azaltmak",
+    "example_sentence": "Chemotherapy may temporarily diminish a patient's immune system during cancer treatment.",
+    "department": "saglik",
+    "theme": "Azalma",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_101",
+    "word": "disapprove",
+    "phonetic": "",
+    "tr_meaning": "onaylamamak",
+    "example_sentence": "Patients often disapprove of treatment plans that were not explained or agreed with them.",
+    "department": "saglik",
+    "theme": "Onaylamamak",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_102",
+    "word": "discover",
+    "phonetic": "",
+    "tr_meaning": "keşfetmek",
+    "example_sentence": "Scientists discovered that the gut microbiome plays a critical role in immune regulation.",
+    "department": "saglik",
+    "theme": "Keşif",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_103",
+    "word": "discriminate",
+    "phonetic": "",
+    "tr_meaning": "ayrım yapmak",
+    "example_sentence": "Healthcare systems must not discriminate against patients based on socioeconomic status.",
+    "department": "saglik",
+    "theme": "Ayrımcılık",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_104",
+    "word": "dislike",
+    "phonetic": "",
+    "tr_meaning": "hoşlanmamak",
+    "example_sentence": "Patients often dislike invasive diagnostic procedures even when medically necessary.",
+    "department": "saglik",
+    "theme": "Tutum",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_105",
+    "word": "dismiss",
+    "phonetic": "",
+    "tr_meaning": "reddetmek, önemsememek",
+    "example_sentence": "Doctors must not dismiss patient-reported symptoms as psychological without clinical evidence.",
+    "department": "saglik",
+    "theme": "Reddetme",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_106",
+    "word": "dispel",
+    "phonetic": "",
+    "tr_meaning": "gidermek, dağıtmak",
+    "example_sentence": "Public health campaigns dispel dangerous misconceptions about vaccine safety and efficacy.",
+    "department": "saglik",
+    "theme": "Giderme",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_107",
+    "word": "display",
+    "phonetic": "",
+    "tr_meaning": "göstermek, sergilemek",
+    "example_sentence": "Patients with advanced Parkinson's disease display characteristic tremors and rigidity.",
+    "department": "saglik",
+    "theme": "Gösterme",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_108",
+    "word": "disrupt",
+    "phonetic": "",
+    "tr_meaning": "bozmak, kesintiye uğratmak",
+    "example_sentence": "Hospital strikes disrupt patient care and highlight systemic problems in healthcare systems.",
+    "department": "saglik",
+    "theme": "Bozulma",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_109",
+    "word": "dissolve",
+    "phonetic": "",
+    "tr_meaning": "çözünmek, feshetmek",
+    "example_sentence": "Some medications dissolve rapidly in the bloodstream to produce an immediate therapeutic effect.",
+    "department": "saglik",
+    "theme": "Çözülme",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_110",
+    "word": "distinguish",
+    "phonetic": "",
+    "tr_meaning": "ayırt etmek",
+    "example_sentence": "Diagnostic tools help doctors distinguish between benign and malignant tumours.",
+    "department": "saglik",
+    "theme": "Ayırt Etme",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_111",
+    "word": "distract",
+    "phonetic": "",
+    "tr_meaning": "dikkatini dağıtmak",
+    "example_sentence": "Chronic pain distracts patients from performing everyday tasks and maintaining social relationships.",
+    "department": "saglik",
+    "theme": "Dikkat Dağınıklığı",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_112",
+    "word": "disturb",
+    "phonetic": "",
+    "tr_meaning": "rahatsız etmek, bozmak",
+    "example_sentence": "Sleep disorders disturb the body's ability to recover and regulate essential hormones.",
+    "department": "saglik",
+    "theme": "Rahatsızlık",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_113",
+    "word": "divide",
+    "phonetic": "",
+    "tr_meaning": "bölmek, ayırmak",
+    "example_sentence": "Unequal access to healthcare divides populations along socioeconomic and geographic lines.",
+    "department": "saglik",
+    "theme": "Bölünme",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_114",
+    "word": "elaborate",
+    "phonetic": "",
+    "tr_meaning": "ayrıntılı açıklamak",
+    "example_sentence": "Doctors elaborate on treatment risks and benefits to ensure informed patient consent.",
+    "department": "saglik",
+    "theme": "Açıklama",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_115",
+    "word": "eliminate",
+    "phonetic": "",
+    "tr_meaning": "ortadan kaldırmak",
+    "example_sentence": "Surgical procedures aim to eliminate cancerous tissue while preserving surrounding organs.",
+    "department": "saglik",
+    "theme": "Ortadan Kaldırma",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_116",
+    "word": "elucidate",
+    "phonetic": "",
+    "tr_meaning": "açıklığa kavuşturmak",
+    "example_sentence": "Brain imaging studies elucidate the neurological basis of mental health disorders.",
+    "department": "saglik",
+    "theme": "Açıklama",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_117",
+    "word": "embody",
+    "phonetic": "",
+    "tr_meaning": "temsil etmek, somutlaştırmak",
+    "example_sentence": "A holistic approach to medicine embodies the integration of physical and mental health.",
+    "department": "saglik",
+    "theme": "Temsil",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_118",
+    "word": "emigrate",
+    "phonetic": "",
+    "tr_meaning": "göç etmek",
+    "example_sentence": "Healthcare professionals emigrate to countries that offer better working conditions and pay.",
+    "department": "saglik",
+    "theme": "Göç",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_119",
+    "word": "employ",
+    "phonetic": "",
+    "tr_meaning": "kullanmak, istihdam etmek",
+    "example_sentence": "Hospitals employ multidisciplinary teams to provide comprehensive patient care.",
+    "department": "saglik",
+    "theme": "Kullanım",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_120",
+    "word": "encompass",
+    "phonetic": "",
+    "tr_meaning": "kapsamak",
+    "example_sentence": "Comprehensive geriatric care encompasses physical, cognitive, and psychological wellbeing.",
+    "department": "saglik",
+    "theme": "Kapsam",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_121",
+    "word": "endure",
+    "phonetic": "",
+    "tr_meaning": "dayanmak, katlanmak",
+    "example_sentence": "Cancer patients endure prolonged treatment cycles that significantly affect their quality of life.",
+    "department": "saglik",
+    "theme": "Dayanma",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_122",
+    "word": "enforce",
+    "phonetic": "",
+    "tr_meaning": "uygulamak",
+    "example_sentence": "Health authorities enforce hygiene standards in food production to prevent contamination.",
+    "department": "saglik",
+    "theme": "Uygulama",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_123",
+    "word": "enhance",
+    "phonetic": "",
+    "tr_meaning": "artırmak, geliştirmek",
+    "example_sentence": "Physical therapy enhances mobility and reduces pain in post-surgical patients.",
+    "department": "saglik",
+    "theme": "Geliştirme",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_124",
+    "word": "ensure",
+    "phonetic": "",
+    "tr_meaning": "sağlamak, güvence altına almak",
+    "example_sentence": "Regular health screenings ensure early detection of potentially life-threatening conditions.",
+    "department": "saglik",
+    "theme": "Güvence",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_125",
+    "word": "entertain",
+    "phonetic": "",
+    "tr_meaning": "eğlendirmek",
+    "example_sentence": "Therapeutic arts programmes entertain patients and support their psychological recovery.",
+    "department": "saglik",
+    "theme": "Eğlence",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_126",
+    "word": "entitle",
+    "phonetic": "",
+    "tr_meaning": "hak kazandırmak",
+    "example_sentence": "National insurance contributions entitle workers to access state healthcare services.",
+    "department": "saglik",
+    "theme": "Hak",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_127",
+    "word": "envisage",
+    "phonetic": "",
+    "tr_meaning": "öngörmek",
+    "example_sentence": "Health planners envisage a fully integrated digital healthcare system by 2030.",
+    "department": "saglik",
+    "theme": "Öngörme",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_128",
+    "word": "eradicate",
+    "phonetic": "",
+    "tr_meaning": "ortadan kaldırmak, yok etmek",
+    "example_sentence": "Targeted drug therapies hope to eradicate cancer cells without harming healthy tissue.",
+    "department": "saglik",
+    "theme": "Yok Etme",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_129",
+    "word": "escalate",
+    "phonetic": "",
+    "tr_meaning": "tırmanmak, artmak",
+    "example_sentence": "Untreated infections can escalate rapidly into life-threatening sepsis.",
+    "department": "saglik",
+    "theme": "Tırmanma",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_130",
+    "word": "estimate",
+    "phonetic": "",
+    "tr_meaning": "tahmin etmek",
+    "example_sentence": "Epidemiologists estimate the disease burden to allocate healthcare resources efficiently.",
+    "department": "saglik",
+    "theme": "Tahmin",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_131",
+    "word": "evacuate",
+    "phonetic": "",
+    "tr_meaning": "tahliye etmek",
+    "example_sentence": "Hospitals evacuate patients to safety when structural damage threatens building integrity.",
+    "department": "saglik",
+    "theme": "Tahliye",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_132",
+    "word": "evoke",
+    "phonetic": "",
+    "tr_meaning": "uyandırmak, çağrıştırmak",
+    "example_sentence": "The smell of disinfectant can evoke anxiety in patients who have traumatic hospital memories.",
+    "department": "saglik",
+    "theme": "Çağrışım",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_133",
+    "word": "exaggerate",
+    "phonetic": "",
+    "tr_meaning": "abartmak",
+    "example_sentence": "Patients occasionally exaggerate symptoms due to anxiety or to ensure timely medical attention.",
+    "department": "saglik",
+    "theme": "Abartma",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_134",
+    "word": "examine",
+    "phonetic": "",
+    "tr_meaning": "incelemek, muayene etmek",
+    "example_sentence": "Doctors examine patients thoroughly before recommending invasive diagnostic procedures.",
+    "department": "saglik",
+    "theme": "İnceleme",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_135",
+    "word": "excavate",
+    "phonetic": "",
+    "tr_meaning": "kazmak",
+    "example_sentence": "Surgeons excavate diseased tissue during debridement procedures to promote wound healing.",
+    "department": "saglik",
+    "theme": "Kazı",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_136",
+    "word": "exceed",
+    "phonetic": "",
+    "tr_meaning": "aşmak",
+    "example_sentence": "Hospital waiting times frequently exceed acceptable limits in understaffed healthcare systems.",
+    "department": "saglik",
+    "theme": "Aşma",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_137",
+    "word": "exchange",
+    "phonetic": "",
+    "tr_meaning": "değiş tokuş yapmak",
+    "example_sentence": "Medical professionals exchange patient information securely to ensure continuity of care.",
+    "department": "saglik",
+    "theme": "Değişim",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_138",
+    "word": "exclude",
+    "phonetic": "",
+    "tr_meaning": "hariç tutmak, dışlamak",
+    "example_sentence": "Poverty should not exclude individuals from receiving adequate medical treatment.",
+    "department": "saglik",
+    "theme": "Dışlama",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_139",
+    "word": "exhaust",
+    "phonetic": "",
+    "tr_meaning": "tüketmek, yorulmak",
+    "example_sentence": "Prolonged illness can exhaust patients' physical and psychological reserves.",
+    "department": "saglik",
+    "theme": "Tüketme",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_140",
+    "word": "exist",
+    "phonetic": "",
+    "tr_meaning": "var olmak",
+    "example_sentence": "Significant disparities exist in healthcare access between high- and low-income populations.",
+    "department": "saglik",
+    "theme": "Varlık",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_141",
+    "word": "expand",
+    "phonetic": "",
+    "tr_meaning": "genişlemek",
+    "example_sentence": "Public health systems must expand their capacity to manage increasingly ageing populations.",
+    "department": "saglik",
+    "theme": "Genişleme",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_142",
+    "word": "expire",
+    "phonetic": "",
+    "tr_meaning": "süresi dolmak",
+    "example_sentence": "Medical licences expire and must be renewed through continuing professional education.",
+    "department": "saglik",
+    "theme": "Süre",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_143",
+    "word": "explain",
+    "phonetic": "",
+    "tr_meaning": "açıklamak",
+    "example_sentence": "Doctors explain the risks and benefits of surgery to ensure informed patient consent.",
+    "department": "saglik",
+    "theme": "Açıklama",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_144",
+    "word": "exploit",
+    "phonetic": "",
+    "tr_meaning": "sömürmek, faydalanmak",
+    "example_sentence": "Unethical pharmaceutical companies have exploited pricing mechanisms to limit drug access.",
+    "department": "saglik",
+    "theme": "Sömürü",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_145",
+    "word": "expose",
+    "phonetic": "",
+    "tr_meaning": "maruz bırakmak",
+    "example_sentence": "Investigative journalism has exposed systematic failures in public health systems.",
+    "department": "saglik",
+    "theme": "Maruz Bırakma",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_146",
+    "word": "extend",
+    "phonetic": "",
+    "tr_meaning": "uzatmak",
+    "example_sentence": "New therapies aim to extend healthy life expectancy beyond current averages.",
+    "department": "saglik",
+    "theme": "Uzatma",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_147",
+    "word": "extract",
+    "phonetic": "",
+    "tr_meaning": "çıkarmak",
+    "example_sentence": "Surgeons extract diseased tissue or foreign objects during minimally invasive procedures.",
+    "department": "saglik",
+    "theme": "Çıkarma",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_148",
+    "word": "facilitate",
+    "phonetic": "",
+    "tr_meaning": "kolaylaştırmak",
+    "example_sentence": "Community health workers facilitate access to primary care for underserved populations.",
+    "department": "saglik",
+    "theme": "Kolaylaştırma",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_149",
+    "word": "fail",
+    "phonetic": "",
+    "tr_meaning": "başarısız olmak",
+    "example_sentence": "Organs can fail when deprived of adequate oxygen supply during critical illness.",
+    "department": "saglik",
+    "theme": "Başarısızlık",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_150",
+    "word": "find",
+    "phonetic": "",
+    "tr_meaning": "bulmak",
+    "example_sentence": "Researchers find that preventive healthcare significantly reduces long-term treatment costs.",
+    "department": "saglik",
+    "theme": "Bulgu",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_151",
+    "word": "fix",
+    "phonetic": "",
+    "tr_meaning": "onarmak, düzeltmek",
+    "example_sentence": "Physiotherapists fix structural imbalances in the musculoskeletal system through targeted exercises.",
+    "department": "saglik",
+    "theme": "Onarma",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_152",
+    "word": "fluctuate",
+    "phonetic": "",
+    "tr_meaning": "dalgalanmak",
+    "example_sentence": "Blood sugar levels fluctuate throughout the day in response to diet and physical activity.",
+    "department": "saglik",
+    "theme": "Dalgalanma",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_153",
+    "word": "focus",
+    "phonetic": "",
+    "tr_meaning": "odaklanmak",
+    "example_sentence": "Medical education increasingly focuses on patient communication and cultural competence.",
+    "department": "saglik",
+    "theme": "Odaklanma",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_154",
+    "word": "force",
+    "phonetic": "",
+    "tr_meaning": "zorlamak",
+    "example_sentence": "Financial pressures are forcing hospitals to cut staffing levels and services.",
+    "department": "saglik",
+    "theme": "Zorlama",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_155",
+    "word": "foresee",
+    "phonetic": "",
+    "tr_meaning": "öngörmek",
+    "example_sentence": "Healthcare planners foresee a significant increase in dementia cases as populations age.",
+    "department": "saglik",
+    "theme": "Öngörme",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_156",
+    "word": "fortify",
+    "phonetic": "",
+    "tr_meaning": "güçlendirmek",
+    "example_sentence": "Governments fortify food supplies with essential vitamins to address nutritional deficiencies.",
+    "department": "saglik",
+    "theme": "Güçlendirme",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_157",
+    "word": "foster",
+    "phonetic": "",
+    "tr_meaning": "teşvik etmek, geliştirmek",
+    "example_sentence": "Supportive hospital environments foster faster patient recovery and better mental health.",
+    "department": "saglik",
+    "theme": "Teşvik",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_158",
+    "word": "fulfill",
+    "phonetic": "",
+    "tr_meaning": "yerine getirmek",
+    "example_sentence": "Primary care physicians fulfil a crucial role in early disease prevention and detection.",
+    "department": "saglik",
+    "theme": "Yerine Getirme",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_159",
+    "word": "grow",
+    "phonetic": "",
+    "tr_meaning": "büyümek, gelişmek",
+    "example_sentence": "Cancer cells grow uncontrollably and invade surrounding healthy tissue without treatment.",
+    "department": "saglik",
+    "theme": "Büyüme",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_160",
+    "word": "guess",
+    "phonetic": "",
+    "tr_meaning": "tahmin etmek",
+    "example_sentence": "Doctors must not guess diagnoses when diagnostic tools are available and accessible.",
+    "department": "saglik",
+    "theme": "Tahmin",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_161",
+    "word": "halt",
+    "phonetic": "",
+    "tr_meaning": "durdurmak",
+    "example_sentence": "Emergency medicine aims to halt the progression of life-threatening conditions rapidly.",
+    "department": "saglik",
+    "theme": "Durdurma",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_162",
+    "word": "hamper",
+    "phonetic": "",
+    "tr_meaning": "engellemek",
+    "example_sentence": "Poverty hampers access to healthcare and worsens health outcomes for vulnerable populations.",
+    "department": "saglik",
+    "theme": "Engelleme",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_163",
+    "word": "happen",
+    "phonetic": "",
+    "tr_meaning": "olmak, meydana gelmek",
+    "example_sentence": "Medical emergencies can happen unexpectedly, requiring immediate professional intervention.",
+    "department": "saglik",
+    "theme": "Oluş",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_164",
+    "word": "help",
+    "phonetic": "",
+    "tr_meaning": "yardım etmek",
+    "example_sentence": "Psychotherapy helps patients develop effective strategies to manage anxiety and depression.",
+    "department": "saglik",
+    "theme": "Yardım",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_165",
+    "word": "herald",
+    "phonetic": "",
+    "tr_meaning": "müjdelemek, işaret etmek",
+    "example_sentence": "Advancements in early cancer detection herald significantly improved patient survival rates.",
+    "department": "saglik",
+    "theme": "Müjdeleme",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_166",
+    "word": "highlight",
+    "phonetic": "",
+    "tr_meaning": "vurgulamak",
+    "example_sentence": "Clinical guidelines highlight the importance of early intervention in mental health crises.",
+    "department": "saglik",
+    "theme": "Vurgulama",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_167",
+    "word": "hinder",
+    "phonetic": "",
+    "tr_meaning": "engellemek",
+    "example_sentence": "Language barriers can hinder effective communication between patients and healthcare providers.",
+    "department": "saglik",
+    "theme": "Engelleme",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_168",
+    "word": "host",
+    "phonetic": "",
+    "tr_meaning": "ev sahipliği yapmak",
+    "example_sentence": "Specialist hospitals host multidisciplinary teams for the treatment of rare conditions.",
+    "department": "saglik",
+    "theme": "Ev Sahipliği",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_169",
+    "word": "identify",
+    "phonetic": "",
+    "tr_meaning": "tanımlamak",
+    "example_sentence": "Early screening programmes identify high-risk patients before symptoms develop.",
+    "department": "saglik",
+    "theme": "Tanımlama",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_170",
+    "word": "ignore",
+    "phonetic": "",
+    "tr_meaning": "göz ardı etmek",
+    "example_sentence": "Patients who ignore symptoms risk allowing conditions to progress to advanced stages.",
+    "department": "saglik",
+    "theme": "Görmezden Gelme",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_171",
+    "word": "impair",
+    "phonetic": "",
+    "tr_meaning": "bozmak, zarar vermek",
+    "example_sentence": "Excessive alcohol consumption impairs liver function and long-term metabolic health.",
+    "department": "saglik",
+    "theme": "Bozulma",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_172",
+    "word": "implement",
+    "phonetic": "",
+    "tr_meaning": "uygulamak",
+    "example_sentence": "Hospitals implement evidence-based protocols to standardise treatment and improve outcomes.",
+    "department": "saglik",
+    "theme": "Uygulama",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_173",
+    "word": "imply",
+    "phonetic": "",
+    "tr_meaning": "ima etmek",
+    "example_sentence": "Elevated blood markers imply the presence of underlying inflammatory conditions.",
+    "department": "saglik",
+    "theme": "İma",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_174",
+    "word": "improve",
+    "phonetic": "",
+    "tr_meaning": "geliştirmek",
+    "example_sentence": "Regular aerobic exercise significantly improves cardiovascular health and longevity.",
+    "department": "saglik",
+    "theme": "Geliştirme",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_175",
+    "word": "include",
+    "phonetic": "",
+    "tr_meaning": "içermek",
+    "example_sentence": "A balanced diet must include all essential macronutrients and micronutrients daily.",
+    "department": "saglik",
+    "theme": "Kapsama",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_176",
+    "word": "incorporate",
+    "phonetic": "",
+    "tr_meaning": "dahil etmek",
+    "example_sentence": "Hospitals incorporate digital health records to improve information sharing between departments.",
+    "department": "saglik",
+    "theme": "Dahil Etme",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_177",
+    "word": "induce",
+    "phonetic": "",
+    "tr_meaning": "tetiklemek",
+    "example_sentence": "Anaesthesia is used to induce unconsciousness safely before surgical procedures.",
+    "department": "saglik",
+    "theme": "Tetikleme",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_178",
+    "word": "influence",
+    "phonetic": "",
+    "tr_meaning": "etkilemek",
+    "example_sentence": "Socioeconomic status strongly influences access to quality healthcare and health outcomes.",
+    "department": "saglik",
+    "theme": "Etki",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_179",
+    "word": "inhabit",
+    "phonetic": "",
+    "tr_meaning": "yaşamak",
+    "example_sentence": "People who inhabit polluted urban areas face significantly higher rates of respiratory disease.",
+    "department": "saglik",
+    "theme": "Yaşam",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_180",
+    "word": "inherit",
+    "phonetic": "",
+    "tr_meaning": "miras almak",
+    "example_sentence": "Patients can inherit genetic mutations that predispose them to certain hereditary conditions.",
+    "department": "saglik",
+    "theme": "Miras",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_181",
+    "word": "initiate",
+    "phonetic": "",
+    "tr_meaning": "başlatmak",
+    "example_sentence": "Doctors initiate treatment immediately upon confirmation of a life-threatening diagnosis.",
+    "department": "saglik",
+    "theme": "Başlatma",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_182",
+    "word": "insist",
+    "phonetic": "",
+    "tr_meaning": "ısrar etmek",
+    "example_sentence": "Doctors insist that patients complete the full course of antibiotics to prevent resistance.",
+    "department": "saglik",
+    "theme": "Israr",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_183",
+    "word": "inspire",
+    "phonetic": "",
+    "tr_meaning": "ilham vermek",
+    "example_sentence": "Recovered patients often inspire others facing serious illness with their resilience.",
+    "department": "saglik",
+    "theme": "İlham",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_184",
+    "word": "interact",
+    "phonetic": "",
+    "tr_meaning": "etkileşimde bulunmak",
+    "example_sentence": "Medications can interact negatively with each other when taken simultaneously.",
+    "department": "saglik",
+    "theme": "Etkileşim",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_185",
+    "word": "interrupt",
+    "phonetic": "",
+    "tr_meaning": "kesmek",
+    "example_sentence": "Chronic pain interrupts sleep patterns and significantly affects quality of life.",
+    "department": "saglik",
+    "theme": "Kesme",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_186",
+    "word": "introduce",
+    "phonetic": "",
+    "tr_meaning": "tanıtmak, başlatmak",
+    "example_sentence": "Hospitals have introduced electronic health systems to reduce medication errors.",
+    "department": "saglik",
+    "theme": "Tanıtma",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_187",
+    "word": "involve",
+    "phonetic": "",
+    "tr_meaning": "içermek, kapsamak",
+    "example_sentence": "Complex surgical procedures involve coordinated teams of specialists and support staff.",
+    "department": "saglik",
+    "theme": "Kapsama",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_188",
+    "word": "isolate",
+    "phonetic": "",
+    "tr_meaning": "izole etmek",
+    "example_sentence": "Hospitals isolate patients with highly contagious infections to prevent hospital-acquired diseases.",
+    "department": "saglik",
+    "theme": "İzolasyon",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_189",
+    "word": "justify",
+    "phonetic": "",
+    "tr_meaning": "haklı göstermek",
+    "example_sentence": "Doctors justify prescribing strong analgesics only when alternative pain relief has failed.",
+    "department": "saglik",
+    "theme": "Gerekçelendirme",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_190",
+    "word": "lower",
+    "phonetic": "",
+    "tr_meaning": "düşürmek",
+    "example_sentence": "Regular physical activity has been proven to lower blood pressure and cholesterol levels.",
+    "department": "saglik",
+    "theme": "Düşürme",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_191",
+    "word": "magnify",
+    "phonetic": "",
+    "tr_meaning": "büyütmek",
+    "example_sentence": "Social isolation can magnify the symptoms of depression and anxiety disorders.",
+    "department": "saglik",
+    "theme": "Büyütme",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_192",
+    "word": "maintain",
+    "phonetic": "",
+    "tr_meaning": "sürdürmek",
+    "example_sentence": "The immune system maintains a healthy balance of gut bacteria for optimal function.",
+    "department": "saglik",
+    "theme": "Sürdürme",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_193",
+    "word": "mandate",
+    "phonetic": "",
+    "tr_meaning": "emretmek, şart koşmak",
+    "example_sentence": "Medical regulations mandate that all new drugs undergo comprehensive clinical trials.",
+    "department": "saglik",
+    "theme": "Zorunluluk",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_194",
+    "word": "manifest",
+    "phonetic": "",
+    "tr_meaning": "açıkça göstermek",
+    "example_sentence": "Autoimmune diseases manifest through a wide range of symptoms affecting multiple organs.",
+    "department": "saglik",
+    "theme": "Tezahür",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_195",
+    "word": "mitigate",
+    "phonetic": "",
+    "tr_meaning": "azaltmak, hafifletmek",
+    "example_sentence": "Pain management protocols mitigate patient suffering during and after surgical procedures.",
+    "department": "saglik",
+    "theme": "Azaltma",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_196",
+    "word": "narrow",
+    "phonetic": "",
+    "tr_meaning": "daraltmak, daralmak",
+    "example_sentence": "Targeted interventions can narrow health inequalities between socioeconomic groups.",
+    "department": "saglik",
+    "theme": "Daraltma",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_197",
+    "word": "neglect",
+    "phonetic": "",
+    "tr_meaning": "ihmal etmek",
+    "example_sentence": "Patients who neglect prescribed treatments risk developing serious complications.",
+    "department": "saglik",
+    "theme": "İhmal",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_198",
+    "word": "nourish",
+    "phonetic": "",
+    "tr_meaning": "beslemek",
+    "example_sentence": "Adequate maternal nutrition nourishes foetal development and prevents birth complications.",
+    "department": "saglik",
+    "theme": "Beslenme",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_199",
+    "word": "object",
+    "phonetic": "",
+    "tr_meaning": "itiraz etmek",
+    "example_sentence": "Patients have the right to object to medical treatments they do not consent to.",
+    "department": "saglik",
+    "theme": "İtiraz",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_200",
+    "word": "obtain",
+    "phonetic": "",
+    "tr_meaning": "elde etmek",
+    "example_sentence": "Patients obtain prescriptions from licensed medical practitioners for controlled medications.",
+    "department": "saglik",
+    "theme": "Elde Etme",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_201",
+    "word": "occupy",
+    "phonetic": "",
+    "tr_meaning": "işgal etmek, meşgul etmek",
+    "example_sentence": "Chronic illness can occupy patients' mental and physical energy and disrupt daily routines.",
+    "department": "saglik",
+    "theme": "Meşgul Etme",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_202",
+    "word": "occur",
+    "phonetic": "",
+    "tr_meaning": "meydana gelmek",
+    "example_sentence": "Medical emergencies can occur at any time, requiring immediate professional intervention.",
+    "department": "saglik",
+    "theme": "Oluşum",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_203",
+    "word": "offend",
+    "phonetic": "",
+    "tr_meaning": "rencide etmek",
+    "example_sentence": "Insensitive communication by healthcare providers can offend and alienate patients.",
+    "department": "saglik",
+    "theme": "İncitme",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_204",
+    "word": "offer",
+    "phonetic": "",
+    "tr_meaning": "önermek, teklif etmek",
+    "example_sentence": "Community health centres offer affordable primary care to low-income populations.",
+    "department": "saglik",
+    "theme": "Sunma",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_205",
+    "word": "omit",
+    "phonetic": "",
+    "tr_meaning": "atlamak, dahil etmemek",
+    "example_sentence": "Patients sometimes omit relevant medical history from consultations out of embarrassment.",
+    "department": "saglik",
+    "theme": "Atlama",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_206",
+    "word": "open",
+    "phonetic": "",
+    "tr_meaning": "açmak",
+    "example_sentence": "Community health centres open access to preventive care for underserved populations.",
+    "department": "saglik",
+    "theme": "Açılım",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_207",
+    "word": "operate",
+    "phonetic": "",
+    "tr_meaning": "işletmek, çalışmak",
+    "example_sentence": "Surgeons operate using robotic assistance for enhanced precision in complex procedures.",
+    "department": "saglik",
+    "theme": "İşletme",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_208",
+    "word": "oppress",
+    "phonetic": "",
+    "tr_meaning": "baskı uygulamak",
+    "example_sentence": "Healthcare systems that deny access based on wealth effectively oppress vulnerable patients.",
+    "department": "saglik",
+    "theme": "Baskı",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_209",
+    "word": "originate",
+    "phonetic": "",
+    "tr_meaning": "kaynaklanmak",
+    "example_sentence": "Infectious diseases often originate in animal populations before spreading to humans.",
+    "department": "saglik",
+    "theme": "Kaynak",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_210",
+    "word": "outweigh",
+    "phonetic": "",
+    "tr_meaning": "ağır basmak",
+    "example_sentence": "The long-term benefits of surgery generally outweigh the short-term risks for most patients.",
+    "department": "saglik",
+    "theme": "Ağır Basma",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_211",
+    "word": "overcome",
+    "phonetic": "",
+    "tr_meaning": "üstesinden gelmek",
+    "example_sentence": "Patients can overcome chronic illness through sustained medical treatment and lifestyle changes.",
+    "department": "saglik",
+    "theme": "Üstesinden Gelme",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_212",
+    "word": "overestimate",
+    "phonetic": "",
+    "tr_meaning": "abartmak, fazla tahmin etmek",
+    "example_sentence": "Doctors caution that patients often overestimate the speed of recovery after major surgery.",
+    "department": "saglik",
+    "theme": "Abartma",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_213",
+    "word": "overlook",
+    "phonetic": "",
+    "tr_meaning": "göz ardı etmek",
+    "example_sentence": "Medical professionals must not overlook mental health when treating physical conditions.",
+    "department": "saglik",
+    "theme": "Göz Ardı Etme",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_214",
+    "word": "overtake",
+    "phonetic": "",
+    "tr_meaning": "yakalamak, sollamak",
+    "example_sentence": "New viral strains can overtake existing vaccines if mutations occur rapidly.",
+    "department": "saglik",
+    "theme": "Geçme",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_215",
+    "word": "penetrate",
+    "phonetic": "",
+    "tr_meaning": "nüfuz etmek",
+    "example_sentence": "Chemotherapy drugs must penetrate tumour cells effectively to destroy cancerous tissue.",
+    "department": "saglik",
+    "theme": "Nüfuz Etme",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_216",
+    "word": "perform",
+    "phonetic": "",
+    "tr_meaning": "yerine getirmek, gerçekleştirmek",
+    "example_sentence": "Experienced surgeons perform complex operations with minimal risk to surrounding tissue.",
+    "department": "saglik",
+    "theme": "Gerçekleştirme",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_217",
+    "word": "perpetuate",
+    "phonetic": "",
+    "tr_meaning": "sürdürmek, devam ettirmek",
+    "example_sentence": "Unhealthy lifestyle habits perpetuate the risk of cardiovascular disease in the long term.",
+    "department": "saglik",
+    "theme": "Sürdürme",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_218",
+    "word": "persuade",
+    "phonetic": "",
+    "tr_meaning": "ikna etmek",
+    "example_sentence": "Public health campaigns persuade communities to adopt life-saving vaccination programmes.",
+    "department": "saglik",
+    "theme": "İkna",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_219",
+    "word": "pinpoint",
+    "phonetic": "",
+    "tr_meaning": "tam olarak belirlemek",
+    "example_sentence": "Diagnostic tests help doctors pinpoint the root cause of complex medical conditions.",
+    "department": "saglik",
+    "theme": "Kesin Belirleme",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_220",
+    "word": "plunder",
+    "phonetic": "",
+    "tr_meaning": "yağmalamak",
+    "example_sentence": "Unregulated pharmaceutical markets allow companies to plunder patients through excessive pricing.",
+    "department": "saglik",
+    "theme": "Yağma",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_221",
+    "word": "pollute",
+    "phonetic": "",
+    "tr_meaning": "kirletmek",
+    "example_sentence": "Air pollution pollutes lungs and significantly increases the risk of respiratory diseases.",
+    "department": "saglik",
+    "theme": "Kirletme",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_222",
+    "word": "postpone",
+    "phonetic": "",
+    "tr_meaning": "ertelemek",
+    "example_sentence": "Non-critical surgical procedures are postponed during public health emergencies.",
+    "department": "saglik",
+    "theme": "Erteleme",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_223",
+    "word": "precede",
+    "phonetic": "",
+    "tr_meaning": "önce gelmek",
+    "example_sentence": "Genetic mutations often precede the clinical onset of hereditary diseases by many years.",
+    "department": "saglik",
+    "theme": "Önce Gelme",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_224",
+    "word": "predict",
+    "phonetic": "",
+    "tr_meaning": "tahmin etmek",
+    "example_sentence": "Doctors use biomarkers to predict a patient's likelihood of responding to treatment.",
+    "department": "saglik",
+    "theme": "Tahmin",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_225",
+    "word": "pretend",
+    "phonetic": "",
+    "tr_meaning": "numara yapmak",
+    "example_sentence": "Patients sometimes pretend to be healthier than they are to avoid distressing family members.",
+    "department": "saglik",
+    "theme": "Numara",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_226",
+    "word": "prevent",
+    "phonetic": "",
+    "tr_meaning": "önlemek",
+    "example_sentence": "Regular cardiovascular screening can prevent deaths from undetected heart conditions.",
+    "department": "saglik",
+    "theme": "Önleme",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_227",
+    "word": "progress",
+    "phonetic": "",
+    "tr_meaning": "ilerlemek",
+    "example_sentence": "Treatment of HIV has progressed from a terminal diagnosis to a manageable chronic condition.",
+    "department": "saglik",
+    "theme": "İlerleme",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_228",
+    "word": "prohibit",
+    "phonetic": "",
+    "tr_meaning": "yasaklamak",
+    "example_sentence": "Medical ethics prohibit researchers from conducting experiments without informed patient consent.",
+    "department": "saglik",
+    "theme": "Yasaklama",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_229",
+    "word": "prolong",
+    "phonetic": "",
+    "tr_meaning": "uzatmak",
+    "example_sentence": "Intensive care units prolong the lives of critically ill patients during recovery.",
+    "department": "saglik",
+    "theme": "Uzatma",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_230",
+    "word": "promise",
+    "phonetic": "",
+    "tr_meaning": "söz vermek",
+    "example_sentence": "New gene therapies promise personalised treatments tailored to individual genetic profiles.",
+    "department": "saglik",
+    "theme": "Söz",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_231",
+    "word": "promote",
+    "phonetic": "",
+    "tr_meaning": "teşvik etmek",
+    "example_sentence": "Healthcare professionals promote regular physical activity to prevent chronic diseases.",
+    "department": "saglik",
+    "theme": "Teşvik",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_232",
+    "word": "protect",
+    "phonetic": "",
+    "tr_meaning": "korumak",
+    "example_sentence": "Vaccines protect individuals and communities from preventable infectious diseases.",
+    "department": "saglik",
+    "theme": "Koruma",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_233",
+    "word": "provide",
+    "phonetic": "",
+    "tr_meaning": "sağlamak",
+    "example_sentence": "Primary care clinics provide affordable healthcare to low-income urban populations.",
+    "department": "saglik",
+    "theme": "Sağlama",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_234",
+    "word": "reduce",
+    "phonetic": "",
+    "tr_meaning": "azaltmak",
+    "example_sentence": "Regular exercise reduces the risk of developing type 2 diabetes and heart disease.",
+    "department": "saglik",
+    "theme": "Azaltma",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_235",
+    "word": "regard",
+    "phonetic": "",
+    "tr_meaning": "saymak, dikkate almak",
+    "example_sentence": "Doctors regard patient wellbeing as the primary ethical obligation of medical practice.",
+    "department": "saglik",
+    "theme": "Değerlendirme",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_236",
+    "word": "regret",
+    "phonetic": "",
+    "tr_meaning": "pişman olmak",
+    "example_sentence": "Patients often regret delaying medical consultations when early intervention was possible.",
+    "department": "saglik",
+    "theme": "Pişmanlık",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_237",
+    "word": "regulate",
+    "phonetic": "",
+    "tr_meaning": "düzenlemek",
+    "example_sentence": "The body regulates temperature through sweating, shivering, and vascular adjustments.",
+    "department": "saglik",
+    "theme": "Düzenleme",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_238",
+    "word": "rehearse",
+    "phonetic": "",
+    "tr_meaning": "prova yapmak",
+    "example_sentence": "Medical students rehearse clinical scenarios using simulation technology before patient contact.",
+    "department": "saglik",
+    "theme": "Prova",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_239",
+    "word": "reject",
+    "phonetic": "",
+    "tr_meaning": "reddetmek",
+    "example_sentence": "Transplant recipients' immune systems may reject donated organs without immunosuppressive drugs.",
+    "department": "saglik",
+    "theme": "Reddetme",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_240",
+    "word": "release",
+    "phonetic": "",
+    "tr_meaning": "serbest bırakmak",
+    "example_sentence": "Rehabilitation programmes support the safe release of recovering patients back to communities.",
+    "department": "saglik",
+    "theme": "Serbest Bırakma",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_241",
+    "word": "relieve",
+    "phonetic": "",
+    "tr_meaning": "hafifletmek",
+    "example_sentence": "Pain management strategies relieve suffering and improve quality of life for patients.",
+    "department": "saglik",
+    "theme": "Hafifletme",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_242",
+    "word": "remain",
+    "phonetic": "",
+    "tr_meaning": "kalmak",
+    "example_sentence": "Patients often remain anxious about receiving test results after medical procedures.",
+    "department": "saglik",
+    "theme": "Kalma",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_243",
+    "word": "remove",
+    "phonetic": "",
+    "tr_meaning": "çıkarmak, kaldırmak",
+    "example_sentence": "Surgeons carefully remove tumours while preserving healthy surrounding tissue.",
+    "department": "saglik",
+    "theme": "Kaldırma",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_244",
+    "word": "renew",
+    "phonetic": "",
+    "tr_meaning": "yenilemek",
+    "example_sentence": "Stem cell therapies aim to renew damaged tissue and restore organ function.",
+    "department": "saglik",
+    "theme": "Yenileme",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_245",
+    "word": "replace",
+    "phonetic": "",
+    "tr_meaning": "yerine koymak",
+    "example_sentence": "Joint replacement surgery replaces damaged joints to restore mobility and relieve pain.",
+    "department": "saglik",
+    "theme": "Yerine Koyma",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_246",
+    "word": "replenish",
+    "phonetic": "",
+    "tr_meaning": "yeniden doldurmak",
+    "example_sentence": "Intravenous fluids replenish electrolytes in dehydrated patients during hospitalisation.",
+    "department": "saglik",
+    "theme": "Yeniden Doldurma",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_247",
+    "word": "require",
+    "phonetic": "",
+    "tr_meaning": "gerektirmek",
+    "example_sentence": "Complex surgical procedures require highly specialised training and advanced equipment.",
+    "department": "saglik",
+    "theme": "Gereklilik",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_248",
+    "word": "resign",
+    "phonetic": "",
+    "tr_meaning": "istifa etmek",
+    "example_sentence": "Healthcare workers resign from underfunded services that prevent adequate patient care.",
+    "department": "saglik",
+    "theme": "İstifa",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_249",
+    "word": "resist",
+    "phonetic": "",
+    "tr_meaning": "direnmek",
+    "example_sentence": "Cancer cells can develop mechanisms to resist chemotherapy drugs over time.",
+    "department": "saglik",
+    "theme": "Direnme",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_250",
+    "word": "resolve",
+    "phonetic": "",
+    "tr_meaning": "çözmek",
+    "example_sentence": "Multidisciplinary medical teams resolve complex diagnostic cases through shared expertise.",
+    "department": "saglik",
+    "theme": "Çözme",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_251",
+    "word": "respect",
+    "phonetic": "",
+    "tr_meaning": "saygı göstermek",
+    "example_sentence": "Medical professionals respect patient autonomy in all treatment decisions.",
+    "department": "saglik",
+    "theme": "Saygı",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_252",
+    "word": "respond",
+    "phonetic": "",
+    "tr_meaning": "cevap vermek",
+    "example_sentence": "Healthcare systems must respond effectively to both acute emergencies and chronic conditions.",
+    "department": "saglik",
+    "theme": "Yanıt",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_253",
+    "word": "restrain",
+    "phonetic": "",
+    "tr_meaning": "dizginlemek",
+    "example_sentence": "Medical restraints are used cautiously and ethically to protect patients from self-harm.",
+    "department": "saglik",
+    "theme": "Dizginleme",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_254",
+    "word": "restrict",
+    "phonetic": "",
+    "tr_meaning": "kısıtlamak",
+    "example_sentence": "Doctors restrict dietary intake in patients preparing for surgical or diagnostic procedures.",
+    "department": "saglik",
+    "theme": "Kısıtlama",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_255",
+    "word": "retain",
+    "phonetic": "",
+    "tr_meaning": "tutmak, korumak",
+    "example_sentence": "Effective pain management helps patients retain their ability to function and socialise.",
+    "department": "saglik",
+    "theme": "Tutma",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_256",
+    "word": "retrieve",
+    "phonetic": "",
+    "tr_meaning": "geri almak",
+    "example_sentence": "Medical devices can retrieve and transmit patient health data to monitoring systems.",
+    "department": "saglik",
+    "theme": "Geri Alma",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_257",
+    "word": "return",
+    "phonetic": "",
+    "tr_meaning": "geri dönmek",
+    "example_sentence": "Patients gradually return to normal activity following intensive post-operative rehabilitation.",
+    "department": "saglik",
+    "theme": "Geri Dönüş",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_258",
+    "word": "reveal",
+    "phonetic": "",
+    "tr_meaning": "ortaya çıkarmak",
+    "example_sentence": "Genetic testing can reveal inherited mutations that increase cancer risk.",
+    "department": "saglik",
+    "theme": "Ortaya Çıkarma",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_259",
+    "word": "reverse",
+    "phonetic": "",
+    "tr_meaning": "tersine çevirmek",
+    "example_sentence": "Lifestyle changes can reverse early-stage type 2 diabetes in many patients.",
+    "department": "saglik",
+    "theme": "Tersine Çevirme",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_260",
+    "word": "review",
+    "phonetic": "",
+    "tr_meaning": "gözden geçirmek",
+    "example_sentence": "Medical teams regularly review patient cases to optimise treatment and improve outcomes.",
+    "department": "saglik",
+    "theme": "Gözden Geçirme",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_261",
+    "word": "revive",
+    "phonetic": "",
+    "tr_meaning": "canlandırmak",
+    "example_sentence": "Cardiopulmonary resuscitation techniques revive patients who have suffered cardiac arrest.",
+    "department": "saglik",
+    "theme": "Canlandırma",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_262",
+    "word": "revolutionise",
+    "phonetic": "",
+    "tr_meaning": "köklü değişiklikler yapmak",
+    "example_sentence": "Advances in genomics have revolutionised our understanding of disease and inheritance.",
+    "department": "saglik",
+    "theme": "Devrim",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_263",
+    "word": "ruin",
+    "phonetic": "",
+    "tr_meaning": "mahvetmek",
+    "example_sentence": "Untreated mental illness can ruin patients' professional relationships and quality of life.",
+    "department": "saglik",
+    "theme": "Yıkım",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_264",
+    "word": "seek",
+    "phonetic": "",
+    "tr_meaning": "aramak",
+    "example_sentence": "Patients are increasingly seeking second medical opinions before major surgical procedures.",
+    "department": "saglik",
+    "theme": "Arayış",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_265",
+    "word": "seize",
+    "phonetic": "",
+    "tr_meaning": "kavramak, ele geçirmek",
+    "example_sentence": "Doctors must seize early treatment windows to prevent disease from advancing irreversibly.",
+    "department": "saglik",
+    "theme": "Kavrama",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_266",
+    "word": "select",
+    "phonetic": "",
+    "tr_meaning": "seçmek",
+    "example_sentence": "Doctors select treatments based on individual patient characteristics and preferences.",
+    "department": "saglik",
+    "theme": "Seçim",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_267",
+    "word": "sentence",
+    "phonetic": "",
+    "tr_meaning": "mahkum etmek",
+    "example_sentence": "Ethical violations can sentence medical professionals to loss of their clinical licence.",
+    "department": "saglik",
+    "theme": "Mahkûm Etme",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_268",
+    "word": "show",
+    "phonetic": "",
+    "tr_meaning": "göstermek",
+    "example_sentence": "Clinical evidence shows that early intervention significantly improves patient outcomes.",
+    "department": "saglik",
+    "theme": "Gösterme",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_269",
+    "word": "specify",
+    "phonetic": "",
+    "tr_meaning": "belirtmek",
+    "example_sentence": "Prescriptions specify the exact dose and frequency of medications for patient safety.",
+    "department": "saglik",
+    "theme": "Belirtme",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_270",
+    "word": "speculate",
+    "phonetic": "",
+    "tr_meaning": "tahminde bulunmak",
+    "example_sentence": "Doctors sometimes speculate about diagnosis before laboratory results confirm their suspicion.",
+    "department": "saglik",
+    "theme": "Spekülasyon",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_271",
+    "word": "spoil",
+    "phonetic": "",
+    "tr_meaning": "berbat etmek",
+    "example_sentence": "Hospital-acquired infections can spoil successful surgical outcomes for recovering patients.",
+    "department": "saglik",
+    "theme": "Bozmak",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_272",
+    "word": "spread",
+    "phonetic": "",
+    "tr_meaning": "yaymak",
+    "example_sentence": "Poor hygiene practices spread infectious diseases rapidly in densely populated areas.",
+    "department": "saglik",
+    "theme": "Yayılma",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_273",
+    "word": "start",
+    "phonetic": "",
+    "tr_meaning": "başlamak",
+    "example_sentence": "Preventive healthcare programmes start in early childhood to establish lifelong healthy habits.",
+    "department": "saglik",
+    "theme": "Başlangıç",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_274",
+    "word": "stimulate",
+    "phonetic": "",
+    "tr_meaning": "uyarmak, teşvik etmek",
+    "example_sentence": "Physical exercise stimulates endorphin release and improves mental wellbeing.",
+    "department": "saglik",
+    "theme": "Uyarım",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_275",
+    "word": "stretch",
+    "phonetic": "",
+    "tr_meaning": "uzamak, germek",
+    "example_sentence": "Physical therapy helps patients stretch and strengthen muscles damaged by injury.",
+    "department": "saglik",
+    "theme": "Uzama",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_276",
+    "word": "suffer",
+    "phonetic": "",
+    "tr_meaning": "acı çekmek",
+    "example_sentence": "Patients with chronic pain conditions suffer significant reductions in quality of life.",
+    "department": "saglik",
+    "theme": "Acı",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_277",
+    "word": "suggest",
+    "phonetic": "",
+    "tr_meaning": "önermek",
+    "example_sentence": "Doctors suggest lifestyle modifications as the first line of treatment for hypertension.",
+    "department": "saglik",
+    "theme": "Önerme",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_278",
+    "word": "suppress",
+    "phonetic": "",
+    "tr_meaning": "bastırmak",
+    "example_sentence": "Some cancer treatments suppress the immune system, increasing patients' infection risk.",
+    "department": "saglik",
+    "theme": "Bastırma",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_279",
+    "word": "surpass",
+    "phonetic": "",
+    "tr_meaning": "aşmak",
+    "example_sentence": "Life expectancy in some nations has surpassed 80 years due to advances in healthcare.",
+    "department": "saglik",
+    "theme": "Aşma",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_280",
+    "word": "survive",
+    "phonetic": "",
+    "tr_meaning": "hayatta kalmak",
+    "example_sentence": "Cancer survival rates have improved dramatically due to early detection and better treatments.",
+    "department": "saglik",
+    "theme": "Hayatta Kalma",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_281",
+    "word": "suspect",
+    "phonetic": "",
+    "tr_meaning": "şüphelenmek",
+    "example_sentence": "Doctors suspect underlying conditions when patients present with unexplained symptoms.",
+    "department": "saglik",
+    "theme": "Şüphe",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_282",
+    "word": "suspend",
+    "phonetic": "",
+    "tr_meaning": "askıya almak",
+    "example_sentence": "Doctors may suspend medication regimens when serious adverse effects are detected.",
+    "department": "saglik",
+    "theme": "Askıya Alma",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_283",
+    "word": "sustain",
+    "phonetic": "",
+    "tr_meaning": "sürdürmek",
+    "example_sentence": "Palliative care aims to sustain quality of life for patients with terminal illnesses.",
+    "department": "saglik",
+    "theme": "Sürdürme",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_284",
+    "word": "switch",
+    "phonetic": "",
+    "tr_meaning": "değiştirmek",
+    "example_sentence": "Doctors switch treatment protocols when patients fail to respond to initial therapies.",
+    "department": "saglik",
+    "theme": "Değiştirme",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_285",
+    "word": "tackle",
+    "phonetic": "",
+    "tr_meaning": "ele almak",
+    "example_sentence": "Healthcare systems must tackle rising rates of obesity through preventive interventions.",
+    "department": "saglik",
+    "theme": "Ele Alma",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_286",
+    "word": "threaten",
+    "phonetic": "",
+    "tr_meaning": "tehdit etmek",
+    "example_sentence": "Drug-resistant pathogens threaten the future effectiveness of modern medical treatments.",
+    "department": "saglik",
+    "theme": "Tehdit",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_287",
+    "word": "transmit",
+    "phonetic": "",
+    "tr_meaning": "iletmek",
+    "example_sentence": "Electronic health systems transmit patient data securely between healthcare providers.",
+    "department": "saglik",
+    "theme": "İletme",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_288",
+    "word": "treat",
+    "phonetic": "",
+    "tr_meaning": "tedavi etmek",
+    "example_sentence": "Oncologists treat cancer using combinations of surgery, chemotherapy, and immunotherapy.",
+    "department": "saglik",
+    "theme": "Tedavi",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_289",
+    "word": "trigger",
+    "phonetic": "",
+    "tr_meaning": "tetiklemek",
+    "example_sentence": "Allergens trigger immune responses that produce symptoms ranging from mild to life-threatening.",
+    "department": "saglik",
+    "theme": "Tetikleme",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_290",
+    "word": "underestimate",
+    "phonetic": "",
+    "tr_meaning": "küçümsemek, hafife almak",
+    "example_sentence": "Doctors must not underestimate the psychological burden of living with chronic conditions.",
+    "department": "saglik",
+    "theme": "Hafife Alma",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_291",
+    "word": "undergo",
+    "phonetic": "",
+    "tr_meaning": "maruz kalmak, geçirmek",
+    "example_sentence": "Patients undergo extensive diagnostic testing before major surgical procedures are approved.",
+    "department": "saglik",
+    "theme": "Geçirme",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_292",
+    "word": "undermine",
+    "phonetic": "",
+    "tr_meaning": "baltalamak",
+    "example_sentence": "Misinformation about vaccines undermines public health efforts to control disease.",
+    "department": "saglik",
+    "theme": "Baltama",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_293",
+    "word": "underpin",
+    "phonetic": "",
+    "tr_meaning": "desteklemek",
+    "example_sentence": "Evidence-based medicine underpins clinical decision-making in contemporary healthcare.",
+    "department": "saglik",
+    "theme": "Destekleme",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_294",
+    "word": "undertake",
+    "phonetic": "",
+    "tr_meaning": "üstlenmek",
+    "example_sentence": "Healthcare workers undertake continuing education to maintain and improve their clinical skills.",
+    "department": "saglik",
+    "theme": "Üstlenme",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_295",
+    "word": "unearth",
+    "phonetic": "",
+    "tr_meaning": "ortaya çıkarmak",
+    "example_sentence": "Medical investigators unearth links between environmental factors and disease prevalence.",
+    "department": "saglik",
+    "theme": "Ortaya Çıkarma",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_296",
+    "word": "unify",
+    "phonetic": "",
+    "tr_meaning": "birleştirmek",
+    "example_sentence": "Integrated care models unify physical and mental health services into a single approach.",
+    "department": "saglik",
+    "theme": "Birleştirme",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_297",
+    "word": "upgrade",
+    "phonetic": "",
+    "tr_meaning": "geliştirmek, yükseltmek",
+    "example_sentence": "Hospitals upgrade their medical technology to improve diagnostic accuracy and patient safety.",
+    "department": "saglik",
+    "theme": "Yükseltme",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_298",
+    "word": "utilize",
+    "phonetic": "",
+    "tr_meaning": "kullanmak",
+    "example_sentence": "Medical teams utilize advanced imaging technology to plan complex surgical procedures.",
+    "department": "saglik",
+    "theme": "Kullanma",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_299",
+    "word": "vaccinate",
+    "phonetic": "",
+    "tr_meaning": "aşılamak",
+    "example_sentence": "Governments vaccinate healthcare workers first during outbreaks to protect critical services.",
+    "department": "saglik",
+    "theme": "Aşılama",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_300",
+    "word": "validate",
+    "phonetic": "",
+    "tr_meaning": "geçerli kılmak, doğrulamak",
+    "example_sentence": "Clinical trials validate the safety and efficacy of new pharmaceutical treatments.",
+    "department": "saglik",
+    "theme": "Doğrulama",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_301",
+    "word": "verify",
+    "phonetic": "",
+    "tr_meaning": "doğrulamak",
+    "example_sentence": "Laboratory analysis verifies the presence or absence of specific pathogens in patient samples.",
+    "department": "saglik",
+    "theme": "Doğrulama",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_302",
+    "word": "violate",
+    "phonetic": "",
+    "tr_meaning": "ihlal etmek",
+    "example_sentence": "Conducting medical experiments without consent violates fundamental ethical principles.",
+    "department": "saglik",
+    "theme": "İhlal",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_303",
+    "word": "wander",
+    "phonetic": "",
+    "tr_meaning": "dolaşmak",
+    "example_sentence": "Patients with advanced dementia sometimes wander and become disoriented in unfamiliar environments.",
+    "department": "saglik",
+    "theme": "Dolaşma",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_304",
+    "word": "weaken",
+    "phonetic": "",
+    "tr_meaning": "zayıflatmak",
+    "example_sentence": "Chronic stress weakens the immune system and increases susceptibility to infection.",
+    "department": "saglik",
+    "theme": "Zayıflatma",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_305",
+    "word": "withdraw",
+    "phonetic": "",
+    "tr_meaning": "geri çekilmek",
+    "example_sentence": "Patients may withdraw from social activities as a result of untreated depression.",
+    "department": "saglik",
+    "theme": "Geri Çekilme",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_306",
+    "word": "worsen",
+    "phonetic": "",
+    "tr_meaning": "kötüleşmek",
+    "example_sentence": "A patient's condition can worsen rapidly if prescribed medication is not taken correctly.",
+    "department": "saglik",
+    "theme": "Kötüleşme",
+    "exam_years": []
+  },
+  {
+    "id": "saglik_307",
+    "word": "yield",
+    "phonetic": "",
+    "tr_meaning": "vermek, sonuç doğurmak",
+    "example_sentence": "Consistent adherence to treatment yields significantly better outcomes for chronic conditions.",
+    "department": "saglik",
+    "theme": "Verim",
+    "exam_years": []
+  }
+]

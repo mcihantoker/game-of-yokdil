@@ -1,102 +1,3072 @@
 [
   {
     "id": "fen_001",
-    "word": "hypothesis",
-    "phonetic": "/haɪˈpɒθɪsɪs/",
-    "tr_meaning": "hipotez, varsayım",
-    "example_sentence": "The researchers proposed a hypothesis that higher temperatures accelerate chemical reactions.",
+    "word": "admit",
+    "phonetic": "",
+    "tr_meaning": "kabul etmek, itiraf etmek",
+    "example_sentence": "Scientists have admitted that early climate models contained significant errors.",
     "department": "fen",
-    "theme": "Araştırma Yöntemleri",
-    "exam_years": [2019, 2021, 2023]
+    "theme": "Araştırma",
+    "exam_years": []
   },
   {
     "id": "fen_002",
-    "word": "catalyst",
-    "phonetic": "/ˈkætəlɪst/",
-    "tr_meaning": "katalizör",
-    "example_sentence": "Enzymes act as biological catalysts that speed up metabolic reactions.",
+    "word": "abandon",
+    "phonetic": "",
+    "tr_meaning": "terk etmek, bırakmak",
+    "example_sentence": "Scientists abandon outdated theories as new experimental evidence emerges.",
     "department": "fen",
-    "theme": "Kimya",
-    "exam_years": [2020, 2022]
+    "theme": "Değişim",
+    "exam_years": []
   },
   {
     "id": "fen_003",
-    "word": "empirical",
-    "phonetic": "/ɪmˈpɪrɪkəl/",
-    "tr_meaning": "deneysel, ampirik",
-    "example_sentence": "The theory was supported by empirical evidence gathered over decades.",
+    "word": "absorb",
+    "phonetic": "",
+    "tr_meaning": "emmek, içine çekmek",
+    "example_sentence": "Activated charcoal absorbs toxic substances effectively in chemical processes.",
     "department": "fen",
-    "theme": "Araştırma Yöntemleri",
-    "exam_years": [2018, 2021]
+    "theme": "Süreç",
+    "exam_years": []
   },
   {
     "id": "fen_004",
-    "word": "synthesis",
-    "phonetic": "/ˈsɪnθɪsɪs/",
-    "tr_meaning": "sentez",
-    "example_sentence": "The synthesis of new compounds requires precise temperature control.",
+    "word": "abuse",
+    "phonetic": "",
+    "tr_meaning": "kötüye kullanmak, istismar etmek",
+    "example_sentence": "Industrial activities have abused natural resources at an unsustainable rate.",
     "department": "fen",
-    "theme": "Kimya",
-    "exam_years": [2019, 2022, 2024]
+    "theme": "Sorun",
+    "exam_years": []
   },
   {
     "id": "fen_005",
-    "word": "osmosis",
-    "phonetic": "/ɒzˈməʊsɪs/",
-    "tr_meaning": "ozmoz",
-    "example_sentence": "Water moves through cell membranes by osmosis from low to high solute concentration.",
+    "word": "accelerate",
+    "phonetic": "",
+    "tr_meaning": "hızlandırmak",
+    "example_sentence": "Human activity has accelerated global warming beyond natural rates.",
     "department": "fen",
-    "theme": "Biyoloji",
-    "exam_years": [2020, 2023]
+    "theme": "Değişim",
+    "exam_years": []
   },
   {
     "id": "fen_006",
-    "word": "magnitude",
-    "phonetic": "/ˈmæɡnɪtjuːd/",
-    "tr_meaning": "büyüklük, şiddet",
-    "example_sentence": "Scientists measured the magnitude of the earthquake on the Richter scale.",
+    "word": "accept",
+    "phonetic": "",
+    "tr_meaning": "kabul etmek",
+    "example_sentence": "Scientists are accepting new computational models to explain dark matter.",
     "department": "fen",
-    "theme": "Fizik",
-    "exam_years": [2021, 2024]
+    "theme": "Tutum",
+    "exam_years": []
   },
   {
     "id": "fen_007",
-    "word": "variable",
-    "phonetic": "/ˈveəriəbəl/",
-    "tr_meaning": "değişken",
-    "example_sentence": "The independent variable was manipulated to observe its effect on the outcome.",
+    "word": "accommodate",
+    "phonetic": "",
+    "tr_meaning": "yer sağlamak, uyum sağlamak",
+    "example_sentence": "Research facilities are accommodating AI-based tools for large-scale data analysis.",
     "department": "fen",
-    "theme": "Araştırma Yöntemleri",
-    "exam_years": [2018, 2020, 2022]
+    "theme": "Uyum",
+    "exam_years": []
   },
   {
     "id": "fen_008",
-    "word": "organism",
-    "phonetic": "/ˈɔːɡənɪzəm/",
-    "tr_meaning": "organizma, canlı",
-    "example_sentence": "Single-celled organisms were among the first life forms on Earth.",
+    "word": "accompany",
+    "phonetic": "",
+    "tr_meaning": "eşlik etmek",
+    "example_sentence": "Rising temperatures consistently accompany increased atmospheric CO2 levels.",
     "department": "fen",
-    "theme": "Biyoloji",
-    "exam_years": [2019, 2021]
+    "theme": "Birliktelik",
+    "exam_years": []
   },
   {
     "id": "fen_009",
-    "word": "precipitation",
-    "phonetic": "/prɪˌsɪpɪˈteɪʃən/",
-    "tr_meaning": "yağış; çökelme",
-    "example_sentence": "Annual precipitation in the region averages 800 millimetres.",
+    "word": "accomplish",
+    "phonetic": "",
+    "tr_meaning": "başarmak, tamamlamak",
+    "example_sentence": "Researchers have accomplished significant breakthroughs in renewable energy storage.",
     "department": "fen",
-    "theme": "Çevre Bilimleri",
-    "exam_years": [2022, 2024]
+    "theme": "Başarı",
+    "exam_years": []
   },
   {
     "id": "fen_010",
-    "word": "equilibrium",
-    "phonetic": "/ˌiːkwɪˈlɪbriəm/",
-    "tr_meaning": "denge",
-    "example_sentence": "Chemical equilibrium is reached when forward and reverse reactions occur at the same rate.",
+    "word": "accumulate",
+    "phonetic": "",
+    "tr_meaning": "biriktirmek, toplamak",
+    "example_sentence": "Climate researchers are accumulating large datasets from satellite observations.",
     "department": "fen",
-    "theme": "Kimya",
-    "exam_years": [2020, 2023]
+    "theme": "Birikim",
+    "exam_years": []
+  },
+  {
+    "id": "fen_011",
+    "word": "accuse",
+    "phonetic": "",
+    "tr_meaning": "suçlamak",
+    "example_sentence": "Critics accuse some researchers of manipulating experimental results for funding.",
+    "department": "fen",
+    "theme": "Eleştiri",
+    "exam_years": []
+  },
+  {
+    "id": "fen_012",
+    "word": "achieve",
+    "phonetic": "",
+    "tr_meaning": "elde etmek, başarmak",
+    "example_sentence": "Scientists have achieved major breakthroughs in quantum computing this decade.",
+    "department": "fen",
+    "theme": "Başarı",
+    "exam_years": []
+  },
+  {
+    "id": "fen_013",
+    "word": "acknowledge",
+    "phonetic": "",
+    "tr_meaning": "kabul etmek, onaylamak",
+    "example_sentence": "Researchers have acknowledged significant limitations in current artificial intelligence models.",
+    "department": "fen",
+    "theme": "Onay",
+    "exam_years": []
+  },
+  {
+    "id": "fen_014",
+    "word": "address",
+    "phonetic": "",
+    "tr_meaning": "ele almak, çözümlemek",
+    "example_sentence": "Environmental scientists address climate change using data-driven computational models.",
+    "department": "fen",
+    "theme": "Çözüm",
+    "exam_years": []
+  },
+  {
+    "id": "fen_015",
+    "word": "adjust",
+    "phonetic": "",
+    "tr_meaning": "uyarlamak, ayarlamak",
+    "example_sentence": "Engineers have adjusted machine-learning algorithms to increase energy efficiency.",
+    "department": "fen",
+    "theme": "Uyarlama",
+    "exam_years": []
+  },
+  {
+    "id": "fen_016",
+    "word": "administer",
+    "phonetic": "",
+    "tr_meaning": "uygulamak, yönetmek",
+    "example_sentence": "Researchers administered standardised cognitive tests to collect baseline neurological data.",
+    "department": "fen",
+    "theme": "Yönetim",
+    "exam_years": []
+  },
+  {
+    "id": "fen_017",
+    "word": "admire",
+    "phonetic": "",
+    "tr_meaning": "hayran kalmak, takdir etmek",
+    "example_sentence": "The scientific community admires researchers who challenge long-held theoretical assumptions.",
+    "department": "fen",
+    "theme": "Değer",
+    "exam_years": []
+  },
+  {
+    "id": "fen_018",
+    "word": "adopt",
+    "phonetic": "",
+    "tr_meaning": "benimsemek, kabul etmek",
+    "example_sentence": "Laboratories have adopted machine-learning techniques for faster data interpretation.",
+    "department": "fen",
+    "theme": "Benimseme",
+    "exam_years": []
+  },
+  {
+    "id": "fen_019",
+    "word": "aggravate",
+    "phonetic": "",
+    "tr_meaning": "kötüleştirmek, ağırlaştırmak",
+    "example_sentence": "Air pollution significantly aggravates respiratory conditions such as asthma.",
+    "department": "fen",
+    "theme": "Kötüleşme",
+    "exam_years": []
+  },
+  {
+    "id": "fen_020",
+    "word": "agree",
+    "phonetic": "",
+    "tr_meaning": "katılmak, aynı fikirde olmak",
+    "example_sentence": "Most climate scientists agree that greenhouse gas emissions must be drastically reduced.",
+    "department": "fen",
+    "theme": "Uzlaşı",
+    "exam_years": []
+  },
+  {
+    "id": "fen_021",
+    "word": "alienate",
+    "phonetic": "",
+    "tr_meaning": "yabancılaştırmak, uzaklaştırmak",
+    "example_sentence": "Rapid industrialisation has alienated communities from their natural environments.",
+    "department": "fen",
+    "theme": "Yabancılaşma",
+    "exam_years": []
+  },
+  {
+    "id": "fen_022",
+    "word": "alleviate",
+    "phonetic": "",
+    "tr_meaning": "hafifletmek, azaltmak",
+    "example_sentence": "Renewable energy technologies help alleviate the environmental impact of fossil fuels.",
+    "department": "fen",
+    "theme": "Azaltma",
+    "exam_years": []
+  },
+  {
+    "id": "fen_023",
+    "word": "allocate",
+    "phonetic": "",
+    "tr_meaning": "tahsis etmek, ayırmak",
+    "example_sentence": "Governments must allocate more funding to climate change research initiatives.",
+    "department": "fen",
+    "theme": "Kaynak",
+    "exam_years": []
+  },
+  {
+    "id": "fen_024",
+    "word": "allow",
+    "phonetic": "",
+    "tr_meaning": "izin vermek, olanak tanımak",
+    "example_sentence": "Advanced imaging techniques allow scientists to observe cellular processes in real time.",
+    "department": "fen",
+    "theme": "İmkân",
+    "exam_years": []
+  },
+  {
+    "id": "fen_025",
+    "word": "alter",
+    "phonetic": "",
+    "tr_meaning": "değiştirmek",
+    "example_sentence": "Climate change has fundamentally altered precipitation patterns across the globe.",
+    "department": "fen",
+    "theme": "Değişim",
+    "exam_years": []
+  },
+  {
+    "id": "fen_026",
+    "word": "appear",
+    "phonetic": "",
+    "tr_meaning": "görünmek, ortaya çıkmak",
+    "example_sentence": "New bacterial strains appear as antibiotic resistance continues to spread globally.",
+    "department": "fen",
+    "theme": "Ortaya Çıkış",
+    "exam_years": []
+  },
+  {
+    "id": "fen_027",
+    "word": "apply",
+    "phonetic": "",
+    "tr_meaning": "uygulamak, başvurmak",
+    "example_sentence": "Researchers apply statistical models to interpret large environmental datasets.",
+    "department": "fen",
+    "theme": "Uygulama",
+    "exam_years": []
+  },
+  {
+    "id": "fen_028",
+    "word": "appoint",
+    "phonetic": "",
+    "tr_meaning": "atamak",
+    "example_sentence": "The committee appointed a lead researcher to coordinate the international study.",
+    "department": "fen",
+    "theme": "Yönetim",
+    "exam_years": []
+  },
+  {
+    "id": "fen_029",
+    "word": "appraise",
+    "phonetic": "",
+    "tr_meaning": "değerlendirmek, kıymet biçmek",
+    "example_sentence": "Scientists appraise the validity of experimental results through peer review processes.",
+    "department": "fen",
+    "theme": "Değerlendirme",
+    "exam_years": []
+  },
+  {
+    "id": "fen_030",
+    "word": "appreciate",
+    "phonetic": "",
+    "tr_meaning": "takdir etmek, değerini bilmek",
+    "example_sentence": "Researchers appreciate the role of collaborative data sharing in scientific progress.",
+    "department": "fen",
+    "theme": "Değer",
+    "exam_years": []
+  },
+  {
+    "id": "fen_031",
+    "word": "approve",
+    "phonetic": "",
+    "tr_meaning": "onaylamak",
+    "example_sentence": "Regulatory agencies have approved several new vaccines after extensive clinical trials.",
+    "department": "fen",
+    "theme": "Onay",
+    "exam_years": []
+  },
+  {
+    "id": "fen_032",
+    "word": "arise",
+    "phonetic": "",
+    "tr_meaning": "ortaya çıkmak, meydana gelmek",
+    "example_sentence": "New scientific questions arise as researchers explore the boundaries of quantum mechanics.",
+    "department": "fen",
+    "theme": "Ortaya Çıkış",
+    "exam_years": []
+  },
+  {
+    "id": "fen_033",
+    "word": "articulate",
+    "phonetic": "",
+    "tr_meaning": "açıkça ifade etmek",
+    "example_sentence": "Scientists must articulate their findings clearly to influence public policy decisions.",
+    "department": "fen",
+    "theme": "İfade",
+    "exam_years": []
+  },
+  {
+    "id": "fen_034",
+    "word": "assess",
+    "phonetic": "",
+    "tr_meaning": "değerlendirmek",
+    "example_sentence": "Ecologists assess biodiversity levels to monitor the health of ecosystems.",
+    "department": "fen",
+    "theme": "Değerlendirme",
+    "exam_years": []
+  },
+  {
+    "id": "fen_035",
+    "word": "attach",
+    "phonetic": "",
+    "tr_meaning": "eklemek, iliştirmek",
+    "example_sentence": "Scientists attach sensors to marine animals to track their migration patterns.",
+    "department": "fen",
+    "theme": "Bağlantı",
+    "exam_years": []
+  },
+  {
+    "id": "fen_036",
+    "word": "attain",
+    "phonetic": "",
+    "tr_meaning": "erişmek, elde etmek",
+    "example_sentence": "Many countries struggle to attain sustainable levels of carbon emission reduction.",
+    "department": "fen",
+    "theme": "Ulaşma",
+    "exam_years": []
+  },
+  {
+    "id": "fen_037",
+    "word": "attribute",
+    "phonetic": "",
+    "tr_meaning": "atfetmek, bağlamak",
+    "example_sentence": "Researchers attribute rising sea temperatures to increased greenhouse gas concentrations.",
+    "department": "fen",
+    "theme": "Neden",
+    "exam_years": []
+  },
+  {
+    "id": "fen_038",
+    "word": "avert",
+    "phonetic": "",
+    "tr_meaning": "önlemek",
+    "example_sentence": "Early warning systems can avert natural disasters by providing timely evacuation alerts.",
+    "department": "fen",
+    "theme": "Önleme",
+    "exam_years": []
+  },
+  {
+    "id": "fen_039",
+    "word": "avoid",
+    "phonetic": "",
+    "tr_meaning": "kaçınmak",
+    "example_sentence": "Scientists design experiments carefully to avoid confirmation bias in their results.",
+    "department": "fen",
+    "theme": "Kaçınma",
+    "exam_years": []
+  },
+  {
+    "id": "fen_040",
+    "word": "become",
+    "phonetic": "",
+    "tr_meaning": "olmak",
+    "example_sentence": "Renewable energy has become the fastest growing sector in global electricity production.",
+    "department": "fen",
+    "theme": "Dönüşüm",
+    "exam_years": []
+  },
+  {
+    "id": "fen_041",
+    "word": "begin",
+    "phonetic": "",
+    "tr_meaning": "başlamak",
+    "example_sentence": "Scientists have begun mapping the entire human microbiome in unprecedented detail.",
+    "department": "fen",
+    "theme": "Başlangıç",
+    "exam_years": []
+  },
+  {
+    "id": "fen_042",
+    "word": "block",
+    "phonetic": "",
+    "tr_meaning": "engellemek",
+    "example_sentence": "Certain antibodies block viral proteins from entering healthy human cells.",
+    "department": "fen",
+    "theme": "Engelleme",
+    "exam_years": []
+  },
+  {
+    "id": "fen_043",
+    "word": "blur",
+    "phonetic": "",
+    "tr_meaning": "bulanıklaştırmak",
+    "example_sentence": "Rapid technological change has blurred the boundaries between different scientific disciplines.",
+    "department": "fen",
+    "theme": "Belirsizleşme",
+    "exam_years": []
+  },
+  {
+    "id": "fen_044",
+    "word": "boost",
+    "phonetic": "",
+    "tr_meaning": "artırmak, güçlendirmek",
+    "example_sentence": "Solar panel efficiency has been boosted significantly through advanced material science.",
+    "department": "fen",
+    "theme": "Artış",
+    "exam_years": []
+  },
+  {
+    "id": "fen_045",
+    "word": "capture",
+    "phonetic": "",
+    "tr_meaning": "yakalamak, ele geçirmek",
+    "example_sentence": "Carbon capture technologies can remove CO2 directly from the atmosphere.",
+    "department": "fen",
+    "theme": "Yakalama",
+    "exam_years": []
+  },
+  {
+    "id": "fen_046",
+    "word": "celebrate",
+    "phonetic": "",
+    "tr_meaning": "kutlamak",
+    "example_sentence": "The scientific community celebrated the successful sequencing of the human genome.",
+    "department": "fen",
+    "theme": "Kutlama",
+    "exam_years": []
+  },
+  {
+    "id": "fen_047",
+    "word": "challenge",
+    "phonetic": "",
+    "tr_meaning": "zorlamak, meydan okumak",
+    "example_sentence": "New discoveries in physics challenge long-established theories about the nature of gravity.",
+    "department": "fen",
+    "theme": "Meydan Okuma",
+    "exam_years": []
+  },
+  {
+    "id": "fen_048",
+    "word": "change",
+    "phonetic": "",
+    "tr_meaning": "değişmek, değiştirmek",
+    "example_sentence": "Rising temperatures have changed precipitation patterns across multiple continents.",
+    "department": "fen",
+    "theme": "Değişim",
+    "exam_years": []
+  },
+  {
+    "id": "fen_049",
+    "word": "check",
+    "phonetic": "",
+    "tr_meaning": "kontrol etmek",
+    "example_sentence": "Scientists regularly check experimental equipment to ensure accurate measurement results.",
+    "department": "fen",
+    "theme": "Kontrol",
+    "exam_years": []
+  },
+  {
+    "id": "fen_050",
+    "word": "circulate",
+    "phonetic": "",
+    "tr_meaning": "dolaşmak",
+    "example_sentence": "Blood circulates through the cardiovascular system carrying oxygen to all body tissues.",
+    "department": "fen",
+    "theme": "Dolaşım",
+    "exam_years": []
+  },
+  {
+    "id": "fen_051",
+    "word": "claim",
+    "phonetic": "",
+    "tr_meaning": "iddia etmek",
+    "example_sentence": "Some researchers claim that dark matter makes up most of the observable universe.",
+    "department": "fen",
+    "theme": "İddia",
+    "exam_years": []
+  },
+  {
+    "id": "fen_052",
+    "word": "collect",
+    "phonetic": "",
+    "tr_meaning": "toplamak",
+    "example_sentence": "Field researchers collect soil and water samples to measure environmental contamination.",
+    "department": "fen",
+    "theme": "Veri Toplama",
+    "exam_years": []
+  },
+  {
+    "id": "fen_053",
+    "word": "commit",
+    "phonetic": "",
+    "tr_meaning": "adamak, söz vermek",
+    "example_sentence": "Nations committed to reducing carbon emissions under the Paris Climate Agreement.",
+    "department": "fen",
+    "theme": "Taahhüt",
+    "exam_years": []
+  },
+  {
+    "id": "fen_054",
+    "word": "compensate",
+    "phonetic": "",
+    "tr_meaning": "telafi etmek",
+    "example_sentence": "Some organisms compensate for habitat loss by adapting to urban environments.",
+    "department": "fen",
+    "theme": "Telafi",
+    "exam_years": []
+  },
+  {
+    "id": "fen_055",
+    "word": "compete",
+    "phonetic": "",
+    "tr_meaning": "rekabet etmek",
+    "example_sentence": "Species compete for limited resources such as food, territory, and reproductive partners.",
+    "department": "fen",
+    "theme": "Rekabet",
+    "exam_years": []
+  },
+  {
+    "id": "fen_056",
+    "word": "compile",
+    "phonetic": "",
+    "tr_meaning": "derlemek",
+    "example_sentence": "Scientists compile data from multiple studies to conduct comprehensive meta-analyses.",
+    "department": "fen",
+    "theme": "Derleme",
+    "exam_years": []
+  },
+  {
+    "id": "fen_057",
+    "word": "complain",
+    "phonetic": "",
+    "tr_meaning": "şikayet etmek",
+    "example_sentence": "Researchers complain that bureaucratic processes slow down scientific funding approvals.",
+    "department": "fen",
+    "theme": "Şikayet",
+    "exam_years": []
+  },
+  {
+    "id": "fen_058",
+    "word": "comprise",
+    "phonetic": "",
+    "tr_meaning": "oluşmak, kapsamak",
+    "example_sentence": "The research team comprises specialists from biology, chemistry, and environmental science.",
+    "department": "fen",
+    "theme": "Kapsam",
+    "exam_years": []
+  },
+  {
+    "id": "fen_059",
+    "word": "conceal",
+    "phonetic": "",
+    "tr_meaning": "gizlemek",
+    "example_sentence": "Some industrial companies conceal environmental damage to avoid regulatory penalties.",
+    "department": "fen",
+    "theme": "Gizleme",
+    "exam_years": []
+  },
+  {
+    "id": "fen_060",
+    "word": "conduct",
+    "phonetic": "",
+    "tr_meaning": "yürütmek, iletmek",
+    "example_sentence": "Researchers conduct longitudinal studies to track environmental changes over decades.",
+    "department": "fen",
+    "theme": "Yürütme",
+    "exam_years": []
+  },
+  {
+    "id": "fen_061",
+    "word": "confirm",
+    "phonetic": "",
+    "tr_meaning": "doğrulamak",
+    "example_sentence": "Multiple independent studies confirm that human activity is the primary driver of climate change.",
+    "department": "fen",
+    "theme": "Doğrulama",
+    "exam_years": []
+  },
+  {
+    "id": "fen_062",
+    "word": "confront",
+    "phonetic": "",
+    "tr_meaning": "yüzleşmek",
+    "example_sentence": "Environmental scientists confront industries about the health risks of chemical pollution.",
+    "department": "fen",
+    "theme": "Yüzleşme",
+    "exam_years": []
+  },
+  {
+    "id": "fen_063",
+    "word": "confuse",
+    "phonetic": "",
+    "tr_meaning": "şaşırtmak, karıştırmak",
+    "example_sentence": "Complex scientific terminology can confuse the general public during health crises.",
+    "department": "fen",
+    "theme": "Karışıklık",
+    "exam_years": []
+  },
+  {
+    "id": "fen_064",
+    "word": "conquer",
+    "phonetic": "",
+    "tr_meaning": "yenmek, fethetmek",
+    "example_sentence": "Modern medicine has conquered many infectious diseases that were once widespread killers.",
+    "department": "fen",
+    "theme": "Zafer",
+    "exam_years": []
+  },
+  {
+    "id": "fen_065",
+    "word": "consider",
+    "phonetic": "",
+    "tr_meaning": "göz önünde bulundurmak",
+    "example_sentence": "Scientists must consider potential confounding variables when designing experiments.",
+    "department": "fen",
+    "theme": "Değerlendirme",
+    "exam_years": []
+  },
+  {
+    "id": "fen_066",
+    "word": "constitute",
+    "phonetic": "",
+    "tr_meaning": "oluşturmak",
+    "example_sentence": "Greenhouse gases constitute a thin but critical layer of Earth's atmosphere.",
+    "department": "fen",
+    "theme": "Oluşum",
+    "exam_years": []
+  },
+  {
+    "id": "fen_067",
+    "word": "constrain",
+    "phonetic": "",
+    "tr_meaning": "sınırlamak",
+    "example_sentence": "Limited funding often constrains the scope of long-term scientific research projects.",
+    "department": "fen",
+    "theme": "Kısıtlama",
+    "exam_years": []
+  },
+  {
+    "id": "fen_068",
+    "word": "construct",
+    "phonetic": "",
+    "tr_meaning": "inşa etmek, oluşturmak",
+    "example_sentence": "Scientists construct theoretical models to explain observed natural phenomena.",
+    "department": "fen",
+    "theme": "İnşa",
+    "exam_years": []
+  },
+  {
+    "id": "fen_069",
+    "word": "consult",
+    "phonetic": "",
+    "tr_meaning": "danışmak",
+    "example_sentence": "Researchers consult international databases when reviewing existing scientific literature.",
+    "department": "fen",
+    "theme": "Danışma",
+    "exam_years": []
+  },
+  {
+    "id": "fen_070",
+    "word": "contain",
+    "phonetic": "",
+    "tr_meaning": "kontrol altında tutmak",
+    "example_sentence": "Strict regulations contain the spread of hazardous chemicals into natural water systems.",
+    "department": "fen",
+    "theme": "Kontrol",
+    "exam_years": []
+  },
+  {
+    "id": "fen_071",
+    "word": "contend",
+    "phonetic": "",
+    "tr_meaning": "mücadele etmek, savunmak",
+    "example_sentence": "Environmental researchers contend that biodiversity loss is as urgent as climate change.",
+    "department": "fen",
+    "theme": "Savunma",
+    "exam_years": []
+  },
+  {
+    "id": "fen_072",
+    "word": "contradict",
+    "phonetic": "",
+    "tr_meaning": "çelişmek",
+    "example_sentence": "New fossil discoveries contradict previously accepted theories of early human evolution.",
+    "department": "fen",
+    "theme": "Çelişki",
+    "exam_years": []
+  },
+  {
+    "id": "fen_073",
+    "word": "control",
+    "phonetic": "",
+    "tr_meaning": "kontrol etmek",
+    "example_sentence": "Scientists use control groups in experiments to isolate the effect of a single variable.",
+    "department": "fen",
+    "theme": "Kontrol",
+    "exam_years": []
+  },
+  {
+    "id": "fen_074",
+    "word": "convert",
+    "phonetic": "",
+    "tr_meaning": "dönüştürmek",
+    "example_sentence": "Solar panels convert sunlight into electricity through the photovoltaic effect.",
+    "department": "fen",
+    "theme": "Dönüşüm",
+    "exam_years": []
+  },
+  {
+    "id": "fen_075",
+    "word": "convince",
+    "phonetic": "",
+    "tr_meaning": "ikna etmek",
+    "example_sentence": "Scientists present evidence to convince governments to adopt stricter emission standards.",
+    "department": "fen",
+    "theme": "İkna",
+    "exam_years": []
+  },
+  {
+    "id": "fen_076",
+    "word": "counter",
+    "phonetic": "",
+    "tr_meaning": "karşı koymak, dengelemek",
+    "example_sentence": "Antioxidants help counter the cellular damage caused by free radicals in the body.",
+    "department": "fen",
+    "theme": "Karşı Koyma",
+    "exam_years": []
+  },
+  {
+    "id": "fen_077",
+    "word": "create",
+    "phonetic": "",
+    "tr_meaning": "oluşturmak, yaratmak",
+    "example_sentence": "Scientists have created biodegradable plastics to replace conventional petroleum products.",
+    "department": "fen",
+    "theme": "Yaratım",
+    "exam_years": []
+  },
+  {
+    "id": "fen_078",
+    "word": "cultivate",
+    "phonetic": "",
+    "tr_meaning": "geliştirmek, yetiştirmek",
+    "example_sentence": "Research institutes cultivate interdisciplinary collaboration to tackle complex problems.",
+    "department": "fen",
+    "theme": "Geliştirme",
+    "exam_years": []
+  },
+  {
+    "id": "fen_079",
+    "word": "curtail",
+    "phonetic": "",
+    "tr_meaning": "azaltmak, kısaltmak",
+    "example_sentence": "International agreements aim to curtail the emission of ozone-depleting substances.",
+    "department": "fen",
+    "theme": "Kısıtlama",
+    "exam_years": []
+  },
+  {
+    "id": "fen_080",
+    "word": "decide",
+    "phonetic": "",
+    "tr_meaning": "karar vermek",
+    "example_sentence": "Scientific committees decide which research proposals receive national funding priority.",
+    "department": "fen",
+    "theme": "Karar",
+    "exam_years": []
+  },
+  {
+    "id": "fen_081",
+    "word": "declare",
+    "phonetic": "",
+    "tr_meaning": "ilan etmek, açıklamak",
+    "example_sentence": "The World Health Organisation declared COVID-19 a global pandemic in March 2020.",
+    "department": "fen",
+    "theme": "İlan",
+    "exam_years": []
+  },
+  {
+    "id": "fen_082",
+    "word": "dedicate",
+    "phonetic": "",
+    "tr_meaning": "adamak",
+    "example_sentence": "Many scientists dedicate their careers to finding solutions to antibiotic resistance.",
+    "department": "fen",
+    "theme": "Adanma",
+    "exam_years": []
+  },
+  {
+    "id": "fen_083",
+    "word": "defeat",
+    "phonetic": "",
+    "tr_meaning": "yenmek",
+    "example_sentence": "Scientists hope to defeat cancer through personalised immunotherapy treatments.",
+    "department": "fen",
+    "theme": "Zafer",
+    "exam_years": []
+  },
+  {
+    "id": "fen_084",
+    "word": "defend",
+    "phonetic": "",
+    "tr_meaning": "savunmak",
+    "example_sentence": "Researchers must defend their methodologies during peer review and academic conferences.",
+    "department": "fen",
+    "theme": "Savunma",
+    "exam_years": []
+  },
+  {
+    "id": "fen_085",
+    "word": "delay",
+    "phonetic": "",
+    "tr_meaning": "geciktirmek, ertelemek",
+    "example_sentence": "Bureaucratic processes often delay the approval and publication of important research.",
+    "department": "fen",
+    "theme": "Gecikme",
+    "exam_years": []
+  },
+  {
+    "id": "fen_086",
+    "word": "deliver",
+    "phonetic": "",
+    "tr_meaning": "ulaştırmak, sunmak",
+    "example_sentence": "Nanotechnology enables drugs to be delivered directly to cancerous tumour cells.",
+    "department": "fen",
+    "theme": "Teslimat",
+    "exam_years": []
+  },
+  {
+    "id": "fen_087",
+    "word": "demand",
+    "phonetic": "",
+    "tr_meaning": "talep etmek",
+    "example_sentence": "Climate change demands urgent and coordinated action from governments worldwide.",
+    "department": "fen",
+    "theme": "Talep",
+    "exam_years": []
+  },
+  {
+    "id": "fen_088",
+    "word": "demonstrate",
+    "phonetic": "",
+    "tr_meaning": "göstermek, kanıtlamak",
+    "example_sentence": "Experiments demonstrate that increased CO2 levels accelerate coral reef degradation.",
+    "department": "fen",
+    "theme": "Kanıtlama",
+    "exam_years": []
+  },
+  {
+    "id": "fen_089",
+    "word": "deny",
+    "phonetic": "",
+    "tr_meaning": "reddetmek",
+    "example_sentence": "Some lobbyists continue to deny the scientific consensus on human-caused climate change.",
+    "department": "fen",
+    "theme": "Reddetme",
+    "exam_years": []
+  },
+  {
+    "id": "fen_090",
+    "word": "derive",
+    "phonetic": "",
+    "tr_meaning": "türetmek, elde etmek",
+    "example_sentence": "Scientists derive new compounds from plant-based natural substances for medical use.",
+    "department": "fen",
+    "theme": "Türetme",
+    "exam_years": []
+  },
+  {
+    "id": "fen_091",
+    "word": "descend",
+    "phonetic": "",
+    "tr_meaning": "inmek, çökmek",
+    "example_sentence": "Ocean temperatures descend sharply at depths below the thermocline layer.",
+    "department": "fen",
+    "theme": "İniş",
+    "exam_years": []
+  },
+  {
+    "id": "fen_092",
+    "word": "designate",
+    "phonetic": "",
+    "tr_meaning": "belirlemek, atamak",
+    "example_sentence": "National parks designate protected areas to preserve biodiversity and natural habitats.",
+    "department": "fen",
+    "theme": "Belirleme",
+    "exam_years": []
+  },
+  {
+    "id": "fen_093",
+    "word": "destroy",
+    "phonetic": "",
+    "tr_meaning": "yok etmek",
+    "example_sentence": "Deforestation destroys critical habitats and threatens the survival of countless species.",
+    "department": "fen",
+    "theme": "Yıkım",
+    "exam_years": []
+  },
+  {
+    "id": "fen_094",
+    "word": "detect",
+    "phonetic": "",
+    "tr_meaning": "tespit etmek",
+    "example_sentence": "Advanced telescopes can detect gravitational waves produced by colliding black holes.",
+    "department": "fen",
+    "theme": "Tespit",
+    "exam_years": []
+  },
+  {
+    "id": "fen_095",
+    "word": "deter",
+    "phonetic": "",
+    "tr_meaning": "caydırmak",
+    "example_sentence": "High carbon taxes are designed to deter industries from excessive fossil fuel usage.",
+    "department": "fen",
+    "theme": "Caydırma",
+    "exam_years": []
+  },
+  {
+    "id": "fen_096",
+    "word": "deteriorate",
+    "phonetic": "",
+    "tr_meaning": "kötüleşmek, bozulmak",
+    "example_sentence": "Arctic ice sheets are deteriorating at an accelerating pace due to rising temperatures.",
+    "department": "fen",
+    "theme": "Kötüleşme",
+    "exam_years": []
+  },
+  {
+    "id": "fen_097",
+    "word": "determine",
+    "phonetic": "",
+    "tr_meaning": "belirlemek",
+    "example_sentence": "Genetic analysis can determine an individual's predisposition to hereditary diseases.",
+    "department": "fen",
+    "theme": "Belirleme",
+    "exam_years": []
+  },
+  {
+    "id": "fen_098",
+    "word": "differ",
+    "phonetic": "",
+    "tr_meaning": "farklılık göstermek",
+    "example_sentence": "Species within the same genus often differ significantly in genetic and physical traits.",
+    "department": "fen",
+    "theme": "Farklılık",
+    "exam_years": []
+  },
+  {
+    "id": "fen_099",
+    "word": "differentiate",
+    "phonetic": "",
+    "tr_meaning": "ayırt etmek",
+    "example_sentence": "Scientists differentiate between natural climate variability and human-induced climate change.",
+    "department": "fen",
+    "theme": "Ayırt Etme",
+    "exam_years": []
+  },
+  {
+    "id": "fen_100",
+    "word": "diminish",
+    "phonetic": "",
+    "tr_meaning": "azalmak, azaltmak",
+    "example_sentence": "The effectiveness of antibiotics diminishes when overused or inappropriately prescribed.",
+    "department": "fen",
+    "theme": "Azalma",
+    "exam_years": []
+  },
+  {
+    "id": "fen_101",
+    "word": "disapprove",
+    "phonetic": "",
+    "tr_meaning": "onaylamamak",
+    "example_sentence": "Many scientists disapprove of publishing research without proper peer review.",
+    "department": "fen",
+    "theme": "Onaylamamak",
+    "exam_years": []
+  },
+  {
+    "id": "fen_102",
+    "word": "discover",
+    "phonetic": "",
+    "tr_meaning": "keşfetmek",
+    "example_sentence": "Researchers have discovered new exoplanets in habitable zones around distant stars.",
+    "department": "fen",
+    "theme": "Keşif",
+    "exam_years": []
+  },
+  {
+    "id": "fen_103",
+    "word": "discriminate",
+    "phonetic": "",
+    "tr_meaning": "ayrım yapmak",
+    "example_sentence": "Immune cells can discriminate between the body's own cells and foreign pathogens.",
+    "department": "fen",
+    "theme": "Ayrımcılık",
+    "exam_years": []
+  },
+  {
+    "id": "fen_104",
+    "word": "dislike",
+    "phonetic": "",
+    "tr_meaning": "hoşlanmamak",
+    "example_sentence": "Some researchers dislike the increasing commercialisation of academic research.",
+    "department": "fen",
+    "theme": "Tutum",
+    "exam_years": []
+  },
+  {
+    "id": "fen_105",
+    "word": "dismiss",
+    "phonetic": "",
+    "tr_meaning": "reddetmek, önemsememek",
+    "example_sentence": "Scientists should not dismiss unexpected experimental results without thorough investigation.",
+    "department": "fen",
+    "theme": "Reddetme",
+    "exam_years": []
+  },
+  {
+    "id": "fen_106",
+    "word": "dispel",
+    "phonetic": "",
+    "tr_meaning": "gidermek, dağıtmak",
+    "example_sentence": "Scientific education helps dispel common myths about evolution and natural selection.",
+    "department": "fen",
+    "theme": "Giderme",
+    "exam_years": []
+  },
+  {
+    "id": "fen_107",
+    "word": "display",
+    "phonetic": "",
+    "tr_meaning": "göstermek, sergilemek",
+    "example_sentence": "Modern sensors display real-time environmental data from remote monitoring stations.",
+    "department": "fen",
+    "theme": "Gösterme",
+    "exam_years": []
+  },
+  {
+    "id": "fen_108",
+    "word": "disrupt",
+    "phonetic": "",
+    "tr_meaning": "bozmak, kesintiye uğratmak",
+    "example_sentence": "Invasive species disrupt fragile ecosystems and outcompete native plant and animal species.",
+    "department": "fen",
+    "theme": "Bozulma",
+    "exam_years": []
+  },
+  {
+    "id": "fen_109",
+    "word": "dissolve",
+    "phonetic": "",
+    "tr_meaning": "çözünmek, feshetmek",
+    "example_sentence": "Carbon dioxide dissolves in seawater to form carbonic acid, increasing ocean acidity.",
+    "department": "fen",
+    "theme": "Çözülme",
+    "exam_years": []
+  },
+  {
+    "id": "fen_110",
+    "word": "distinguish",
+    "phonetic": "",
+    "tr_meaning": "ayırt etmek",
+    "example_sentence": "Scientists distinguish between correlation and causation when interpreting experimental data.",
+    "department": "fen",
+    "theme": "Ayırt Etme",
+    "exam_years": []
+  },
+  {
+    "id": "fen_111",
+    "word": "distract",
+    "phonetic": "",
+    "tr_meaning": "dikkatini dağıtmak",
+    "example_sentence": "Noise pollution in urban environments can distract students from effective academic learning.",
+    "department": "fen",
+    "theme": "Dikkat Dağınıklığı",
+    "exam_years": []
+  },
+  {
+    "id": "fen_112",
+    "word": "disturb",
+    "phonetic": "",
+    "tr_meaning": "rahatsız etmek, bozmak",
+    "example_sentence": "Mining activities disturb soil composition and contaminate local water sources.",
+    "department": "fen",
+    "theme": "Rahatsızlık",
+    "exam_years": []
+  },
+  {
+    "id": "fen_113",
+    "word": "divide",
+    "phonetic": "",
+    "tr_meaning": "bölmek, ayırmak",
+    "example_sentence": "Cell division is the fundamental process by which organisms grow and reproduce.",
+    "department": "fen",
+    "theme": "Bölünme",
+    "exam_years": []
+  },
+  {
+    "id": "fen_114",
+    "word": "elaborate",
+    "phonetic": "",
+    "tr_meaning": "ayrıntılı açıklamak",
+    "example_sentence": "Scientists elaborate on theoretical models to make them more accurate and comprehensive.",
+    "department": "fen",
+    "theme": "Açıklama",
+    "exam_years": []
+  },
+  {
+    "id": "fen_115",
+    "word": "eliminate",
+    "phonetic": "",
+    "tr_meaning": "ortadan kaldırmak",
+    "example_sentence": "Vaccination programmes have successfully eliminated smallpox as a global health threat.",
+    "department": "fen",
+    "theme": "Ortadan Kaldırma",
+    "exam_years": []
+  },
+  {
+    "id": "fen_116",
+    "word": "elucidate",
+    "phonetic": "",
+    "tr_meaning": "açıklığa kavuşturmak",
+    "example_sentence": "Researchers are working to elucidate the mechanisms behind antibiotic resistance genes.",
+    "department": "fen",
+    "theme": "Açıklama",
+    "exam_years": []
+  },
+  {
+    "id": "fen_117",
+    "word": "embody",
+    "phonetic": "",
+    "tr_meaning": "temsil etmek, somutlaştırmak",
+    "example_sentence": "Biodiversity embodies the complexity and resilience of Earth's natural ecosystems.",
+    "department": "fen",
+    "theme": "Temsil",
+    "exam_years": []
+  },
+  {
+    "id": "fen_118",
+    "word": "emigrate",
+    "phonetic": "",
+    "tr_meaning": "göç etmek",
+    "example_sentence": "Climate displacement has led many communities to emigrate from coastal flood-prone regions.",
+    "department": "fen",
+    "theme": "Göç",
+    "exam_years": []
+  },
+  {
+    "id": "fen_119",
+    "word": "employ",
+    "phonetic": "",
+    "tr_meaning": "kullanmak, istihdam etmek",
+    "example_sentence": "Researchers employ advanced spectroscopy techniques to analyse chemical compositions.",
+    "department": "fen",
+    "theme": "Kullanım",
+    "exam_years": []
+  },
+  {
+    "id": "fen_120",
+    "word": "encompass",
+    "phonetic": "",
+    "tr_meaning": "kapsamak",
+    "example_sentence": "Sustainable development encompasses environmental, economic, and social considerations.",
+    "department": "fen",
+    "theme": "Kapsam",
+    "exam_years": []
+  },
+  {
+    "id": "fen_121",
+    "word": "endure",
+    "phonetic": "",
+    "tr_meaning": "dayanmak, katlanmak",
+    "example_sentence": "Deep-sea organisms endure extreme pressure and absence of sunlight to survive.",
+    "department": "fen",
+    "theme": "Dayanma",
+    "exam_years": []
+  },
+  {
+    "id": "fen_122",
+    "word": "enforce",
+    "phonetic": "",
+    "tr_meaning": "uygulamak",
+    "example_sentence": "Governments enforce environmental regulations to limit industrial pollution and waste.",
+    "department": "fen",
+    "theme": "Uygulama",
+    "exam_years": []
+  },
+  {
+    "id": "fen_123",
+    "word": "enhance",
+    "phonetic": "",
+    "tr_meaning": "artırmak, geliştirmek",
+    "example_sentence": "Nanomaterials are used to enhance the performance and efficiency of solar cells.",
+    "department": "fen",
+    "theme": "Geliştirme",
+    "exam_years": []
+  },
+  {
+    "id": "fen_124",
+    "word": "ensure",
+    "phonetic": "",
+    "tr_meaning": "sağlamak, güvence altına almak",
+    "example_sentence": "Quality control procedures ensure the accuracy and reliability of laboratory measurements.",
+    "department": "fen",
+    "theme": "Güvence",
+    "exam_years": []
+  },
+  {
+    "id": "fen_125",
+    "word": "entertain",
+    "phonetic": "",
+    "tr_meaning": "eğlendirmek",
+    "example_sentence": "Science museums entertain children while educating them about natural phenomena.",
+    "department": "fen",
+    "theme": "Eğlence",
+    "exam_years": []
+  },
+  {
+    "id": "fen_126",
+    "word": "entitle",
+    "phonetic": "",
+    "tr_meaning": "hak kazandırmak",
+    "example_sentence": "Peer-reviewed publication entitles researchers to recognition within the scientific community.",
+    "department": "fen",
+    "theme": "Hak",
+    "exam_years": []
+  },
+  {
+    "id": "fen_127",
+    "word": "envisage",
+    "phonetic": "",
+    "tr_meaning": "öngörmek",
+    "example_sentence": "Scientists envisage a future powered entirely by clean and renewable energy sources.",
+    "department": "fen",
+    "theme": "Öngörme",
+    "exam_years": []
+  },
+  {
+    "id": "fen_128",
+    "word": "eradicate",
+    "phonetic": "",
+    "tr_meaning": "ortadan kaldırmak, yok etmek",
+    "example_sentence": "Global vaccination efforts aim to eradicate polio from every remaining endemic country.",
+    "department": "fen",
+    "theme": "Yok Etme",
+    "exam_years": []
+  },
+  {
+    "id": "fen_129",
+    "word": "escalate",
+    "phonetic": "",
+    "tr_meaning": "tırmanmak, artmak",
+    "example_sentence": "Wildfires are escalating in frequency and intensity due to prolonged drought conditions.",
+    "department": "fen",
+    "theme": "Tırmanma",
+    "exam_years": []
+  },
+  {
+    "id": "fen_130",
+    "word": "estimate",
+    "phonetic": "",
+    "tr_meaning": "tahmin etmek",
+    "example_sentence": "Scientists estimate that over one million species are at risk of extinction globally.",
+    "department": "fen",
+    "theme": "Tahmin",
+    "exam_years": []
+  },
+  {
+    "id": "fen_131",
+    "word": "evacuate",
+    "phonetic": "",
+    "tr_meaning": "tahliye etmek",
+    "example_sentence": "Emergency plans are activated to evacuate coastal populations before major hurricanes.",
+    "department": "fen",
+    "theme": "Tahliye",
+    "exam_years": []
+  },
+  {
+    "id": "fen_132",
+    "word": "evoke",
+    "phonetic": "",
+    "tr_meaning": "uyandırmak, çağrıştırmak",
+    "example_sentence": "Certain chemical signals evoke instinctive behavioural responses in animal species.",
+    "department": "fen",
+    "theme": "Çağrışım",
+    "exam_years": []
+  },
+  {
+    "id": "fen_133",
+    "word": "exaggerate",
+    "phonetic": "",
+    "tr_meaning": "abartmak",
+    "example_sentence": "Media reports sometimes exaggerate scientific findings to attract public attention.",
+    "department": "fen",
+    "theme": "Abartma",
+    "exam_years": []
+  },
+  {
+    "id": "fen_134",
+    "word": "examine",
+    "phonetic": "",
+    "tr_meaning": "incelemek, muayene etmek",
+    "example_sentence": "Electron microscopes allow scientists to examine the internal structures of individual cells.",
+    "department": "fen",
+    "theme": "İnceleme",
+    "exam_years": []
+  },
+  {
+    "id": "fen_135",
+    "word": "excavate",
+    "phonetic": "",
+    "tr_meaning": "kazmak",
+    "example_sentence": "Archaeologists excavate ancient settlements to reconstruct past human civilisations.",
+    "department": "fen",
+    "theme": "Kazı",
+    "exam_years": []
+  },
+  {
+    "id": "fen_136",
+    "word": "exceed",
+    "phonetic": "",
+    "tr_meaning": "aşmak",
+    "example_sentence": "Global carbon emissions have exceeded safe atmospheric thresholds established by climate scientists.",
+    "department": "fen",
+    "theme": "Aşma",
+    "exam_years": []
+  },
+  {
+    "id": "fen_137",
+    "word": "exchange",
+    "phonetic": "",
+    "tr_meaning": "değiş tokuş yapmak",
+    "example_sentence": "Research institutions exchange data internationally to accelerate scientific discovery.",
+    "department": "fen",
+    "theme": "Değişim",
+    "exam_years": []
+  },
+  {
+    "id": "fen_138",
+    "word": "exclude",
+    "phonetic": "",
+    "tr_meaning": "hariç tutmak, dışlamak",
+    "example_sentence": "Flawed experimental designs may inadvertently exclude important variables from analysis.",
+    "department": "fen",
+    "theme": "Dışlama",
+    "exam_years": []
+  },
+  {
+    "id": "fen_139",
+    "word": "exhaust",
+    "phonetic": "",
+    "tr_meaning": "tüketmek, yorulmak",
+    "example_sentence": "Unsustainable agricultural practices exhaust soil nutrients and reduce long-term productivity.",
+    "department": "fen",
+    "theme": "Tüketme",
+    "exam_years": []
+  },
+  {
+    "id": "fen_140",
+    "word": "exist",
+    "phonetic": "",
+    "tr_meaning": "var olmak",
+    "example_sentence": "Extremophile bacteria exist in environments previously thought to be incompatible with life.",
+    "department": "fen",
+    "theme": "Varlık",
+    "exam_years": []
+  },
+  {
+    "id": "fen_141",
+    "word": "expand",
+    "phonetic": "",
+    "tr_meaning": "genişlemek",
+    "example_sentence": "The universe has been expanding continuously since the Big Bang approximately 13.8 billion years ago.",
+    "department": "fen",
+    "theme": "Genişleme",
+    "exam_years": []
+  },
+  {
+    "id": "fen_142",
+    "word": "expire",
+    "phonetic": "",
+    "tr_meaning": "süresi dolmak",
+    "example_sentence": "Research grants expire after a fixed period, requiring scientists to seek renewed funding.",
+    "department": "fen",
+    "theme": "Süre",
+    "exam_years": []
+  },
+  {
+    "id": "fen_143",
+    "word": "explain",
+    "phonetic": "",
+    "tr_meaning": "açıklamak",
+    "example_sentence": "Quantum mechanics explains the behaviour of particles at the subatomic level.",
+    "department": "fen",
+    "theme": "Açıklama",
+    "exam_years": []
+  },
+  {
+    "id": "fen_144",
+    "word": "exploit",
+    "phonetic": "",
+    "tr_meaning": "sömürmek, faydalanmak",
+    "example_sentence": "Some industries exploit natural resources beyond sustainable recovery limits.",
+    "department": "fen",
+    "theme": "Sömürü",
+    "exam_years": []
+  },
+  {
+    "id": "fen_145",
+    "word": "expose",
+    "phonetic": "",
+    "tr_meaning": "maruz bırakmak",
+    "example_sentence": "Prolonged exposure to ultraviolet radiation significantly increases the risk of skin cancer.",
+    "department": "fen",
+    "theme": "Maruz Bırakma",
+    "exam_years": []
+  },
+  {
+    "id": "fen_146",
+    "word": "extend",
+    "phonetic": "",
+    "tr_meaning": "uzatmak",
+    "example_sentence": "Nanotechnology extends the capabilities of conventional materials in engineering applications.",
+    "department": "fen",
+    "theme": "Uzatma",
+    "exam_years": []
+  },
+  {
+    "id": "fen_147",
+    "word": "extract",
+    "phonetic": "",
+    "tr_meaning": "çıkarmak",
+    "example_sentence": "Scientists extract DNA from ancient biological specimens to study evolutionary history.",
+    "department": "fen",
+    "theme": "Çıkarma",
+    "exam_years": []
+  },
+  {
+    "id": "fen_148",
+    "word": "facilitate",
+    "phonetic": "",
+    "tr_meaning": "kolaylaştırmak",
+    "example_sentence": "Digital platforms facilitate real-time collaboration between geographically dispersed research teams.",
+    "department": "fen",
+    "theme": "Kolaylaştırma",
+    "exam_years": []
+  },
+  {
+    "id": "fen_149",
+    "word": "fail",
+    "phonetic": "",
+    "tr_meaning": "başarısız olmak",
+    "example_sentence": "Some laboratory experiments fail due to uncontrolled environmental variables.",
+    "department": "fen",
+    "theme": "Başarısızlık",
+    "exam_years": []
+  },
+  {
+    "id": "fen_150",
+    "word": "find",
+    "phonetic": "",
+    "tr_meaning": "bulmak",
+    "example_sentence": "Astronomers have found evidence of water ice on the surface of Mars.",
+    "department": "fen",
+    "theme": "Bulgu",
+    "exam_years": []
+  },
+  {
+    "id": "fen_151",
+    "word": "fix",
+    "phonetic": "",
+    "tr_meaning": "onarmak, düzeltmek",
+    "example_sentence": "Engineers develop materials that can fix cracks autonomously through self-healing mechanisms.",
+    "department": "fen",
+    "theme": "Onarma",
+    "exam_years": []
+  },
+  {
+    "id": "fen_152",
+    "word": "fluctuate",
+    "phonetic": "",
+    "tr_meaning": "dalgalanmak",
+    "example_sentence": "Ocean temperatures fluctuate seasonally and influence the migration patterns of marine species.",
+    "department": "fen",
+    "theme": "Dalgalanma",
+    "exam_years": []
+  },
+  {
+    "id": "fen_153",
+    "word": "focus",
+    "phonetic": "",
+    "tr_meaning": "odaklanmak",
+    "example_sentence": "Current research focuses on developing biodegradable alternatives to conventional plastics.",
+    "department": "fen",
+    "theme": "Odaklanma",
+    "exam_years": []
+  },
+  {
+    "id": "fen_154",
+    "word": "force",
+    "phonetic": "",
+    "tr_meaning": "zorlamak",
+    "example_sentence": "Climate change is forcing animal species to migrate to higher altitudes and latitudes.",
+    "department": "fen",
+    "theme": "Zorlama",
+    "exam_years": []
+  },
+  {
+    "id": "fen_155",
+    "word": "foresee",
+    "phonetic": "",
+    "tr_meaning": "öngörmek",
+    "example_sentence": "Scientists foresaw the depletion of the ozone layer decades before it became critical.",
+    "department": "fen",
+    "theme": "Öngörme",
+    "exam_years": []
+  },
+  {
+    "id": "fen_156",
+    "word": "fortify",
+    "phonetic": "",
+    "tr_meaning": "güçlendirmek",
+    "example_sentence": "Engineers fortify coastal barriers to protect settlements from rising sea levels.",
+    "department": "fen",
+    "theme": "Güçlendirme",
+    "exam_years": []
+  },
+  {
+    "id": "fen_157",
+    "word": "foster",
+    "phonetic": "",
+    "tr_meaning": "teşvik etmek, geliştirmek",
+    "example_sentence": "Cross-disciplinary collaboration fosters innovation in environmental science and technology.",
+    "department": "fen",
+    "theme": "Teşvik",
+    "exam_years": []
+  },
+  {
+    "id": "fen_158",
+    "word": "fulfill",
+    "phonetic": "",
+    "tr_meaning": "yerine getirmek",
+    "example_sentence": "Scientific peer review fulfils the critical function of ensuring research quality.",
+    "department": "fen",
+    "theme": "Yerine Getirme",
+    "exam_years": []
+  },
+  {
+    "id": "fen_159",
+    "word": "grow",
+    "phonetic": "",
+    "tr_meaning": "büyümek, gelişmek",
+    "example_sentence": "Renewable energy capacity has grown exponentially over the past two decades globally.",
+    "department": "fen",
+    "theme": "Büyüme",
+    "exam_years": []
+  },
+  {
+    "id": "fen_160",
+    "word": "guess",
+    "phonetic": "",
+    "tr_meaning": "tahmin etmek",
+    "example_sentence": "Scientists never guess conclusions but always base findings on empirical evidence.",
+    "department": "fen",
+    "theme": "Tahmin",
+    "exam_years": []
+  },
+  {
+    "id": "fen_161",
+    "word": "halt",
+    "phonetic": "",
+    "tr_meaning": "durdurmak",
+    "example_sentence": "International agreements aim to halt the destruction of tropical rainforests.",
+    "department": "fen",
+    "theme": "Durdurma",
+    "exam_years": []
+  },
+  {
+    "id": "fen_162",
+    "word": "hamper",
+    "phonetic": "",
+    "tr_meaning": "engellemek",
+    "example_sentence": "Bureaucratic processes can hamper the timely publication of critical scientific findings.",
+    "department": "fen",
+    "theme": "Engelleme",
+    "exam_years": []
+  },
+  {
+    "id": "fen_163",
+    "word": "happen",
+    "phonetic": "",
+    "tr_meaning": "olmak, meydana gelmek",
+    "example_sentence": "Significant evolutionary changes happen over thousands of generations rather than individual lifetimes.",
+    "department": "fen",
+    "theme": "Oluş",
+    "exam_years": []
+  },
+  {
+    "id": "fen_164",
+    "word": "help",
+    "phonetic": "",
+    "tr_meaning": "yardım etmek",
+    "example_sentence": "Satellites help scientists monitor deforestation rates across remote tropical regions.",
+    "department": "fen",
+    "theme": "Yardım",
+    "exam_years": []
+  },
+  {
+    "id": "fen_165",
+    "word": "herald",
+    "phonetic": "",
+    "tr_meaning": "müjdelemek, işaret etmek",
+    "example_sentence": "The discovery of CRISPR technology heralded a new era in genetic medicine.",
+    "department": "fen",
+    "theme": "Müjdeleme",
+    "exam_years": []
+  },
+  {
+    "id": "fen_166",
+    "word": "highlight",
+    "phonetic": "",
+    "tr_meaning": "vurgulamak",
+    "example_sentence": "Environmental reports highlight the urgent need to protect critically endangered habitats.",
+    "department": "fen",
+    "theme": "Vurgulama",
+    "exam_years": []
+  },
+  {
+    "id": "fen_167",
+    "word": "hinder",
+    "phonetic": "",
+    "tr_meaning": "engellemek",
+    "example_sentence": "Data sharing restrictions hinder international scientific collaboration and research progress.",
+    "department": "fen",
+    "theme": "Engelleme",
+    "exam_years": []
+  },
+  {
+    "id": "fen_168",
+    "word": "host",
+    "phonetic": "",
+    "tr_meaning": "ev sahipliği yapmak",
+    "example_sentence": "Research universities host major international scientific conferences each year.",
+    "department": "fen",
+    "theme": "Ev Sahipliği",
+    "exam_years": []
+  },
+  {
+    "id": "fen_169",
+    "word": "identify",
+    "phonetic": "",
+    "tr_meaning": "tanımlamak",
+    "example_sentence": "Genetic sequencing helps scientists identify mutations associated with hereditary diseases.",
+    "department": "fen",
+    "theme": "Tanımlama",
+    "exam_years": []
+  },
+  {
+    "id": "fen_170",
+    "word": "ignore",
+    "phonetic": "",
+    "tr_meaning": "göz ardı etmek",
+    "example_sentence": "Ignoring early warning signs of environmental degradation can lead to irreversible damage.",
+    "department": "fen",
+    "theme": "Görmezden Gelme",
+    "exam_years": []
+  },
+  {
+    "id": "fen_171",
+    "word": "impair",
+    "phonetic": "",
+    "tr_meaning": "bozmak, zarar vermek",
+    "example_sentence": "Chronic noise pollution can impair cognitive function and academic performance in children.",
+    "department": "fen",
+    "theme": "Bozulma",
+    "exam_years": []
+  },
+  {
+    "id": "fen_172",
+    "word": "implement",
+    "phonetic": "",
+    "tr_meaning": "uygulamak",
+    "example_sentence": "Many countries have implemented carbon trading schemes to reduce industrial emissions.",
+    "department": "fen",
+    "theme": "Uygulama",
+    "exam_years": []
+  },
+  {
+    "id": "fen_173",
+    "word": "imply",
+    "phonetic": "",
+    "tr_meaning": "ima etmek",
+    "example_sentence": "High atmospheric CO2 concentrations imply continued global temperature increases.",
+    "department": "fen",
+    "theme": "İma",
+    "exam_years": []
+  },
+  {
+    "id": "fen_174",
+    "word": "improve",
+    "phonetic": "",
+    "tr_meaning": "geliştirmek",
+    "example_sentence": "Advances in satellite technology have improved the accuracy of weather forecasting.",
+    "department": "fen",
+    "theme": "Geliştirme",
+    "exam_years": []
+  },
+  {
+    "id": "fen_175",
+    "word": "include",
+    "phonetic": "",
+    "tr_meaning": "içermek",
+    "example_sentence": "A comprehensive climate study should include data from multiple geographic regions.",
+    "department": "fen",
+    "theme": "Kapsama",
+    "exam_years": []
+  },
+  {
+    "id": "fen_176",
+    "word": "incorporate",
+    "phonetic": "",
+    "tr_meaning": "dahil etmek",
+    "example_sentence": "Modern car engines incorporate advanced emission control systems to reduce pollution.",
+    "department": "fen",
+    "theme": "Dahil Etme",
+    "exam_years": []
+  },
+  {
+    "id": "fen_177",
+    "word": "induce",
+    "phonetic": "",
+    "tr_meaning": "tetiklemek",
+    "example_sentence": "Certain chemical compounds induce mutations in DNA that can lead to cancer.",
+    "department": "fen",
+    "theme": "Tetikleme",
+    "exam_years": []
+  },
+  {
+    "id": "fen_178",
+    "word": "influence",
+    "phonetic": "",
+    "tr_meaning": "etkilemek",
+    "example_sentence": "Solar cycles influence Earth's climate patterns over multi-decadal timescales.",
+    "department": "fen",
+    "theme": "Etki",
+    "exam_years": []
+  },
+  {
+    "id": "fen_179",
+    "word": "inhabit",
+    "phonetic": "",
+    "tr_meaning": "yaşamak",
+    "example_sentence": "Deep-sea hydrothermal vents are inhabited by unique organisms adapted to extreme conditions.",
+    "department": "fen",
+    "theme": "Yaşam",
+    "exam_years": []
+  },
+  {
+    "id": "fen_180",
+    "word": "inherit",
+    "phonetic": "",
+    "tr_meaning": "miras almak",
+    "example_sentence": "Offspring inherit genetic traits from both parents through chromosomal recombination.",
+    "department": "fen",
+    "theme": "Miras",
+    "exam_years": []
+  },
+  {
+    "id": "fen_181",
+    "word": "initiate",
+    "phonetic": "",
+    "tr_meaning": "başlatmak",
+    "example_sentence": "Scientists initiate large-scale research programmes to investigate climate tipping points.",
+    "department": "fen",
+    "theme": "Başlatma",
+    "exam_years": []
+  },
+  {
+    "id": "fen_182",
+    "word": "insist",
+    "phonetic": "",
+    "tr_meaning": "ısrar etmek",
+    "example_sentence": "Climate scientists insist that immediate action is necessary to prevent irreversible damage.",
+    "department": "fen",
+    "theme": "Israr",
+    "exam_years": []
+  },
+  {
+    "id": "fen_183",
+    "word": "inspire",
+    "phonetic": "",
+    "tr_meaning": "ilham vermek",
+    "example_sentence": "Pioneering discoveries in science inspire future generations of researchers worldwide.",
+    "department": "fen",
+    "theme": "İlham",
+    "exam_years": []
+  },
+  {
+    "id": "fen_184",
+    "word": "interact",
+    "phonetic": "",
+    "tr_meaning": "etkileşimde bulunmak",
+    "example_sentence": "Atmospheric gases interact with solar radiation to regulate Earth's surface temperature.",
+    "department": "fen",
+    "theme": "Etkileşim",
+    "exam_years": []
+  },
+  {
+    "id": "fen_185",
+    "word": "interrupt",
+    "phonetic": "",
+    "tr_meaning": "kesmek",
+    "example_sentence": "Technical failures can interrupt critical scientific data collection in field studies.",
+    "department": "fen",
+    "theme": "Kesme",
+    "exam_years": []
+  },
+  {
+    "id": "fen_186",
+    "word": "introduce",
+    "phonetic": "",
+    "tr_meaning": "tanıtmak, başlatmak",
+    "example_sentence": "Researchers introduced a new algorithm that significantly improved weather prediction accuracy.",
+    "department": "fen",
+    "theme": "Tanıtma",
+    "exam_years": []
+  },
+  {
+    "id": "fen_187",
+    "word": "involve",
+    "phonetic": "",
+    "tr_meaning": "içermek, kapsamak",
+    "example_sentence": "Climate modelling involves integrating vast amounts of data from multiple global sources.",
+    "department": "fen",
+    "theme": "Kapsama",
+    "exam_years": []
+  },
+  {
+    "id": "fen_188",
+    "word": "isolate",
+    "phonetic": "",
+    "tr_meaning": "izole etmek",
+    "example_sentence": "Scientists isolate specific compounds to study their individual effects on living organisms.",
+    "department": "fen",
+    "theme": "İzolasyon",
+    "exam_years": []
+  },
+  {
+    "id": "fen_189",
+    "word": "justify",
+    "phonetic": "",
+    "tr_meaning": "haklı göstermek",
+    "example_sentence": "Researchers must justify their methodology to demonstrate the validity of their findings.",
+    "department": "fen",
+    "theme": "Gerekçelendirme",
+    "exam_years": []
+  },
+  {
+    "id": "fen_190",
+    "word": "lower",
+    "phonetic": "",
+    "tr_meaning": "düşürmek",
+    "example_sentence": "Catalytic converters lower harmful emissions from internal combustion engines.",
+    "department": "fen",
+    "theme": "Düşürme",
+    "exam_years": []
+  },
+  {
+    "id": "fen_191",
+    "word": "magnify",
+    "phonetic": "",
+    "tr_meaning": "büyütmek",
+    "example_sentence": "Electron microscopes magnify objects millions of times to reveal atomic-level structures.",
+    "department": "fen",
+    "theme": "Büyütme",
+    "exam_years": []
+  },
+  {
+    "id": "fen_192",
+    "word": "maintain",
+    "phonetic": "",
+    "tr_meaning": "sürdürmek",
+    "example_sentence": "Scientists maintain detailed records of all experimental data and procedures.",
+    "department": "fen",
+    "theme": "Sürdürme",
+    "exam_years": []
+  },
+  {
+    "id": "fen_193",
+    "word": "mandate",
+    "phonetic": "",
+    "tr_meaning": "emretmek, şart koşmak",
+    "example_sentence": "Environmental laws mandate that companies conduct environmental impact assessments.",
+    "department": "fen",
+    "theme": "Zorunluluk",
+    "exam_years": []
+  },
+  {
+    "id": "fen_194",
+    "word": "manifest",
+    "phonetic": "",
+    "tr_meaning": "açıkça göstermek",
+    "example_sentence": "Climate change manifests in extreme weather events, rising seas, and biodiversity loss.",
+    "department": "fen",
+    "theme": "Tezahür",
+    "exam_years": []
+  },
+  {
+    "id": "fen_195",
+    "word": "mitigate",
+    "phonetic": "",
+    "tr_meaning": "azaltmak, hafifletmek",
+    "example_sentence": "Reforestation projects mitigate carbon emissions and restore degraded ecosystems.",
+    "department": "fen",
+    "theme": "Azaltma",
+    "exam_years": []
+  },
+  {
+    "id": "fen_196",
+    "word": "narrow",
+    "phonetic": "",
+    "tr_meaning": "daraltmak, daralmak",
+    "example_sentence": "New research has narrowed the possible explanations for dark matter composition.",
+    "department": "fen",
+    "theme": "Daraltma",
+    "exam_years": []
+  },
+  {
+    "id": "fen_197",
+    "word": "neglect",
+    "phonetic": "",
+    "tr_meaning": "ihmal etmek",
+    "example_sentence": "Neglecting environmental regulations leads to irreversible ecological degradation.",
+    "department": "fen",
+    "theme": "İhmal",
+    "exam_years": []
+  },
+  {
+    "id": "fen_198",
+    "word": "nourish",
+    "phonetic": "",
+    "tr_meaning": "beslemek",
+    "example_sentence": "Healthy soil microorganisms nourish plants by breaking down organic matter into nutrients.",
+    "department": "fen",
+    "theme": "Beslenme",
+    "exam_years": []
+  },
+  {
+    "id": "fen_199",
+    "word": "object",
+    "phonetic": "",
+    "tr_meaning": "itiraz etmek",
+    "example_sentence": "Many environmentalists object to the construction of oil pipelines through protected areas.",
+    "department": "fen",
+    "theme": "İtiraz",
+    "exam_years": []
+  },
+  {
+    "id": "fen_200",
+    "word": "obtain",
+    "phonetic": "",
+    "tr_meaning": "elde etmek",
+    "example_sentence": "Scientists must obtain ethical approval before conducting research involving human subjects.",
+    "department": "fen",
+    "theme": "Elde Etme",
+    "exam_years": []
+  },
+  {
+    "id": "fen_201",
+    "word": "occupy",
+    "phonetic": "",
+    "tr_meaning": "işgal etmek, meşgul etmek",
+    "example_sentence": "Invasive plant species occupy the ecological niches of native species and reduce diversity.",
+    "department": "fen",
+    "theme": "Meşgul Etme",
+    "exam_years": []
+  },
+  {
+    "id": "fen_202",
+    "word": "occur",
+    "phonetic": "",
+    "tr_meaning": "meydana gelmek",
+    "example_sentence": "Significant evolutionary mutations occur over thousands of generations within a population.",
+    "department": "fen",
+    "theme": "Oluşum",
+    "exam_years": []
+  },
+  {
+    "id": "fen_203",
+    "word": "offend",
+    "phonetic": "",
+    "tr_meaning": "rencide etmek",
+    "example_sentence": "Certain chemical compounds can offend the sensitive receptors of laboratory animals.",
+    "department": "fen",
+    "theme": "İncitme",
+    "exam_years": []
+  },
+  {
+    "id": "fen_204",
+    "word": "offer",
+    "phonetic": "",
+    "tr_meaning": "önermek, teklif etmek",
+    "example_sentence": "Solar technology now offers a cost-effective alternative to fossil fuel energy sources.",
+    "department": "fen",
+    "theme": "Sunma",
+    "exam_years": []
+  },
+  {
+    "id": "fen_205",
+    "word": "omit",
+    "phonetic": "",
+    "tr_meaning": "atlamak, dahil etmemek",
+    "example_sentence": "Researchers must not omit inconvenient data from published findings to skew results.",
+    "department": "fen",
+    "theme": "Atlama",
+    "exam_years": []
+  },
+  {
+    "id": "fen_206",
+    "word": "open",
+    "phonetic": "",
+    "tr_meaning": "açmak",
+    "example_sentence": "New research opens possibilities for treating diseases previously considered incurable.",
+    "department": "fen",
+    "theme": "Açılım",
+    "exam_years": []
+  },
+  {
+    "id": "fen_207",
+    "word": "operate",
+    "phonetic": "",
+    "tr_meaning": "işletmek, çalışmak",
+    "example_sentence": "Nuclear power plants operate under strict international safety regulations.",
+    "department": "fen",
+    "theme": "İşletme",
+    "exam_years": []
+  },
+  {
+    "id": "fen_208",
+    "word": "oppress",
+    "phonetic": "",
+    "tr_meaning": "baskı uygulamak",
+    "example_sentence": "Industrial activity can oppress natural ecosystems by destroying essential habitat.",
+    "department": "fen",
+    "theme": "Baskı",
+    "exam_years": []
+  },
+  {
+    "id": "fen_209",
+    "word": "originate",
+    "phonetic": "",
+    "tr_meaning": "kaynaklanmak",
+    "example_sentence": "Many modern crops originated from wild plant species domesticated thousands of years ago.",
+    "department": "fen",
+    "theme": "Kaynak",
+    "exam_years": []
+  },
+  {
+    "id": "fen_210",
+    "word": "outweigh",
+    "phonetic": "",
+    "tr_meaning": "ağır basmak",
+    "example_sentence": "The environmental benefits of renewable energy outweigh the costs of initial investment.",
+    "department": "fen",
+    "theme": "Ağır Basma",
+    "exam_years": []
+  },
+  {
+    "id": "fen_211",
+    "word": "overcome",
+    "phonetic": "",
+    "tr_meaning": "üstesinden gelmek",
+    "example_sentence": "Scientists have overcome major technical barriers in the development of fusion energy.",
+    "department": "fen",
+    "theme": "Üstesinden Gelme",
+    "exam_years": []
+  },
+  {
+    "id": "fen_212",
+    "word": "overestimate",
+    "phonetic": "",
+    "tr_meaning": "abartmak, fazla tahmin etmek",
+    "example_sentence": "Researchers warn against overestimating the speed at which renewable energy can replace fossil fuels.",
+    "department": "fen",
+    "theme": "Abartma",
+    "exam_years": []
+  },
+  {
+    "id": "fen_213",
+    "word": "overlook",
+    "phonetic": "",
+    "tr_meaning": "göz ardı etmek",
+    "example_sentence": "Scientists should not overlook anomalous data points that may indicate important phenomena.",
+    "department": "fen",
+    "theme": "Göz Ardı Etme",
+    "exam_years": []
+  },
+  {
+    "id": "fen_214",
+    "word": "overtake",
+    "phonetic": "",
+    "tr_meaning": "yakalamak, sollamak",
+    "example_sentence": "Renewable energy capacity is expected to overtake fossil fuels as the primary global source.",
+    "department": "fen",
+    "theme": "Geçme",
+    "exam_years": []
+  },
+  {
+    "id": "fen_215",
+    "word": "penetrate",
+    "phonetic": "",
+    "tr_meaning": "nüfuz etmek",
+    "example_sentence": "Ultraviolet radiation penetrates the atmosphere and can damage human DNA in skin cells.",
+    "department": "fen",
+    "theme": "Nüfuz Etme",
+    "exam_years": []
+  },
+  {
+    "id": "fen_216",
+    "word": "perform",
+    "phonetic": "",
+    "tr_meaning": "yerine getirmek, gerçekleştirmek",
+    "example_sentence": "Researchers perform standardised tests to ensure reproducibility of experimental results.",
+    "department": "fen",
+    "theme": "Gerçekleştirme",
+    "exam_years": []
+  },
+  {
+    "id": "fen_217",
+    "word": "perpetuate",
+    "phonetic": "",
+    "tr_meaning": "sürdürmek, devam ettirmek",
+    "example_sentence": "Deforestation perpetuates a cycle of soil erosion and declining agricultural productivity.",
+    "department": "fen",
+    "theme": "Sürdürme",
+    "exam_years": []
+  },
+  {
+    "id": "fen_218",
+    "word": "persuade",
+    "phonetic": "",
+    "tr_meaning": "ikna etmek",
+    "example_sentence": "Scientists persuade governments to act on climate change through compelling evidence.",
+    "department": "fen",
+    "theme": "İkna",
+    "exam_years": []
+  },
+  {
+    "id": "fen_219",
+    "word": "pinpoint",
+    "phonetic": "",
+    "tr_meaning": "tam olarak belirlemek",
+    "example_sentence": "Advanced imaging can pinpoint the exact location of tumours before surgical removal.",
+    "department": "fen",
+    "theme": "Kesin Belirleme",
+    "exam_years": []
+  },
+  {
+    "id": "fen_220",
+    "word": "plunder",
+    "phonetic": "",
+    "tr_meaning": "yağmalamak",
+    "example_sentence": "Industrial fishing fleets plunder ocean ecosystems beyond natural recovery capacity.",
+    "department": "fen",
+    "theme": "Yağma",
+    "exam_years": []
+  },
+  {
+    "id": "fen_221",
+    "word": "pollute",
+    "phonetic": "",
+    "tr_meaning": "kirletmek",
+    "example_sentence": "Industrial discharge continues to pollute rivers and coastal waters around the world.",
+    "department": "fen",
+    "theme": "Kirletme",
+    "exam_years": []
+  },
+  {
+    "id": "fen_222",
+    "word": "postpone",
+    "phonetic": "",
+    "tr_meaning": "ertelemek",
+    "example_sentence": "Scientists postpone experiments when equipment failures compromise data integrity.",
+    "department": "fen",
+    "theme": "Erteleme",
+    "exam_years": []
+  },
+  {
+    "id": "fen_223",
+    "word": "precede",
+    "phonetic": "",
+    "tr_meaning": "önce gelmek",
+    "example_sentence": "Significant deforestation typically precedes major increases in regional carbon emissions.",
+    "department": "fen",
+    "theme": "Önce Gelme",
+    "exam_years": []
+  },
+  {
+    "id": "fen_224",
+    "word": "predict",
+    "phonetic": "",
+    "tr_meaning": "tahmin etmek",
+    "example_sentence": "Computational models predict global temperature increases of 2°C by 2050.",
+    "department": "fen",
+    "theme": "Tahmin",
+    "exam_years": []
+  },
+  {
+    "id": "fen_225",
+    "word": "pretend",
+    "phonetic": "",
+    "tr_meaning": "numara yapmak",
+    "example_sentence": "Scientists cannot pretend that inconvenient research results do not exist.",
+    "department": "fen",
+    "theme": "Numara",
+    "exam_years": []
+  },
+  {
+    "id": "fen_226",
+    "word": "prevent",
+    "phonetic": "",
+    "tr_meaning": "önlemek",
+    "example_sentence": "Vaccination is the most cost-effective strategy to prevent infectious disease outbreaks.",
+    "department": "fen",
+    "theme": "Önleme",
+    "exam_years": []
+  },
+  {
+    "id": "fen_227",
+    "word": "progress",
+    "phonetic": "",
+    "tr_meaning": "ilerlemek",
+    "example_sentence": "Medical science has progressed significantly since the discovery of antibiotics in 1928.",
+    "department": "fen",
+    "theme": "İlerleme",
+    "exam_years": []
+  },
+  {
+    "id": "fen_228",
+    "word": "prohibit",
+    "phonetic": "",
+    "tr_meaning": "yasaklamak",
+    "example_sentence": "International treaties prohibit the dumping of hazardous waste in international waters.",
+    "department": "fen",
+    "theme": "Yasaklama",
+    "exam_years": []
+  },
+  {
+    "id": "fen_229",
+    "word": "prolong",
+    "phonetic": "",
+    "tr_meaning": "uzatmak",
+    "example_sentence": "Advances in medical technology have prolonged the life expectancy of cancer patients.",
+    "department": "fen",
+    "theme": "Uzatma",
+    "exam_years": []
+  },
+  {
+    "id": "fen_230",
+    "word": "promise",
+    "phonetic": "",
+    "tr_meaning": "söz vermek",
+    "example_sentence": "Stem cell research promises revolutionary treatments for currently incurable diseases.",
+    "department": "fen",
+    "theme": "Söz",
+    "exam_years": []
+  },
+  {
+    "id": "fen_231",
+    "word": "promote",
+    "phonetic": "",
+    "tr_meaning": "teşvik etmek",
+    "example_sentence": "Public campaigns promote recycling and waste reduction to protect natural environments.",
+    "department": "fen",
+    "theme": "Teşvik",
+    "exam_years": []
+  },
+  {
+    "id": "fen_232",
+    "word": "protect",
+    "phonetic": "",
+    "tr_meaning": "korumak",
+    "example_sentence": "International conservation laws protect endangered species from habitat destruction.",
+    "department": "fen",
+    "theme": "Koruma",
+    "exam_years": []
+  },
+  {
+    "id": "fen_233",
+    "word": "provide",
+    "phonetic": "",
+    "tr_meaning": "sağlamak",
+    "example_sentence": "Solar panels provide clean energy to remote communities without access to power grids.",
+    "department": "fen",
+    "theme": "Sağlama",
+    "exam_years": []
+  },
+  {
+    "id": "fen_234",
+    "word": "reduce",
+    "phonetic": "",
+    "tr_meaning": "azaltmak",
+    "example_sentence": "Electric vehicles significantly reduce greenhouse gas emissions from road transport.",
+    "department": "fen",
+    "theme": "Azaltma",
+    "exam_years": []
+  },
+  {
+    "id": "fen_235",
+    "word": "regard",
+    "phonetic": "",
+    "tr_meaning": "saymak, dikkate almak",
+    "example_sentence": "Most scientists regard peer-reviewed evidence as the most reliable source of knowledge.",
+    "department": "fen",
+    "theme": "Değerlendirme",
+    "exam_years": []
+  },
+  {
+    "id": "fen_236",
+    "word": "regret",
+    "phonetic": "",
+    "tr_meaning": "pişman olmak",
+    "example_sentence": "Scientists sometimes regret publishing preliminary findings before full validation is complete.",
+    "department": "fen",
+    "theme": "Pişmanlık",
+    "exam_years": []
+  },
+  {
+    "id": "fen_237",
+    "word": "regulate",
+    "phonetic": "",
+    "tr_meaning": "düzenlemek",
+    "example_sentence": "International bodies regulate greenhouse gas emissions through binding agreements.",
+    "department": "fen",
+    "theme": "Düzenleme",
+    "exam_years": []
+  },
+  {
+    "id": "fen_238",
+    "word": "rehearse",
+    "phonetic": "",
+    "tr_meaning": "prova yapmak",
+    "example_sentence": "Research teams rehearse emergency protocols before conducting high-risk field experiments.",
+    "department": "fen",
+    "theme": "Prova",
+    "exam_years": []
+  },
+  {
+    "id": "fen_239",
+    "word": "reject",
+    "phonetic": "",
+    "tr_meaning": "reddetmek",
+    "example_sentence": "Scientists reject hypotheses when experimental evidence consistently contradicts them.",
+    "department": "fen",
+    "theme": "Reddetme",
+    "exam_years": []
+  },
+  {
+    "id": "fen_240",
+    "word": "release",
+    "phonetic": "",
+    "tr_meaning": "serbest bırakmak",
+    "example_sentence": "Factories release harmful pollutants into waterways, threatening aquatic biodiversity.",
+    "department": "fen",
+    "theme": "Serbest Bırakma",
+    "exam_years": []
+  },
+  {
+    "id": "fen_241",
+    "word": "relieve",
+    "phonetic": "",
+    "tr_meaning": "hafifletmek",
+    "example_sentence": "Freshwater ecosystems relieve water stress in agricultural communities during droughts.",
+    "department": "fen",
+    "theme": "Hafifletme",
+    "exam_years": []
+  },
+  {
+    "id": "fen_242",
+    "word": "remain",
+    "phonetic": "",
+    "tr_meaning": "kalmak",
+    "example_sentence": "Many questions about dark matter and dark energy remain unanswered in modern physics.",
+    "department": "fen",
+    "theme": "Kalma",
+    "exam_years": []
+  },
+  {
+    "id": "fen_243",
+    "word": "remove",
+    "phonetic": "",
+    "tr_meaning": "çıkarmak, kaldırmak",
+    "example_sentence": "Advanced filtration systems remove contaminants from drinking water effectively.",
+    "department": "fen",
+    "theme": "Kaldırma",
+    "exam_years": []
+  },
+  {
+    "id": "fen_244",
+    "word": "renew",
+    "phonetic": "",
+    "tr_meaning": "yenilemek",
+    "example_sentence": "Researchers renew funding applications annually to maintain long-term research programmes.",
+    "department": "fen",
+    "theme": "Yenileme",
+    "exam_years": []
+  },
+  {
+    "id": "fen_245",
+    "word": "replace",
+    "phonetic": "",
+    "tr_meaning": "yerine koymak",
+    "example_sentence": "Renewable energy technologies will eventually replace fossil fuels as the dominant energy source.",
+    "department": "fen",
+    "theme": "Yerine Koyma",
+    "exam_years": []
+  },
+  {
+    "id": "fen_246",
+    "word": "replenish",
+    "phonetic": "",
+    "tr_meaning": "yeniden doldurmak",
+    "example_sentence": "Rainfall replenishes groundwater reserves that communities depend on for drinking water.",
+    "department": "fen",
+    "theme": "Yeniden Doldurma",
+    "exam_years": []
+  },
+  {
+    "id": "fen_247",
+    "word": "require",
+    "phonetic": "",
+    "tr_meaning": "gerektirmek",
+    "example_sentence": "Climate change mitigation requires coordinated global policy action and investment.",
+    "department": "fen",
+    "theme": "Gereklilik",
+    "exam_years": []
+  },
+  {
+    "id": "fen_248",
+    "word": "resign",
+    "phonetic": "",
+    "tr_meaning": "istifa etmek",
+    "example_sentence": "Researchers sometimes resign from institutions that compromise scientific integrity.",
+    "department": "fen",
+    "theme": "İstifa",
+    "exam_years": []
+  },
+  {
+    "id": "fen_249",
+    "word": "resist",
+    "phonetic": "",
+    "tr_meaning": "direnmek",
+    "example_sentence": "Certain bacterial strains have evolved to resist the effects of multiple antibiotics.",
+    "department": "fen",
+    "theme": "Direnme",
+    "exam_years": []
+  },
+  {
+    "id": "fen_250",
+    "word": "resolve",
+    "phonetic": "",
+    "tr_meaning": "çözmek",
+    "example_sentence": "International scientific collaboration helps resolve complex questions in climate research.",
+    "department": "fen",
+    "theme": "Çözme",
+    "exam_years": []
+  },
+  {
+    "id": "fen_251",
+    "word": "respect",
+    "phonetic": "",
+    "tr_meaning": "saygı göstermek",
+    "example_sentence": "The scientific community respects researchers who uphold rigorous ethical standards.",
+    "department": "fen",
+    "theme": "Saygı",
+    "exam_years": []
+  },
+  {
+    "id": "fen_252",
+    "word": "respond",
+    "phonetic": "",
+    "tr_meaning": "cevap vermek",
+    "example_sentence": "Immune cells respond rapidly to the presence of pathogens in the bloodstream.",
+    "department": "fen",
+    "theme": "Yanıt",
+    "exam_years": []
+  },
+  {
+    "id": "fen_253",
+    "word": "restrain",
+    "phonetic": "",
+    "tr_meaning": "dizginlemek",
+    "example_sentence": "International agreements restrain nations from unilaterally exploiting shared natural resources.",
+    "department": "fen",
+    "theme": "Dizginleme",
+    "exam_years": []
+  },
+  {
+    "id": "fen_254",
+    "word": "restrict",
+    "phonetic": "",
+    "tr_meaning": "kısıtlamak",
+    "example_sentence": "Environmental laws restrict industrial discharge into protected natural waterways.",
+    "department": "fen",
+    "theme": "Kısıtlama",
+    "exam_years": []
+  },
+  {
+    "id": "fen_255",
+    "word": "retain",
+    "phonetic": "",
+    "tr_meaning": "tutmak, korumak",
+    "example_sentence": "Forests retain significant quantities of carbon dioxide and regulate regional climates.",
+    "department": "fen",
+    "theme": "Tutma",
+    "exam_years": []
+  },
+  {
+    "id": "fen_256",
+    "word": "retrieve",
+    "phonetic": "",
+    "tr_meaning": "geri almak",
+    "example_sentence": "Scientists retrieve ice core samples from Antarctica to study past climate conditions.",
+    "department": "fen",
+    "theme": "Geri Alma",
+    "exam_years": []
+  },
+  {
+    "id": "fen_257",
+    "word": "return",
+    "phonetic": "",
+    "tr_meaning": "geri dönmek",
+    "example_sentence": "Migratory birds return to their breeding grounds as temperatures rise each spring.",
+    "department": "fen",
+    "theme": "Geri Dönüş",
+    "exam_years": []
+  },
+  {
+    "id": "fen_258",
+    "word": "reveal",
+    "phonetic": "",
+    "tr_meaning": "ortaya çıkarmak",
+    "example_sentence": "Deep space telescopes reveal ancient galaxies that formed shortly after the Big Bang.",
+    "department": "fen",
+    "theme": "Ortaya Çıkarma",
+    "exam_years": []
+  },
+  {
+    "id": "fen_259",
+    "word": "reverse",
+    "phonetic": "",
+    "tr_meaning": "tersine çevirmek",
+    "example_sentence": "Reforestation efforts can reverse some of the environmental damage caused by deforestation.",
+    "department": "fen",
+    "theme": "Tersine Çevirme",
+    "exam_years": []
+  },
+  {
+    "id": "fen_260",
+    "word": "review",
+    "phonetic": "",
+    "tr_meaning": "gözden geçirmek",
+    "example_sentence": "Scientists review all existing literature before beginning a new research project.",
+    "department": "fen",
+    "theme": "Gözden Geçirme",
+    "exam_years": []
+  },
+  {
+    "id": "fen_261",
+    "word": "revive",
+    "phonetic": "",
+    "tr_meaning": "canlandırmak",
+    "example_sentence": "Conservation programmes aim to revive declining populations of endangered species.",
+    "department": "fen",
+    "theme": "Canlandırma",
+    "exam_years": []
+  },
+  {
+    "id": "fen_262",
+    "word": "revolutionise",
+    "phonetic": "",
+    "tr_meaning": "köklü değişiklikler yapmak",
+    "example_sentence": "The discovery of antibiotics revolutionised the treatment of previously fatal infections.",
+    "department": "fen",
+    "theme": "Devrim",
+    "exam_years": []
+  },
+  {
+    "id": "fen_263",
+    "word": "ruin",
+    "phonetic": "",
+    "tr_meaning": "mahvetmek",
+    "example_sentence": "Oil spills ruin marine ecosystems and cause lasting damage to coastal biodiversity.",
+    "department": "fen",
+    "theme": "Yıkım",
+    "exam_years": []
+  },
+  {
+    "id": "fen_264",
+    "word": "seek",
+    "phonetic": "",
+    "tr_meaning": "aramak",
+    "example_sentence": "Scientists seek new explanations for phenomena that current theories cannot adequately explain.",
+    "department": "fen",
+    "theme": "Arayış",
+    "exam_years": []
+  },
+  {
+    "id": "fen_265",
+    "word": "seize",
+    "phonetic": "",
+    "tr_meaning": "kavramak, ele geçirmek",
+    "example_sentence": "Nations must seize the opportunity to invest in renewable energy before it is too late.",
+    "department": "fen",
+    "theme": "Kavrama",
+    "exam_years": []
+  },
+  {
+    "id": "fen_266",
+    "word": "select",
+    "phonetic": "",
+    "tr_meaning": "seçmek",
+    "example_sentence": "Scientists select study participants carefully to avoid sampling bias in research.",
+    "department": "fen",
+    "theme": "Seçim",
+    "exam_years": []
+  },
+  {
+    "id": "fen_267",
+    "word": "sentence",
+    "phonetic": "",
+    "tr_meaning": "mahkum etmek",
+    "example_sentence": "Environmental courts sentence corporations for causing irreversible ecological damage.",
+    "department": "fen",
+    "theme": "Mahkûm Etme",
+    "exam_years": []
+  },
+  {
+    "id": "fen_268",
+    "word": "show",
+    "phonetic": "",
+    "tr_meaning": "göstermek",
+    "example_sentence": "Satellite data shows that Arctic sea ice extent has declined dramatically since 1980.",
+    "department": "fen",
+    "theme": "Gösterme",
+    "exam_years": []
+  },
+  {
+    "id": "fen_269",
+    "word": "specify",
+    "phonetic": "",
+    "tr_meaning": "belirtmek",
+    "example_sentence": "Scientific protocols specify exact conditions for experiments to ensure reproducibility.",
+    "department": "fen",
+    "theme": "Belirtme",
+    "exam_years": []
+  },
+  {
+    "id": "fen_270",
+    "word": "speculate",
+    "phonetic": "",
+    "tr_meaning": "tahminde bulunmak",
+    "example_sentence": "Scientists speculate about the existence of life on other planets based on observable data.",
+    "department": "fen",
+    "theme": "Spekülasyon",
+    "exam_years": []
+  },
+  {
+    "id": "fen_271",
+    "word": "spoil",
+    "phonetic": "",
+    "tr_meaning": "berbat etmek",
+    "example_sentence": "Contamination can spoil research samples and invalidate months of scientific work.",
+    "department": "fen",
+    "theme": "Bozmak",
+    "exam_years": []
+  },
+  {
+    "id": "fen_272",
+    "word": "spread",
+    "phonetic": "",
+    "tr_meaning": "yaymak",
+    "example_sentence": "Climate change is causing tropical diseases to spread to previously unaffected regions.",
+    "department": "fen",
+    "theme": "Yayılma",
+    "exam_years": []
+  },
+  {
+    "id": "fen_273",
+    "word": "start",
+    "phonetic": "",
+    "tr_meaning": "başlamak",
+    "example_sentence": "Scientists start new research by conducting a thorough review of existing literature.",
+    "department": "fen",
+    "theme": "Başlangıç",
+    "exam_years": []
+  },
+  {
+    "id": "fen_274",
+    "word": "stimulate",
+    "phonetic": "",
+    "tr_meaning": "uyarmak, teşvik etmek",
+    "example_sentence": "Electrical stimulation can help stimulate nerve regeneration in injured patients.",
+    "department": "fen",
+    "theme": "Uyarım",
+    "exam_years": []
+  },
+  {
+    "id": "fen_275",
+    "word": "stretch",
+    "phonetic": "",
+    "tr_meaning": "uzamak, germek",
+    "example_sentence": "Some materials stretch without breaking, making them ideal for flexible electronics.",
+    "department": "fen",
+    "theme": "Uzama",
+    "exam_years": []
+  },
+  {
+    "id": "fen_276",
+    "word": "suffer",
+    "phonetic": "",
+    "tr_meaning": "acı çekmek",
+    "example_sentence": "Many species are suffering population decline due to habitat loss and climate change.",
+    "department": "fen",
+    "theme": "Acı",
+    "exam_years": []
+  },
+  {
+    "id": "fen_277",
+    "word": "suggest",
+    "phonetic": "",
+    "tr_meaning": "önermek",
+    "example_sentence": "Recent data suggests that ocean temperatures are rising faster than previously predicted.",
+    "department": "fen",
+    "theme": "Önerme",
+    "exam_years": []
+  },
+  {
+    "id": "fen_278",
+    "word": "suppress",
+    "phonetic": "",
+    "tr_meaning": "bastırmak",
+    "example_sentence": "Industrial chemicals can suppress the immune system and increase infection risk.",
+    "department": "fen",
+    "theme": "Bastırma",
+    "exam_years": []
+  },
+  {
+    "id": "fen_279",
+    "word": "surpass",
+    "phonetic": "",
+    "tr_meaning": "aşmak",
+    "example_sentence": "Solar energy investment has surpassed fossil fuel investment in many developed countries.",
+    "department": "fen",
+    "theme": "Aşma",
+    "exam_years": []
+  },
+  {
+    "id": "fen_280",
+    "word": "survive",
+    "phonetic": "",
+    "tr_meaning": "hayatta kalmak",
+    "example_sentence": "Some organisms can survive in extreme conditions including high radiation and temperature.",
+    "department": "fen",
+    "theme": "Hayatta Kalma",
+    "exam_years": []
+  },
+  {
+    "id": "fen_281",
+    "word": "suspect",
+    "phonetic": "",
+    "tr_meaning": "şüphelenmek",
+    "example_sentence": "Scientists suspect that a combination of factors contributes to colony collapse in bees.",
+    "department": "fen",
+    "theme": "Şüphe",
+    "exam_years": []
+  },
+  {
+    "id": "fen_282",
+    "word": "suspend",
+    "phonetic": "",
+    "tr_meaning": "askıya almak",
+    "example_sentence": "Research institutions suspend studies when safety concerns are identified during trials.",
+    "department": "fen",
+    "theme": "Askıya Alma",
+    "exam_years": []
+  },
+  {
+    "id": "fen_283",
+    "word": "sustain",
+    "phonetic": "",
+    "tr_meaning": "sürdürmek",
+    "example_sentence": "Biodiversity is essential to sustain healthy and functioning ecosystems on Earth.",
+    "department": "fen",
+    "theme": "Sürdürme",
+    "exam_years": []
+  },
+  {
+    "id": "fen_284",
+    "word": "switch",
+    "phonetic": "",
+    "tr_meaning": "değiştirmek",
+    "example_sentence": "Many countries are switching from coal to renewable energy to meet climate targets.",
+    "department": "fen",
+    "theme": "Değiştirme",
+    "exam_years": []
+  },
+  {
+    "id": "fen_285",
+    "word": "tackle",
+    "phonetic": "",
+    "tr_meaning": "ele almak",
+    "example_sentence": "Scientists are working to tackle the global challenge of antibiotic resistance.",
+    "department": "fen",
+    "theme": "Ele Alma",
+    "exam_years": []
+  },
+  {
+    "id": "fen_286",
+    "word": "threaten",
+    "phonetic": "",
+    "tr_meaning": "tehdit etmek",
+    "example_sentence": "Rising sea levels threaten coastal ecosystems and millions of people worldwide.",
+    "department": "fen",
+    "theme": "Tehdit",
+    "exam_years": []
+  },
+  {
+    "id": "fen_287",
+    "word": "transmit",
+    "phonetic": "",
+    "tr_meaning": "iletmek",
+    "example_sentence": "Some insects transmit diseases to humans through bites, including malaria and dengue.",
+    "department": "fen",
+    "theme": "İletme",
+    "exam_years": []
+  },
+  {
+    "id": "fen_288",
+    "word": "treat",
+    "phonetic": "",
+    "tr_meaning": "tedavi etmek",
+    "example_sentence": "Scientists are developing new approaches to treat antibiotic-resistant bacterial infections.",
+    "department": "fen",
+    "theme": "Tedavi",
+    "exam_years": []
+  },
+  {
+    "id": "fen_289",
+    "word": "trigger",
+    "phonetic": "",
+    "tr_meaning": "tetiklemek",
+    "example_sentence": "Elevated CO2 levels trigger feedback mechanisms that accelerate further warming.",
+    "department": "fen",
+    "theme": "Tetikleme",
+    "exam_years": []
+  },
+  {
+    "id": "fen_290",
+    "word": "underestimate",
+    "phonetic": "",
+    "tr_meaning": "küçümsemek, hafife almak",
+    "example_sentence": "Governments often underestimate the long-term economic costs of environmental degradation.",
+    "department": "fen",
+    "theme": "Hafife Alma",
+    "exam_years": []
+  },
+  {
+    "id": "fen_291",
+    "word": "undergo",
+    "phonetic": "",
+    "tr_meaning": "maruz kalmak, geçirmek",
+    "example_sentence": "Materials undergo structural changes when subjected to extreme temperature and pressure.",
+    "department": "fen",
+    "theme": "Geçirme",
+    "exam_years": []
+  },
+  {
+    "id": "fen_292",
+    "word": "undermine",
+    "phonetic": "",
+    "tr_meaning": "baltalamak",
+    "example_sentence": "Deforestation undermines ecosystem services that are essential for human wellbeing.",
+    "department": "fen",
+    "theme": "Baltama",
+    "exam_years": []
+  },
+  {
+    "id": "fen_293",
+    "word": "underpin",
+    "phonetic": "",
+    "tr_meaning": "desteklemek",
+    "example_sentence": "Thermodynamic principles underpin all modern engineering and energy technologies.",
+    "department": "fen",
+    "theme": "Destekleme",
+    "exam_years": []
+  },
+  {
+    "id": "fen_294",
+    "word": "undertake",
+    "phonetic": "",
+    "tr_meaning": "üstlenmek",
+    "example_sentence": "Research teams undertake long-term studies to monitor changes in global ecosystems.",
+    "department": "fen",
+    "theme": "Üstlenme",
+    "exam_years": []
+  },
+  {
+    "id": "fen_295",
+    "word": "unearth",
+    "phonetic": "",
+    "tr_meaning": "ortaya çıkarmak",
+    "example_sentence": "Archaeologists unearth ancient artefacts that reshape our understanding of human history.",
+    "department": "fen",
+    "theme": "Ortaya Çıkarma",
+    "exam_years": []
+  },
+  {
+    "id": "fen_296",
+    "word": "unify",
+    "phonetic": "",
+    "tr_meaning": "birleştirmek",
+    "example_sentence": "A common scientific language helps unify research communities across different nations.",
+    "department": "fen",
+    "theme": "Birleştirme",
+    "exam_years": []
+  },
+  {
+    "id": "fen_297",
+    "word": "upgrade",
+    "phonetic": "",
+    "tr_meaning": "geliştirmek, yükseltmek",
+    "example_sentence": "Research institutions regularly upgrade laboratory equipment to meet modern standards.",
+    "department": "fen",
+    "theme": "Yükseltme",
+    "exam_years": []
+  },
+  {
+    "id": "fen_298",
+    "word": "utilize",
+    "phonetic": "",
+    "tr_meaning": "kullanmak",
+    "example_sentence": "Scientists utilize satellite data to monitor deforestation in remote rainforest areas.",
+    "department": "fen",
+    "theme": "Kullanma",
+    "exam_years": []
+  },
+  {
+    "id": "fen_299",
+    "word": "vaccinate",
+    "phonetic": "",
+    "tr_meaning": "aşılamak",
+    "example_sentence": "Global health campaigns vaccinate millions of children against preventable diseases annually.",
+    "department": "fen",
+    "theme": "Aşılama",
+    "exam_years": []
+  },
+  {
+    "id": "fen_300",
+    "word": "validate",
+    "phonetic": "",
+    "tr_meaning": "geçerli kılmak, doğrulamak",
+    "example_sentence": "Independent replication validates the findings of scientific studies and builds confidence.",
+    "department": "fen",
+    "theme": "Doğrulama",
+    "exam_years": []
+  },
+  {
+    "id": "fen_301",
+    "word": "verify",
+    "phonetic": "",
+    "tr_meaning": "doğrulamak",
+    "example_sentence": "Peer review processes verify the accuracy and reliability of published scientific research.",
+    "department": "fen",
+    "theme": "Doğrulama",
+    "exam_years": []
+  },
+  {
+    "id": "fen_302",
+    "word": "violate",
+    "phonetic": "",
+    "tr_meaning": "ihlal etmek",
+    "example_sentence": "Illegal dumping violates environmental regulations and causes lasting ecological damage.",
+    "department": "fen",
+    "theme": "İhlal",
+    "exam_years": []
+  },
+  {
+    "id": "fen_303",
+    "word": "wander",
+    "phonetic": "",
+    "tr_meaning": "dolaşmak",
+    "example_sentence": "Scientists wander through remote ecosystems to collect rare biological specimens.",
+    "department": "fen",
+    "theme": "Dolaşma",
+    "exam_years": []
+  },
+  {
+    "id": "fen_304",
+    "word": "weaken",
+    "phonetic": "",
+    "tr_meaning": "zayıflatmak",
+    "example_sentence": "Acid rain weakens the structural integrity of stone monuments and building materials.",
+    "department": "fen",
+    "theme": "Zayıflatma",
+    "exam_years": []
+  },
+  {
+    "id": "fen_305",
+    "word": "withdraw",
+    "phonetic": "",
+    "tr_meaning": "geri çekilmek",
+    "example_sentence": "Some countries have withdrawn from international climate agreements under political pressure.",
+    "department": "fen",
+    "theme": "Geri Çekilme",
+    "exam_years": []
+  },
+  {
+    "id": "fen_306",
+    "word": "worsen",
+    "phonetic": "",
+    "tr_meaning": "kötüleşmek",
+    "example_sentence": "Without urgent action, environmental degradation will continue to worsen worldwide.",
+    "department": "fen",
+    "theme": "Kötüleşme",
+    "exam_years": []
+  },
+  {
+    "id": "fen_307",
+    "word": "yield",
+    "phonetic": "",
+    "tr_meaning": "vermek, sonuç doğurmak",
+    "example_sentence": "Sustainable farming practices yield sufficient crops without depleting soil nutrients.",
+    "department": "fen",
+    "theme": "Verim",
+    "exam_years": []
   }
 ]
