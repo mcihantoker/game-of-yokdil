@@ -10,6 +10,7 @@ import 'screens/game/splash_screen.dart';
 import 'screens/game/map_screen.dart';
 import 'screens/game/boss_screen.dart';
 import 'screens/game/chest_screen.dart';
+import 'screens/profile_screen.dart';
 import 'services/word_service.dart';
 import 'services/progress_service.dart';
 
@@ -37,7 +38,7 @@ class GameOfYokdilApp extends StatelessWidget {
   }
 }
 
-enum AppPage { splash, onboarding, home, map, quiz, boss, chest, result, progress, leaderboard, badges }
+enum AppPage { splash, onboarding, home, map, quiz, boss, chest, result, progress, leaderboard, badges, profile }
 
 class AppNavigator extends StatefulWidget {
   const AppNavigator({super.key});
@@ -147,6 +148,7 @@ class _AppNavigatorState extends State<AppNavigator> {
       case 1: _go(AppPage.progress);
       case 2: _go(AppPage.leaderboard);
       case 3: _go(AppPage.badges);
+      case 4: _go(AppPage.profile);
     }
   }
 
@@ -322,6 +324,15 @@ class _AppNavigatorState extends State<AppNavigator> {
       case AppPage.badges:
         return BadgesScreen(
           key: const ValueKey('badges'),
+          onTabSelect: _onTabSelect,
+        );
+
+      case AppPage.profile:
+        return ProfileScreen(
+          key: const ValueKey('profile'),
+          learnedCounts: _learnedCounts,
+          gold: _gold,
+          streak: _streak,
           onTabSelect: _onTabSelect,
         );
     }

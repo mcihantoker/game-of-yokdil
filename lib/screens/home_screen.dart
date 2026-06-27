@@ -207,10 +207,11 @@ class AppBottomNav extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     const items = [
-      BottomNavigationBarItem(icon: Icon(Icons.home_outlined),        activeIcon: Icon(Icons.home_rounded),        label: 'Ana sayfa'),
-      BottomNavigationBarItem(icon: Icon(Icons.bar_chart_outlined),   activeIcon: Icon(Icons.bar_chart_rounded),   label: 'İlerleme'),
-      BottomNavigationBarItem(icon: Icon(Icons.people_outline),       activeIcon: Icon(Icons.people_rounded),      label: 'Sıralama'),
+      BottomNavigationBarItem(icon: Icon(Icons.home_outlined),         activeIcon: Icon(Icons.home_rounded),         label: 'Ana sayfa'),
+      BottomNavigationBarItem(icon: Icon(Icons.bar_chart_outlined),    activeIcon: Icon(Icons.bar_chart_rounded),    label: 'İlerleme'),
+      BottomNavigationBarItem(icon: Icon(Icons.people_outline),        activeIcon: Icon(Icons.people_rounded),       label: 'Sıralama'),
       BottomNavigationBarItem(icon: Icon(Icons.emoji_events_outlined), activeIcon: Icon(Icons.emoji_events_rounded), label: 'Rozetler'),
+      BottomNavigationBarItem(icon: Icon(Icons.person_outline),        activeIcon: Icon(Icons.person_rounded),       label: 'Profil'),
     ];
 
     return Container(
