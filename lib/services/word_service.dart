@@ -1,6 +1,6 @@
 import 'dart:convert';
 import 'package:flutter/services.dart';
-import '../models/word.dart';
+import '../models/models.dart';
 
 class WordService {
   static final WordService _instance = WordService._();
@@ -19,17 +19,19 @@ class WordService {
     return words;
   }
 
-  Future<List<Word>> getDueWords(Department dept, List<String> dueIds) async {
-    final words = await getWords(dept);
-    return words.where((w) => dueIds.contains(w.id)).toList();
-  }
+  List<Question> buildQuestions(List<Word> words, {int count = 10}) {
+    final pool = [...words]..shuffle();
+    final selection = pool.take(count).toList();
+    final allMeanings = words.map((w) => w.trMeaning).toList();
 
-  List<String> buildWrongOptions(String correctMeaning, List<Word> allWords) {
-    final others = allWords
-        .where((w) => w.trMeaning != correctMeaning)
-        .map((w) => w.trMeaning)
-        .toList()
-      ..shuffle();
-    return others.take(3).toList();
+    return selection.map((w) {
+      final others = allMeanings.where((m) => m != w.trMeaning).toList()..shuffle();
+      final opts = [w.trMeaning, others[0], others[1], others[2]]..shuffle();
+      return Question(
+        word: w,
+        options: opts,
+        correctIndex: opts.indexOf(w.trMeaning),
+      );
+    }).toList();
   }
 }
