@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import '../theme/app_theme.dart';
 import '../models/models.dart';
 import '../widgets/shared_widgets.dart';
+import '../widgets/sentence_entry_widget.dart';
 import 'home_screen.dart' show AppBottomNav;
 
 // ═══════════════════════════════════════════════════════════════════════════════
@@ -11,12 +12,16 @@ class ResultScreen extends StatelessWidget {
   final SessionResult result;
   final VoidCallback onHome;
   final VoidCallback onReplay;
+  final bool sentenceModeUnlocked;
+  final VoidCallback? onSentenceMode;
 
   const ResultScreen({
     super.key,
     required this.result,
     required this.onHome,
     required this.onReplay,
+    this.sentenceModeUnlocked = false,
+    this.onSentenceMode,
   });
 
   @override
@@ -93,6 +98,12 @@ class ResultScreen extends StatelessWidget {
               PrimaryButton(label: 'Ana sayfaya dön', onTap: onHome, color: color),
               const SizedBox(height: 8),
               GhostButton(label: 'Tekrar oyna', onTap: onReplay),
+              const SizedBox(height: 16),
+              SentenceModeEntryCard(
+                department: result.department,
+                isUnlocked: sentenceModeUnlocked,
+                onTap: onSentenceMode ?? () {},
+              ),
             ],
           ),
         ),

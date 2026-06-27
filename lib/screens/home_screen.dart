@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import '../theme/app_theme.dart';
 import '../models/models.dart';
 import '../widgets/shared_widgets.dart';
+import '../widgets/event_widgets.dart';
+import '../services/event_service.dart';
 
 class HomeScreen extends StatelessWidget {
   final Function(Department) onSelectDept;
@@ -11,6 +13,7 @@ class HomeScreen extends StatelessWidget {
   final int gold;
   final int streak;
   final Function(int) onTabSelect;
+  final VoidCallback onEventTap;
 
   const HomeScreen({
     super.key,
@@ -21,6 +24,7 @@ class HomeScreen extends StatelessWidget {
     this.gold = 0,
     this.streak = 0,
     required this.onTabSelect,
+    required this.onEventTap,
   });
 
   @override
@@ -51,10 +55,21 @@ class HomeScreen extends StatelessWidget {
               ),
             ),
 
+            // ── Günlük Olay Kartı ─────────────────────────────────────────
+            SliverToBoxAdapter(
+              child: Padding(
+                padding: const EdgeInsets.fromLTRB(0, 20, 0, 0),
+                child: DailyEventCard(
+                  event: EventService.instance.todaysEvent,
+                  onTap: onEventTap,
+                ),
+              ),
+            ),
+
             // ── Günlük Görev Başlığı ───────────────────────────────────────
             SliverToBoxAdapter(
               child: Padding(
-                padding: const EdgeInsets.fromLTRB(22, 24, 22, 12),
+                padding: const EdgeInsets.fromLTRB(22, 8, 22, 12),
                 child: Text('GÜNLÜK GÖREVLER', style: AppTextStyles.label(11)),
               ),
             ),

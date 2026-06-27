@@ -13,6 +13,15 @@ import 'screens/game/chest_screen.dart';
 import 'screens/profile_screen.dart';
 import 'services/word_service.dart';
 import 'services/progress_service.dart';
+import 'models/daily_event.dart';
+import 'widgets/event_widgets.dart';
+import 'screens/game/game_over_screen.dart';
+import 'models/sentence_model.dart';
+import 'services/event_service.dart';
+import 'screens/game/event_quiz_screen.dart';
+import 'screens/game/sentence_build_screen.dart';
+import 'screens/game/sentence_result_screen.dart';
+import 'widgets/sentence_entry_widget.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
@@ -38,7 +47,7 @@ class GameOfYokdilApp extends StatelessWidget {
   }
 }
 
-enum AppPage { splash, onboarding, home, map, quiz, boss, chest, result, progress, leaderboard, badges, profile }
+enum AppPage { splash, onboarding, home, map, quiz, boss, chest, result, progress, leaderboard, badges, profile, gameOver, sentenceBuild, sentenceResult }
 
 class AppNavigator extends StatefulWidget {
   const AppNavigator({super.key});
@@ -67,9 +76,19 @@ class _AppNavigatorState extends State<AppNavigator> {
   bool _loading = true;
   bool _deptSaved = false;
 
+  // Günlük olay
+  Word? _gameOverWord;
+  int _gameOverCorrect = 0;
+  int _gameOverCombo = 0;
+
+  // Cümle modu
+  SentenceSessionResult? _sentenceResult;
+  bool _sentenceModeUnlocked = false;
+
   @override
   void initState() {
     super.initState();
+    EventService.instance.init();
     _loadAll();
   }
 
@@ -157,6 +176,17 @@ class _AppNavigatorState extends State<AppNavigator> {
   Future<void> _saveGameState() =>
       _progress.saveGameState(gold: _gold, streak: _streak);
 
+  void _showEventModal(BuildContext context) {
+    showDialog(
+      context: context,
+      barrierColor: Colors.black54,
+      builder: (_) => DailyEventModal(
+        event: EventService.instance.todaysEvent,
+        onDismiss: () => Navigator.of(context).pop(),
+      ),
+    );
+  }
+
   @override
   Widget build(BuildContext context) {
     if (_loading && _page != AppPage.splash) {
@@ -223,6 +253,7 @@ class _AppNavigatorState extends State<AppNavigator> {
           gold: _gold,
           streak: _streak,
           onTabSelect: _onTabSelect,
+          onEventTap: () => _showEventModal(context),
         );
 
       case AppPage.map:
@@ -250,7 +281,7 @@ class _AppNavigatorState extends State<AppNavigator> {
         );
 
       case AppPage.quiz:
-        return QuizScreen(
+        return EventQuizScreen(
           key: const ValueKey('quiz'),
           questions: _buildQuestions(10),
           department: _dept,
@@ -258,12 +289,25 @@ class _AppNavigatorState extends State<AppNavigator> {
           onComplete: (result) {
             setState(() {
               _lastResult = result;
+              _sentenceModeUnlocked = result.correctAnswers >= 3;
               _mapFor(_dept).unlockNext();
             });
             _saveMap(_dept);
             _go(AppPage.result);
           },
+          onDefeat: (failedWord) {
+            setState(() {
+              _gameOverWord = failedWord;
+              _gameOverCorrect = 0;
+              _gameOverCombo = 0;
+            });
+            _go(AppPage.gameOver);
+          },
           onBack: () => _go(AppPage.map),
+          onBonusChest: (rewards) {
+            setState(() => _chestRewards = rewards);
+            _go(AppPage.chest);
+          },
         );
 
       case AppPage.boss:
@@ -305,6 +349,8 @@ class _AppNavigatorState extends State<AppNavigator> {
           result: _lastResult!,
           onHome: () => _go(AppPage.map),
           onReplay: () => _go(AppPage.quiz),
+          sentenceModeUnlocked: _sentenceModeUnlocked,
+          onSentenceMode: () => _go(AppPage.sentenceBuild),
         );
 
       case AppPage.progress:
@@ -334,6 +380,36 @@ class _AppNavigatorState extends State<AppNavigator> {
           gold: _gold,
           streak: _streak,
           onTabSelect: _onTabSelect,
+        );
+
+      case AppPage.gameOver:
+        return GameOverScreen(
+          key: const ValueKey('gameover'),
+          correctAnswers: _gameOverCorrect,
+          maxCombo: _gameOverCombo,
+          failedWord: _gameOverWord,
+          department: _dept,
+          onReplay: () => _go(AppPage.quiz),
+          onHome: () => _go(AppPage.map),
+        );
+
+      case AppPage.sentenceBuild:
+        return SentenceBuildScreen(
+          key: const ValueKey('sentenceBuild'),
+          sentenceSet: SentenceData.forDepartment(_dept),
+          onComplete: (result) {
+            setState(() => _sentenceResult = result);
+            _go(AppPage.sentenceResult);
+          },
+          onBack: () => _go(AppPage.result),
+        );
+
+      case AppPage.sentenceResult:
+        return SentenceResultScreen(
+          key: const ValueKey('sentenceResult'),
+          result: _sentenceResult!,
+          onReplay: () => _go(AppPage.sentenceBuild),
+          onHome: () => _go(AppPage.map),
         );
     }
   }
