@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import '../theme/app_theme.dart';
+import '../visual/app_assets.dart';
 import '../models/models.dart';
 
 // ─── Dept Rengi ──────────────────────────────────────────────────────────────
@@ -329,7 +330,7 @@ class DeptListCard extends StatelessWidget {
               children: [
                 Text(dept.label, style: AppTextStyles.display(15, weight: FontWeight.w600)),
                 const SizedBox(height: 2),
-                Text('$learned / $total kelime öğrenildi', style: AppTextStyles.body(12, color: AppColors.muted)),
+                Text('$learned kelime öğrenildi', style: AppTextStyles.body(12, color: AppColors.muted)),
                 const SizedBox(height: 8),
                 AppProgressBar(value: pct, color: color, height: 3),
               ],

@@ -1,0 +1,7 @@
+{
+  "v": "5.5.7", "fr": 30, "ip": 0, "op": 45, "w": 200, "h": 200, "nm": "chest_open",
+  "_placeholder": true,
+  "_description": "LottieFiles'dan 'treasure chest open' araması yapın. Önerilen: https://lottiefiles.com/search?q=treasure+chest",
+  "_usage": "ChestScreen - sandık açılış animasyonu (1.5sn)",
+  "layers": []
+}

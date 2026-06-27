@@ -40,11 +40,10 @@ class HomeScreen extends StatelessWidget {
                 padding: const EdgeInsets.fromLTRB(22, 24, 22, 0),
                 child: Row(
                   children: [
-                    RichText(
-                      text: TextSpan(children: [
-                        TextSpan(text: 'YÖK', style: AppTextStyles.display(20)),
-                        TextSpan(text: 'DİL', style: AppTextStyles.display(20, color: AppColors.fen)),
-                      ]),
+                    Image.asset(
+                      'assets/logo.png',
+                      height: 28,
+                      filterQuality: FilterQuality.high,
                     ),
                     const Spacer(),
                     StatPill(value: streak.toString(), icon: Icons.local_fire_department_rounded, iconColor: AppColors.sosyal),

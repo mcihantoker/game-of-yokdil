@@ -1,0 +1,7 @@
+{
+  "v": "5.5.7", "fr": 30, "ip": 0, "op": 15, "w": 100, "h": 100, "nm": "cell_unlock",
+  "_placeholder": true,
+  "_description": "LottieFiles'dan 'unlock' veya 'tile reveal' araması yapın. Alternatif: 'sparkle burst small'",
+  "_usage": "MapScreen - harita hücresi açılırken (0.5sn, tek sefer)",
+  "layers": []
+}

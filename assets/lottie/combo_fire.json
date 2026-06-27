@@ -1,0 +1,7 @@
+{
+  "v": "5.5.7", "fr": 30, "ip": 0, "op": 30, "w": 200, "h": 300, "nm": "combo_fire",
+  "_placeholder": true,
+  "_description": "LottieFiles'dan 'fire flame' veya 'streak fire' araması yapın.",
+  "_usage": "BossScreen - combo x3+ anında alev animasyonu (1sn, looping)",
+  "layers": []
+}

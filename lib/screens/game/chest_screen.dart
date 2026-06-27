@@ -4,6 +4,8 @@ import 'package:flutter/services.dart';
 import '../../theme/app_theme.dart';
 import '../../models/game_models.dart';
 import '../../widgets/shared_widgets.dart';
+import '../../visual/app_assets.dart';
+import '../../visual/visual_effects.dart';
 
 class ChestScreen extends StatefulWidget {
   final ChestRewards rewards;
@@ -111,10 +113,12 @@ class _ChestScreenState extends State<ChestScreen> with TickerProviderStateMixin
                           offset: Offset(0, _opened ? _chestBounce.value : 0),
                           child: Transform.scale(
                             scale: _opened ? _chestScale.value : 1.0,
-                            child: Text(
-                              _opened ? '🎊' : (widget.rewards.isGrandChest ? '🏆' : '📦'),
-                              style: const TextStyle(fontSize: 80),
-                            ),
+                            child: _opened
+                                ? ChestOpenEffect(opened: true)
+                                : Text(
+                                    widget.rewards.isGrandChest ? '🏆' : '📦',
+                                    style: const TextStyle(fontSize: 80),
+                                  ),
                           ),
                         ),
                       ),
@@ -257,7 +261,7 @@ class _GlowRingPainter extends CustomPainter {
       canvas.drawCircle(
         Offset(x, y),
         3 + rng.nextDouble() * 2,
-        Paint()..color = AppColors.sosyal.withValues(alpha: opacity * 0.7),
+        Paint()..color = AppColors.sosyal.withOpacity(opacity * 0.7),
       );
     }
   }

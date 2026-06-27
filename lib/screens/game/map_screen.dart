@@ -4,6 +4,8 @@ import '../../theme/app_theme.dart';
 import '../../models/models.dart';
 import '../../models/game_models.dart';
 import '../../widgets/shared_widgets.dart';
+import '../../visual/app_assets.dart';
+import '../../visual/visual_effects.dart';
 
 class MapScreen extends StatefulWidget {
   final TreasureMap map;
@@ -145,7 +147,8 @@ class _MapScreenState extends State<MapScreen> with TickerProviderStateMixin {
   }
 
   Widget _buildGrid() {
-    return Container(
+    return MapTextureBackground(
+      child: Container(
       padding: const EdgeInsets.all(12),
       decoration: BoxDecoration(
         color: AppColors.bg2,
@@ -163,7 +166,7 @@ class _MapScreenState extends State<MapScreen> with TickerProviderStateMixin {
         itemCount: TreasureMap.gridSize,
         itemBuilder: (ctx, i) => _buildCell(widget.map.cells[i]),
       ),
-    );
+    ));
   }
 
   Widget _buildCell(MapCell cell) {
@@ -223,20 +226,19 @@ class _MapScreenState extends State<MapScreen> with TickerProviderStateMixin {
   }
 
   Widget _cellContent(MapCell cell) {
-    switch (cell.type) {
-      case CellType.locked:
-        return Icon(Icons.lock_rounded, size: 13, color: AppColors.dim);
-      case CellType.open:
-        return cell.isCleared
+    return CellIconImage(
+      type: cell.type,
+      size: 18,
+      fallbackBuilder: (type) => switch (type) {
+        CellType.locked   => Icon(Icons.lock_rounded, size: 13, color: AppColors.dim),
+        CellType.open     => cell.isCleared
             ? Icon(Icons.check_rounded, size: 13, color: _deptColor.withValues(alpha: 0.6))
-            : Icon(Icons.circle, size: 7, color: _deptColor.withValues(alpha: 0.4));
-      case CellType.current:
-        return Text('📍', style: const TextStyle(fontSize: 14));
-      case CellType.treasure:
-        return Text('💰', style: const TextStyle(fontSize: 14));
-      case CellType.boss:
-        return Text('👹', style: const TextStyle(fontSize: 14));
-    }
+            : Icon(Icons.circle, size: 7, color: _deptColor.withValues(alpha: 0.4)),
+        CellType.current  => const Text('📍', style: TextStyle(fontSize: 14)),
+        CellType.treasure => const Text('💰', style: TextStyle(fontSize: 14)),
+        CellType.boss     => const Text('👹', style: TextStyle(fontSize: 14)),
+      },
+    );
   }
 
   void _onCellTap(MapCell cell) {

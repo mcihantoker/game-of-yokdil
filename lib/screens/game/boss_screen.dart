@@ -6,7 +6,9 @@ import '../../theme/app_theme.dart';
 import '../../models/models.dart';
 import '../../models/game_models.dart';
 import '../../widgets/shared_widgets.dart';
-import 'game_over_screen.dart';
+import '../../visual/app_assets.dart';
+import '../../visual/visual_effects.dart';
+import '../../visual/badge_service.dart';
 
 class BossScreen extends StatefulWidget {
   final BossBattle boss;
@@ -34,8 +36,6 @@ class _BossScreenState extends State<BossScreen> with TickerProviderStateMixin {
   int _qIndex = 0;
   bool _answered = false;
   int? _selectedIdx;
-  int _lives = 3;
-  bool _isDefeated = false;
 
   // Timer
   late AnimationController _timerCtrl;
@@ -111,16 +111,9 @@ class _BossScreenState extends State<BossScreen> with TickerProviderStateMixin {
     setState(() {
       _answered = true;
       _boss.onWrong();
-      _lives--;
     });
     _shakeCtrl.forward(from: 0);
-    if (_lives <= 0) {
-      Future.delayed(const Duration(milliseconds: 900), () {
-        if (mounted) setState(() => _isDefeated = true);
-      });
-    } else {
-      Future.delayed(const Duration(milliseconds: 800), _nextQuestion);
-    }
+    Future.delayed(const Duration(milliseconds: 800), _nextQuestion);
   }
 
   void _pick(int idx) {
@@ -138,18 +131,14 @@ class _BossScreenState extends State<BossScreen> with TickerProviderStateMixin {
       } else {
         _boss.onWrong();
         _shakeCtrl.forward(from: 0);
-        _lives--;
       }
     });
 
     if (_boss.isDefeated) {
       Future.delayed(const Duration(milliseconds: 900), () {
         final rewards = ChestRewards.forBossVictory(widget.department, _boss.maxCombo);
+        BadgeService.instance.checkAfterBoss(widget.department);
         widget.onVictory(rewards);
-      });
-    } else if (_lives <= 0) {
-      Future.delayed(const Duration(milliseconds: 900), () {
-        if (mounted) setState(() => _isDefeated = true);
       });
     } else {
       Future.delayed(const Duration(milliseconds: 800), _nextQuestion);
@@ -167,32 +156,10 @@ class _BossScreenState extends State<BossScreen> with TickerProviderStateMixin {
     _startTimer();
   }
 
-  void _restartBoss() {
-    setState(() {
-      _boss = BossBattle.forDepartment(widget.department);
-      _lives = 3;
-      _isDefeated = false;
-      _qIndex = 0;
-      _questions = List.from(widget.questions)..shuffle();
-      _answered = false;
-      _selectedIdx = null;
-    });
-    _startTimer();
-  }
-
   @override
   Widget build(BuildContext context) {
-    if (_isDefeated) {
-      return GameOverScreen(
-        correctAnswers: _boss.currentHp,
-        maxCombo: _boss.maxCombo,
-        department: widget.department,
-        onReplay: _restartBoss,
-        onHome: widget.onDefeat,
-      );
-    }
     return Scaffold(
-      backgroundColor: const Color(0xFF100808),
+      backgroundColor: const Color(0xFF100808), // boss ekranı için koyu kırmızımsı zemin
       body: SafeArea(
         child: Column(
           children: [
@@ -221,7 +188,6 @@ class _BossScreenState extends State<BossScreen> with TickerProviderStateMixin {
     );
   }
 
-
   Widget _buildBossHeader() {
     return AnimatedBuilder(
       animation: _shake,
@@ -231,15 +197,15 @@ class _BossScreenState extends State<BossScreen> with TickerProviderStateMixin {
           padding: const EdgeInsets.fromLTRB(16, 16, 16, 12),
           decoration: BoxDecoration(
             color: AppColors.bg2,
-            border: Border.all(color: AppColors.danger.withValues(alpha: 0.3)),
+            border: Border.all(color: AppColors.danger.withOpacity(0.3)),
             borderRadius: const BorderRadius.vertical(bottom: Radius.circular(20)),
           ),
           child: Column(
             children: [
-              // Boss isim + emoji + canlar
+              // Boss isim + emoji
               Row(
                 children: [
-                  Text(_boss.bossEmoji, style: const TextStyle(fontSize: 32)),
+                  BossCharacterImage(department: widget.department, fallbackEmoji: _boss.bossEmoji, size: 72),
                   const SizedBox(width: 12),
                   Expanded(
                     child: Column(
@@ -252,16 +218,6 @@ class _BossScreenState extends State<BossScreen> with TickerProviderStateMixin {
                             style: AppTextStyles.body(11, color: AppColors.muted)),
                       ],
                     ),
-                  ),
-                  // Oyuncu canları
-                  Row(
-                    children: List.generate(3, (i) => Padding(
-                      padding: const EdgeInsets.only(left: 4),
-                      child: Text(
-                        i < _lives ? '❤️' : '🖤',
-                        style: const TextStyle(fontSize: 16),
-                      ),
-                    )),
                   ),
                 ],
               ),
@@ -309,7 +265,7 @@ class _BossScreenState extends State<BossScreen> with TickerProviderStateMixin {
                   borderRadius: AppRadius.mdBR,
                   border: Border.all(color: AppColors.border2),
                   boxShadow: glow > 0
-                      ? [BoxShadow(color: AppColors.sosyal.withValues(alpha: 0.4), blurRadius: glow)]
+                      ? [BoxShadow(color: AppColors.sosyal.withOpacity(0.4), blurRadius: glow)]
                       : null,
                 ),
                 child: Row(
@@ -319,7 +275,8 @@ class _BossScreenState extends State<BossScreen> with TickerProviderStateMixin {
                       children: [
                         Text('COMBO', style: AppTextStyles.label(9, color: AppColors.muted)),
                         const SizedBox(height: 2),
-                        Text('×${_boss.comboMultiplier}',
+                        ComboFireEffect(combo: _boss.combo, color: deptColor(widget.department)),
+                    Text('×${_boss.comboMultiplier}',
                             style: AppTextStyles.mono(22, color: AppColors.sosyal, weight: FontWeight.w700)),
                       ],
                     ),
@@ -333,7 +290,7 @@ class _BossScreenState extends State<BossScreen> with TickerProviderStateMixin {
                           shape: BoxShape.circle,
                           color: i < _boss.combo
                               ? AppColors.sosyal
-                              : AppColors.sosyal.withValues(alpha: 0.15),
+                              : AppColors.sosyal.withOpacity(0.15),
                         ),
                       )),
                     ),
@@ -459,6 +416,10 @@ class _TimerRing extends StatelessWidget {
   Widget build(BuildContext context) {
     const size = 56.0;
     const stroke = 4.0;
+    const r = (size / 2) - stroke;
+    const circ = 2 * pi * r;
+    final offset = circ * (1 - timeLeft / total);
+
     return SizedBox(
       width: size, height: size,
       child: Stack(
@@ -496,7 +457,7 @@ class _RingPainter extends CustomPainter {
 
     // Arka iz
     canvas.drawCircle(center, radius,
-        Paint()..color = color.withValues(alpha: 0.1)..style = PaintingStyle.stroke..strokeWidth = stroke);
+        Paint()..color = color.withOpacity(0.1)..style = PaintingStyle.stroke..strokeWidth = stroke);
 
     // İlerleme yayı
     const start = -pi / 2;

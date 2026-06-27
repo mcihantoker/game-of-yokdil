@@ -22,14 +22,19 @@ import 'screens/game/event_quiz_screen.dart';
 import 'screens/game/sentence_build_screen.dart';
 import 'screens/game/sentence_result_screen.dart';
 import 'widgets/sentence_entry_widget.dart';
+import 'visual/app_assets.dart';
+import 'visual/visual_effects.dart';
+import 'visual/badge_service.dart';
 
-void main() {
+void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   SystemChrome.setPreferredOrientations([DeviceOrientation.portraitUp]);
   SystemChrome.setSystemUIOverlayStyle(const SystemUiOverlayStyle(
     statusBarColor: Colors.transparent,
     statusBarIconBrightness: Brightness.light,
   ));
+  await EventService.instance.init();
+  await BadgeService.instance.init();
   runApp(const GameOfYokdilApp());
 }
 
@@ -88,7 +93,6 @@ class _AppNavigatorState extends State<AppNavigator> {
   @override
   void initState() {
     super.initState();
-    EventService.instance.init();
     _loadAll();
   }
 

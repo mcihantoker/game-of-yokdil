@@ -1,0 +1,7 @@
+{
+  "v": "5.5.7", "fr": 30, "ip": 0, "op": 20, "w": 300, "h": 300, "nm": "correct_burst",
+  "_placeholder": true,
+  "_description": "LottieFiles'dan 'confetti burst' veya 'success checkmark' araması yapın.",
+  "_usage": "EventQuizScreen & SentenceBuildScreen - doğru cevap konfeti (0.6sn)",
+  "layers": []
+}

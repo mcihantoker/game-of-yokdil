@@ -5,6 +5,8 @@ import 'package:google_fonts/google_fonts.dart';
 import '../../theme/app_theme.dart';
 import '../../models/models.dart';
 import '../../widgets/shared_widgets.dart';
+import '../../visual/app_assets.dart';
+import '../../visual/visual_effects.dart';
 
 class GameOverScreen extends StatefulWidget {
   final int correctAnswers;
@@ -107,7 +109,8 @@ class _GameOverScreenState extends State<GameOverScreen>
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: _bgColor,
-      body: Stack(
+      body: DefeatSceneBackground(
+        child: Stack(
         children: [
           // Arka plan partikülleri
           AnimatedBuilder(
@@ -128,7 +131,7 @@ class _GameOverScreenState extends State<GameOverScreen>
               gradient: RadialGradient(
                 center: Alignment.center,
                 radius: 1.2,
-                colors: [Colors.transparent, _bgColor.withValues(alpha: 0.85)],
+                colors: [Colors.transparent, _bgColor.withOpacity(0.85)],
               ),
             ),
           ),
@@ -161,7 +164,7 @@ class _GameOverScreenState extends State<GameOverScreen>
           ),
         ],
       ),
-    );
+    ));
   }
 
   Widget _buildSkull() {
@@ -180,7 +183,7 @@ class _GameOverScreenState extends State<GameOverScreen>
                 decoration: BoxDecoration(
                   shape: BoxShape.circle,
                   border: Border.all(
-                    color: _darkRed.withValues(alpha: _skullGlow.value * 0.6),
+                    color: _darkRed.withOpacity(_skullGlow.value * 0.6),
                     width: 1.5,
                   ),
                 ),
@@ -190,7 +193,7 @@ class _GameOverScreenState extends State<GameOverScreen>
                 decoration: BoxDecoration(
                   shape: BoxShape.circle,
                   border: Border.all(
-                    color: _darkRed.withValues(alpha: _skullGlow.value * 0.2),
+                    color: _darkRed.withOpacity(_skullGlow.value * 0.2),
                     width: 0.5,
                   ),
                 ),
@@ -349,7 +352,7 @@ class _GameOverScreenState extends State<GameOverScreen>
               children: [
                 const Icon(Icons.castle_outlined, size: 16, color: _mutedText),
                 const SizedBox(width: 8),
-                Text("Haritaya dön", style: _cinzel(13, color: _mutedText)),
+                Text("Kal'aya dön", style: _cinzel(13, color: _mutedText)),
               ],
             ),
           ),
@@ -426,8 +429,8 @@ class _SkullPainter extends CustomPainter {
         Paint()..color = const Color(0xFF1A0A0A));
 
     // Parlayan gözler
-    canvas.drawCircle(Offset(cx - 16, cy - 5), 6, eyePaint..color = eyePaint.color.withValues(alpha: glow * 0.9));
-    canvas.drawCircle(Offset(cx + 16, cy - 5), 6, eyePaint..color = eyePaint.color.withValues(alpha: glow * 0.9));
+    canvas.drawCircle(Offset(cx - 16, cy - 5), 6, eyePaint..color = eyePaint.color.withOpacity(glow * 0.9));
+    canvas.drawCircle(Offset(cx + 16, cy - 5), 6, eyePaint..color = eyePaint.color.withOpacity(glow * 0.9));
     canvas.drawCircle(Offset(cx - 16, cy - 5), 2.5, eyePaint..color = const Color(0xFFE74C3C));
     canvas.drawCircle(Offset(cx + 16, cy - 5), 2.5, eyePaint..color = const Color(0xFFE74C3C));
 
@@ -504,7 +507,7 @@ class _CrackPainter extends CustomPainter {
 
   @override
   void paint(Canvas canvas, Size size) {
-    final paint = Paint()..color = const Color(0xFF8B1A1A).withValues(alpha: 0.15)..strokeWidth = 0.5;
+    final paint = Paint()..color = const Color(0xFF8B1A1A).withOpacity(0.15)..strokeWidth = 0.5;
     for (int i = 0; i < _starts.length; i++) {
       canvas.drawLine(
         Offset(_starts[i].dx * size.width, _starts[i].dy * size.height),
@@ -541,7 +544,7 @@ class _ParticlePainter extends CustomPainter {
       canvas.drawCircle(
         Offset(p.x * size.width, y),
         p.size,
-        Paint()..color = p.color.withValues(alpha: opacity),
+        Paint()..color = p.color.withOpacity(opacity),
       );
     }
   }

@@ -7,6 +7,7 @@ import '../../models/daily_event.dart';
 import '../../models/game_models.dart';
 import '../../services/event_service.dart';
 import '../../widgets/shared_widgets.dart';
+import '../../visual/visual_effects.dart';
 import '../../widgets/event_widgets.dart';
 
 // ─── Seçenek durumu ──────────────────────────────────────────────────────────
@@ -49,6 +50,9 @@ class _EventQuizScreenState extends State<EventQuizScreen>
   int _combo = 0;
   int _totalXP = 0;
   bool _answered = false;
+  bool _flashCorrect = false;
+  bool _flashWrong = false;
+  bool _burstTrigger = false;
   int? _selectedIdx;
   Word? _lastFailedWord;
   bool _firstCorrectGiven = false;
@@ -167,6 +171,8 @@ class _EventQuizScreenState extends State<EventQuizScreen>
         _combo += _svc.comboIncrement();
         _totalXP += earnedXP;
         _learnedWords.add(_current.word);
+        _flashCorrect = true;
+        _burstTrigger = !_burstTrigger;
 
         // Bonus sandık: ilk doğru cevap
         if (!_firstCorrectGiven && _event.effect.bonusChestOnFirst
@@ -179,6 +185,7 @@ class _EventQuizScreenState extends State<EventQuizScreen>
       } else {
         _lastFailedWord = _current.word;
         if (_event.effect.resetComboOnWrong) _combo = 0;
+        _flashWrong = true;
         if (_svc.shouldTakeDamage()) {
           _lives--;
           HapticFeedback.heavyImpact();
@@ -216,6 +223,8 @@ class _EventQuizScreenState extends State<EventQuizScreen>
       _answered = false;
       _selectedIdx = null;
       _bonusChestShown = false;
+      _flashCorrect = false;
+      _flashWrong = false;
     });
     _cardCtrl.reverse();
     _startWordHideTimer();
@@ -223,7 +232,13 @@ class _EventQuizScreenState extends State<EventQuizScreen>
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
+    return ScreenFlashEffect(
+      trigger: _flashWrong,
+      flashColor: AppColors.danger,
+      child: ScreenFlashEffect(
+      trigger: _flashCorrect,
+      flashColor: AppColors.saglik,
+      child: Scaffold(
       backgroundColor: AppColors.bg,
       body: SafeArea(
         child: Column(
@@ -271,7 +286,7 @@ class _EventQuizScreenState extends State<EventQuizScreen>
           ],
         ),
       ),
-    );
+    )));
   }
 
   Widget _buildHeader() {

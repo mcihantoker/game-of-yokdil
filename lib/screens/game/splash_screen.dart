@@ -39,8 +39,6 @@ class _SplashScreenState extends State<SplashScreen>
     );
 
     _ctrl.forward();
-
-    // 2.8 saniye sonra geçiş
     Future.delayed(const Duration(milliseconds: 2800), widget.onComplete);
   }
 
@@ -58,7 +56,6 @@ class _SplashScreenState extends State<SplashScreen>
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            // Logo
             ScaleTransition(
               scale: _scale,
               child: FadeTransition(
@@ -71,7 +68,6 @@ class _SplashScreenState extends State<SplashScreen>
               ),
             ),
             const SizedBox(height: 28),
-            // Tagline
             FadeTransition(
               opacity: _taglineFade,
               child: Column(
@@ -82,7 +78,6 @@ class _SplashScreenState extends State<SplashScreen>
                     textAlign: TextAlign.center,
                   ),
                   const SizedBox(height: 32),
-                  // Loading dots
                   Row(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: List.generate(3, (i) => _PulseDot(delay: i * 200)),
@@ -139,7 +134,6 @@ class _PulseDotState extends State<_PulseDot> with SingleTickerProviderStateMixi
   }
 }
 
-
 // ═══════════════════════════════════════════════════════════════════════════════
 // ONBOARDING — bölüm seçim ekranı (ilk açılışta)
 // ═══════════════════════════════════════════════════════════════════════════════
@@ -159,22 +153,19 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
     return Scaffold(
       backgroundColor: AppColors.bg,
       body: SafeArea(
-        child: SingleChildScrollView(
+        child: Padding(
           padding: const EdgeInsets.fromLTRB(24, 32, 24, 24),
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              // Logo küçük
-              Image.asset('assets/logo.png', width: 140, filterQuality: FilterQuality.high),
-              const SizedBox(height: 24),
+              Image.asset('assets/logo.png', width: 160, filterQuality: FilterQuality.high),
+              const SizedBox(height: 32),
               Text('Hangi bölümde\nsınava gireceksin?',
                   style: AppTextStyles.display(26, weight: FontWeight.w700)),
               const SizedBox(height: 8),
               Text('Sana özel kelime seti ve haritalar hazırlayalım.',
                   style: AppTextStyles.body(14, color: AppColors.muted)),
               const SizedBox(height: 28),
-
-              // Bölüm seçim kartları
               _DeptSelectCard(
                 dept: Department.fen,
                 selected: _selected == Department.fen,
@@ -198,8 +189,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                 icon: Icons.menu_book_outlined,
                 examples: 'paradigm · empirical · discourse',
               ),
-
-              const SizedBox(height: 28),
+              const Spacer(),
               AnimatedOpacity(
                 opacity: _selected != null ? 1.0 : 0.3,
                 duration: const Duration(milliseconds: 200),
@@ -257,7 +247,7 @@ class _DeptSelectCard extends StatelessWidget {
             Container(
               width: 44, height: 44,
               decoration: BoxDecoration(
-                color: selected ? color.withValues(alpha: 0.2) : AppColors.bg2,
+                color: selected ? color.withOpacity(0.2) : AppColors.bg2,
                 borderRadius: AppRadius.smBR,
               ),
               child: Icon(icon, color: color, size: 22),
