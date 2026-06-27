@@ -6,6 +6,7 @@ import '../../theme/app_theme.dart';
 import '../../models/models.dart';
 import '../../models/game_models.dart';
 import '../../widgets/shared_widgets.dart';
+import 'game_over_screen.dart';
 
 class BossScreen extends StatefulWidget {
   final BossBattle boss;
@@ -166,9 +167,30 @@ class _BossScreenState extends State<BossScreen> with TickerProviderStateMixin {
     _startTimer();
   }
 
+  void _restartBoss() {
+    setState(() {
+      _boss = BossBattle.forDepartment(widget.department);
+      _lives = 3;
+      _isDefeated = false;
+      _qIndex = 0;
+      _questions = List.from(widget.questions)..shuffle();
+      _answered = false;
+      _selectedIdx = null;
+    });
+    _startTimer();
+  }
+
   @override
   Widget build(BuildContext context) {
-    if (_isDefeated) return _buildDefeatScreen();
+    if (_isDefeated) {
+      return GameOverScreen(
+        correctAnswers: _boss.currentHp,
+        maxCombo: _boss.maxCombo,
+        department: widget.department,
+        onReplay: _restartBoss,
+        onHome: widget.onDefeat,
+      );
+    }
     return Scaffold(
       backgroundColor: const Color(0xFF100808),
       body: SafeArea(
@@ -199,56 +221,6 @@ class _BossScreenState extends State<BossScreen> with TickerProviderStateMixin {
     );
   }
 
-  Widget _buildDefeatScreen() {
-    return Scaffold(
-      backgroundColor: const Color(0xFF100808),
-      body: SafeArea(
-        child: Center(
-          child: Padding(
-            padding: const EdgeInsets.all(32),
-            child: Column(
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: [
-                const Text('💀', style: TextStyle(fontSize: 72)),
-                const SizedBox(height: 20),
-                Text('Savaşı kaybettin',
-                    style: AppTextStyles.display(26, weight: FontWeight.w700,
-                        color: AppColors.danger),
-                    textAlign: TextAlign.center),
-                const SizedBox(height: 10),
-                Text('${_boss.bossName} seni yendi. Daha güçlü geri dön!',
-                    style: AppTextStyles.body(14, color: AppColors.muted),
-                    textAlign: TextAlign.center),
-                const SizedBox(height: 12),
-                Row(
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  children: List.generate(3, (i) => Padding(
-                    padding: const EdgeInsets.symmetric(horizontal: 6),
-                    child: Text(i < _lives ? '❤️' : '🖤',
-                        style: const TextStyle(fontSize: 28)),
-                  )),
-                ),
-                const SizedBox(height: 40),
-                SizedBox(
-                  width: double.infinity,
-                  child: ElevatedButton(
-                    onPressed: widget.onDefeat,
-                    style: ElevatedButton.styleFrom(
-                      backgroundColor: AppColors.bg3,
-                      foregroundColor: AppColors.text,
-                      padding: const EdgeInsets.symmetric(vertical: 16),
-                      shape: RoundedRectangleBorder(borderRadius: AppRadius.mdBR),
-                    ),
-                    child: Text('← Haritaya dön', style: AppTextStyles.display(15)),
-                  ),
-                ),
-              ],
-            ),
-          ),
-        ),
-      ),
-    );
-  }
 
   Widget _buildBossHeader() {
     return AnimatedBuilder(
