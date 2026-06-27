@@ -1,6 +1,7 @@
 import 'package:flutter/foundation.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import '../models/daily_event.dart';
+import 'premium_service.dart';
 
 // ─── Olay Servisi ─────────────────────────────────────────────────────────────
 // Kullanım: EventService.instance ile singleton'a eriş
@@ -19,7 +20,15 @@ class EventService extends ChangeNotifier {
 
   DailyEvent get todaysEvent {
     _ensureLoaded();
-    return _todaysEvent!;
+    final event = _todaysEvent!;
+    if (!PremiumService.instance.isPremium &&
+        !PremiumService.freeEventTypes.contains(event.type)) {
+      return DailyEvents.all.firstWhere(
+        (e) => e.type == EventType.bonusChest,
+        orElse: () => event,
+      );
+    }
+    return event;
   }
 
   bool get eventSeen        => _eventSeen;

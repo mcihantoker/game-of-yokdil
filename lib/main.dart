@@ -25,6 +25,8 @@ import 'widgets/sentence_entry_widget.dart';
 import 'visual/app_assets.dart';
 import 'visual/visual_effects.dart';
 import 'visual/badge_service.dart';
+import 'services/premium_service.dart';
+import 'widgets/paywall_sheet.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -35,6 +37,7 @@ void main() async {
   ));
   await EventService.instance.init();
   await BadgeService.instance.init();
+  await PremiumService.instance.init();
   runApp(const GameOfYokdilApp());
 }
 
@@ -80,6 +83,9 @@ class _AppNavigatorState extends State<AppNavigator> {
   Map<String, WordProgress> _wordProgress = {};
   bool _loading = true;
   bool _deptSaved = false;
+
+  // Context (paywall için)
+  BuildContext? _ctx;
 
   // Günlük olay
   Word? _gameOverWord;
@@ -166,6 +172,12 @@ class _AppNavigatorState extends State<AppNavigator> {
   void _go(AppPage p) => setState(() => _page = p);
 
   void _onTabSelect(int idx) {
+    if (idx == 2 && !PremiumService.instance.isPremium) {
+      if (_ctx != null && _ctx!.mounted) {
+        showPaywall(_ctx!, reason: 'Sıralama listesi premium üyelere özel.');
+      }
+      return;
+    }
     switch (idx) {
       case 0: _go(AppPage.home);
       case 1: _go(AppPage.progress);
@@ -173,6 +185,21 @@ class _AppNavigatorState extends State<AppNavigator> {
       case 3: _go(AppPage.badges);
       case 4: _go(AppPage.profile);
     }
+  }
+
+  Future<void> _checkAndStartQuiz(BuildContext ctx) async {
+    if (!PremiumService.instance.canStartQuiz) {
+      final remaining = PremiumService.instance.remainingQuizzes;
+      final ok = await showPaywall(
+        ctx,
+        reason: remaining == 0
+            ? 'Bugünkü 3 quiz hakkını kullandın. Yarın yenilenir ya da premium\'a geç.'
+            : 'Günlük quiz limitine yaklaşıyorsun.',
+      );
+      if (!ok || !mounted) return;
+    }
+    await PremiumService.instance.recordQuiz();
+    _go(AppPage.quiz);
   }
 
   Future<void> _saveMap(Department d) => _progress.saveMap(_mapFor(d));
@@ -193,6 +220,7 @@ class _AppNavigatorState extends State<AppNavigator> {
 
   @override
   Widget build(BuildContext context) {
+    _ctx = context;
     if (_loading && _page != AppPage.splash) {
       return const Scaffold(
         backgroundColor: AppColors.bg,
@@ -200,15 +228,18 @@ class _AppNavigatorState extends State<AppNavigator> {
       );
     }
 
-    return AnimatedSwitcher(
-      duration: const Duration(milliseconds: 280),
-      transitionBuilder: (child, anim) =>
-          FadeTransition(opacity: anim, child: child),
-      child: _buildPage(),
+    return ListenableBuilder(
+      listenable: PremiumService.instance,
+      builder: (_, __) => AnimatedSwitcher(
+        duration: const Duration(milliseconds: 280),
+        transitionBuilder: (child, anim) =>
+            FadeTransition(opacity: anim, child: child),
+        child: _buildPage(context),
+      ),
     );
   }
 
-  Widget _buildPage() {
+  Widget _buildPage(BuildContext context) {
     switch (_page) {
       case AppPage.splash:
         return SplashScreen(
@@ -244,6 +275,8 @@ class _AppNavigatorState extends State<AppNavigator> {
       case AppPage.home:
         return HomeScreen(
           key: const ValueKey('home'),
+          isPremium: PremiumService.instance.isPremium,
+          ownedDept: _dept,
           onSelectDept: (d) {
             setState(() {
               _dept = d;
@@ -268,7 +301,7 @@ class _AppNavigatorState extends State<AppNavigator> {
           gold: _gold,
           streak: _streak,
           onBack: () => _go(AppPage.home),
-          onStartQuiz: () => _go(AppPage.quiz),
+          onStartQuiz: () => _checkAndStartQuiz(context),
           onBossReady: () {
             setState(() => _boss = BossBattle.forDepartment(_dept));
             _go(AppPage.boss);
@@ -354,6 +387,7 @@ class _AppNavigatorState extends State<AppNavigator> {
           onHome: () => _go(AppPage.map),
           onReplay: () => _go(AppPage.quiz),
           sentenceModeUnlocked: _sentenceModeUnlocked,
+          isPremium: PremiumService.instance.isPremium,
           onSentenceMode: () => _go(AppPage.sentenceBuild),
         );
 
@@ -362,18 +396,21 @@ class _AppNavigatorState extends State<AppNavigator> {
           key: const ValueKey('progress'),
           wordCounts: _wordCounts,
           learnedCounts: _learnedCounts,
+          isPremium: PremiumService.instance.isPremium,
           onTabSelect: _onTabSelect,
         );
 
       case AppPage.leaderboard:
         return LeaderboardScreen(
           key: const ValueKey('leaderboard'),
+          isPremium: PremiumService.instance.isPremium,
           onTabSelect: _onTabSelect,
         );
 
       case AppPage.badges:
         return BadgesScreen(
           key: const ValueKey('badges'),
+          isPremium: PremiumService.instance.isPremium,
           onTabSelect: _onTabSelect,
         );
 

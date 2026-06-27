@@ -3,6 +3,7 @@ import '../theme/app_theme.dart';
 import '../models/models.dart';
 import '../widgets/shared_widgets.dart';
 import '../widgets/sentence_entry_widget.dart';
+import '../widgets/paywall_sheet.dart';
 import 'home_screen.dart' show AppBottomNav;
 
 // ═══════════════════════════════════════════════════════════════════════════════
@@ -13,6 +14,7 @@ class ResultScreen extends StatelessWidget {
   final VoidCallback onHome;
   final VoidCallback onReplay;
   final bool sentenceModeUnlocked;
+  final bool isPremium;
   final VoidCallback? onSentenceMode;
 
   const ResultScreen({
@@ -21,6 +23,7 @@ class ResultScreen extends StatelessWidget {
     required this.onHome,
     required this.onReplay,
     this.sentenceModeUnlocked = false,
+    this.isPremium = false,
     this.onSentenceMode,
   });
 
@@ -101,8 +104,11 @@ class ResultScreen extends StatelessWidget {
               const SizedBox(height: 16),
               SentenceModeEntryCard(
                 department: result.department,
-                isUnlocked: sentenceModeUnlocked,
-                onTap: onSentenceMode ?? () {},
+                isUnlocked: isPremium && sentenceModeUnlocked,
+                onTap: isPremium
+                    ? (onSentenceMode ?? () {})
+                    : () => showPaywall(context,
+                        reason: 'Cümle İnşa Modu premium üyelere özel.'),
               ),
             ],
           ),
@@ -172,12 +178,14 @@ class ProgressScreen extends StatelessWidget {
   final Map<Department, int> wordCounts;
   final Map<Department, int> learnedCounts;
   final Function(int) onTabSelect;
+  final bool isPremium;
 
   const ProgressScreen({
     super.key,
     required this.wordCounts,
     this.learnedCounts = const {},
     required this.onTabSelect,
+    this.isPremium = false,
   });
 
   @override
@@ -221,6 +229,8 @@ class ProgressScreen extends StatelessWidget {
                     themes: const ['Metodoloji', 'Sosyoloji', 'Ekonomi'],
                     themesDone: const [false, false, false],
                   ),
+                  const SizedBox(height: 16),
+                  if (!isPremium) _PremiumStatsTeaser(context),
                   const SizedBox(height: 24),
                 ]),
               ),
@@ -229,6 +239,39 @@ class ProgressScreen extends StatelessWidget {
         ),
       ),
       bottomNavigationBar: AppBottomNav(currentIndex: 1, onTap: onTabSelect),
+    );
+  }
+
+  Widget _PremiumStatsTeaser(BuildContext context) {
+    return GestureDetector(
+      onTap: () => showPaywall(context, reason: 'Gelişmiş istatistikler premium üyelere özel.'),
+      child: Container(
+        padding: const EdgeInsets.all(16),
+        decoration: BoxDecoration(
+          color: AppColors.bg3,
+          borderRadius: AppRadius.mdBR,
+          border: Border.all(color: AppColors.sosyal.withValues(alpha: 0.3)),
+        ),
+        child: Row(
+          children: [
+            const Icon(Icons.lock_rounded, color: AppColors.sosyal, size: 20),
+            const SizedBox(width: 12),
+            Expanded(
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Text('Gelişmiş İstatistik',
+                      style: AppTextStyles.display(14, color: AppColors.sosyal, weight: FontWeight.w600)),
+                  const SizedBox(height: 2),
+                  Text('Günlük çalışma grafiği · Zayıf kelimeler · Doğruluk oranı',
+                      style: AppTextStyles.body(11, color: AppColors.muted)),
+                ],
+              ),
+            ),
+            const Icon(Icons.chevron_right_rounded, color: AppColors.muted, size: 18),
+          ],
+        ),
+      ),
     );
   }
 }
@@ -305,7 +348,8 @@ class _DeptProgressCard extends StatelessWidget {
 // ═══════════════════════════════════════════════════════════════════════════════
 class LeaderboardScreen extends StatelessWidget {
   final Function(int) onTabSelect;
-  const LeaderboardScreen({super.key, required this.onTabSelect});
+  final bool isPremium;
+  const LeaderboardScreen({super.key, required this.onTabSelect, this.isPremium = false});
 
   static const _entries = [
     ('👑', 'Ahmet Y.', 4820, 'Fen'),
@@ -337,48 +381,95 @@ class LeaderboardScreen extends StatelessWidget {
               child: Text('Bu hafta en çok XP kazananlar', style: AppTextStyles.body(13, color: AppColors.muted)),
             ),
             Expanded(
-              child: ListView.builder(
-                padding: const EdgeInsets.symmetric(horizontal: 16),
-                itemCount: _entries.length,
-                itemBuilder: (ctx, i) {
-                  final (rank, name, xp, dept) = _entries[i];
-                  final isTop3 = i < 3;
-                  return Container(
-                    margin: const EdgeInsets.only(bottom: 8),
-                    padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
-                    decoration: BoxDecoration(
-                      color: isTop3 ? AppColors.bg3 : AppColors.bg2,
-                      borderRadius: AppRadius.mdBR,
-                      border: Border.all(
-                        color: isTop3 ? AppColors.fen.withValues(alpha: 0.25) : AppColors.border,
-                      ),
-                    ),
-                    child: Row(
-                      children: [
-                        SizedBox(
-                          width: 36,
-                          child: Text(rank, style: TextStyle(fontSize: isTop3 ? 20 : 14, color: AppColors.muted)),
-                        ),
-                        Expanded(
-                          child: Column(
-                            crossAxisAlignment: CrossAxisAlignment.start,
-                            children: [
-                              Text(name, style: AppTextStyles.display(14, weight: FontWeight.w600)),
-                              Text(dept, style: AppTextStyles.body(11, color: AppColors.muted)),
-                            ],
-                          ),
-                        ),
-                        Text('$xp XP', style: AppTextStyles.mono(13, color: AppColors.fen, weight: FontWeight.w600)),
-                      ],
-                    ),
-                  );
-                },
-              ),
+              child: isPremium ? _buildList() : _buildLock(context),
             ),
           ],
         ),
       ),
       bottomNavigationBar: AppBottomNav(currentIndex: 2, onTap: onTabSelect),
+    );
+  }
+
+  Widget _buildList() {
+    return ListView.builder(
+      padding: const EdgeInsets.symmetric(horizontal: 16),
+      itemCount: _entries.length,
+      itemBuilder: (ctx, i) {
+        final (rank, name, xp, dept) = _entries[i];
+        final isTop3 = i < 3;
+        return Container(
+          margin: const EdgeInsets.only(bottom: 8),
+          padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
+          decoration: BoxDecoration(
+            color: isTop3 ? AppColors.bg3 : AppColors.bg2,
+            borderRadius: AppRadius.mdBR,
+            border: Border.all(
+              color: isTop3 ? AppColors.fen.withValues(alpha: 0.25) : AppColors.border,
+            ),
+          ),
+          child: Row(
+            children: [
+              SizedBox(
+                width: 36,
+                child: Text(rank, style: TextStyle(fontSize: isTop3 ? 20 : 14, color: AppColors.muted)),
+              ),
+              Expanded(
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Text(name, style: AppTextStyles.display(14, weight: FontWeight.w600)),
+                    Text(dept, style: AppTextStyles.body(11, color: AppColors.muted)),
+                  ],
+                ),
+              ),
+              Text('$xp XP', style: AppTextStyles.mono(13, color: AppColors.fen, weight: FontWeight.w600)),
+            ],
+          ),
+        );
+      },
+    );
+  }
+
+  Widget _buildLock(BuildContext context) {
+    return Stack(
+      children: [
+        Opacity(opacity: 0.08, child: _buildList()),
+        Center(
+          child: Padding(
+            padding: const EdgeInsets.symmetric(horizontal: 32),
+            child: Column(
+              mainAxisSize: MainAxisSize.min,
+              children: [
+                Container(
+                  width: 64, height: 64,
+                  decoration: BoxDecoration(
+                    color: AppColors.sosyal.withValues(alpha: 0.12),
+                    shape: BoxShape.circle,
+                  ),
+                  child: const Icon(Icons.lock_rounded, color: AppColors.sosyal, size: 30),
+                ),
+                const SizedBox(height: 16),
+                Text('Premium Özellik', style: AppTextStyles.display(17, weight: FontWeight.w700)),
+                const SizedBox(height: 8),
+                Text(
+                  'Sıralama listesi premium üyelere özeldir. Diğer oyuncularla yarış.',
+                  style: AppTextStyles.body(13, color: AppColors.muted),
+                  textAlign: TextAlign.center,
+                ),
+                const SizedBox(height: 24),
+                SizedBox(
+                  width: 200,
+                  child: PrimaryButton(
+                    label: 'Premium\'a Geç',
+                    color: AppColors.sosyal,
+                    onTap: () => showPaywall(context, reason: 'Sıralama listesi premium üyelere özel.'),
+                  ),
+                ),
+              ],
+            ),
+          ),
+        ),
+      ],
     );
   }
 }
@@ -388,7 +479,8 @@ class LeaderboardScreen extends StatelessWidget {
 // ═══════════════════════════════════════════════════════════════════════════════
 class BadgesScreen extends StatelessWidget {
   final Function(int) onTabSelect;
-  const BadgesScreen({super.key, required this.onTabSelect});
+  final bool isPremium;
+  const BadgesScreen({super.key, required this.onTabSelect, this.isPremium = false});
 
   static const _badges = [
     ('🔥', 'İlk Adım', '10 kelime öğren', true),
