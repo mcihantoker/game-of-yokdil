@@ -17,6 +17,20 @@ class MapCell {
     this.isCleared = false,
   });
 
+  Map<String, dynamic> toJson() => {
+    'index': index,
+    'type': type.index,
+    'isUnlocked': isUnlocked,
+    'isCleared': isCleared,
+  };
+
+  factory MapCell.fromJson(Map<String, dynamic> j) => MapCell(
+    index: j['index'] as int,
+    type: CellType.values[j['type'] as int],
+    isUnlocked: j['isUnlocked'] as bool,
+    isCleared: j['isCleared'] as bool,
+  );
+
   // Hücre komşuları (4 yön)
   List<int> neighbors(int gridWidth, int totalCells) {
     final neighbors = <int>[];
@@ -107,6 +121,26 @@ class TreasureMap {
   bool get bossReachable => cells[gridSize - 1].isUnlocked;
   int get openCount => cells.where((c) => c.isCleared).length;
   int get treasureCount => cells.where((c) => c.type == CellType.treasure && c.isCleared).length;
+
+  Map<String, dynamic> toJson() => {
+    'departmentId': departmentId,
+    'themeName': themeName,
+    'cells': cells.map((c) => c.toJson()).toList(),
+    'currentPosition': currentPosition,
+    'gold': gold,
+    'bossDefeated': bossDefeated,
+  };
+
+  factory TreasureMap.fromJson(Map<String, dynamic> j) => TreasureMap(
+    departmentId: j['departmentId'] as String,
+    themeName: j['themeName'] as String,
+    cells: (j['cells'] as List)
+        .map((c) => MapCell.fromJson(c as Map<String, dynamic>))
+        .toList(),
+    currentPosition: j['currentPosition'] as int? ?? 0,
+    gold: j['gold'] as int? ?? 0,
+    bossDefeated: j['bossDefeated'] as bool? ?? false,
+  );
 }
 
 // ─── Boss Savaşı ──────────────────────────────────────────────────────────────

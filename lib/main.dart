@@ -11,6 +11,7 @@ import 'screens/game/map_screen.dart';
 import 'screens/game/boss_screen.dart';
 import 'screens/game/chest_screen.dart';
 import 'services/word_service.dart';
+import 'services/progress_service.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
@@ -36,7 +37,7 @@ class GameOfYokdilApp extends StatelessWidget {
   }
 }
 
-enum AppPage { splash, onboarding, home, map, quiz, boss, chest, result, progress }
+enum AppPage { splash, onboarding, home, map, quiz, boss, chest, result, progress, leaderboard, badges }
 
 class AppNavigator extends StatefulWidget {
   const AppNavigator({super.key});
@@ -59,27 +60,53 @@ class _AppNavigatorState extends State<AppNavigator> {
 
   // Kelime verisi
   final _wordService = WordService();
+  final _progress = ProgressService();
   Map<Department, List<Word>> _allWords = {};
   bool _loading = true;
 
   @override
   void initState() {
     super.initState();
-    _loadWords();
+    _loadAll();
   }
 
-  Future<void> _loadWords() async {
+  Future<void> _loadAll() async {
     final results = await Future.wait([
       _wordService.getWords(Department.fen),
       _wordService.getWords(Department.saglik),
       _wordService.getWords(Department.sosyal),
+      _progress.loadGameState(),
+      _progress.loadSelectedDept(),
     ]);
+
+    final fen    = results[0] as List<Word>;
+    final saglik = results[1] as List<Word>;
+    final sosyal = results[2] as List<Word>;
+    final gs     = results[3] as ({int gold, int streak});
+    final savedDept = results[4] as String?;
+
+    // Kayıtlı haritaları yükle
+    final savedFen    = await _progress.loadMap(Department.fen.name, Department.fen.label);
+    final savedSaglik = await _progress.loadMap(Department.saglik.name, Department.saglik.label);
+    final savedSosyal = await _progress.loadMap(Department.sosyal.name, Department.sosyal.label);
+
+    Department dept = Department.fen;
+    if (savedDept != null) {
+      dept = Department.values.firstWhere((d) => d.name == savedDept, orElse: () => Department.fen);
+    }
+
     setState(() {
       _allWords = {
-        Department.fen:    results[0],
-        Department.saglik: results[1],
-        Department.sosyal: results[2],
+        Department.fen:    fen,
+        Department.saglik: saglik,
+        Department.sosyal: sosyal,
       };
+      _gold   = gs.gold;
+      _streak = gs.streak;
+      _dept   = dept;
+      if (savedFen    != null) _maps[Department.fen]    = savedFen;
+      if (savedSaglik != null) _maps[Department.saglik] = savedSaglik;
+      if (savedSosyal != null) _maps[Department.sosyal] = savedSosyal;
       _loading = false;
     });
   }
@@ -87,9 +114,8 @@ class _AppNavigatorState extends State<AppNavigator> {
   Map<Department, int> get _wordCounts =>
       _allWords.map((k, v) => MapEntry(k, v.length));
 
-  TreasureMap _mapFor(Department d) {
-    return _maps.putIfAbsent(d, () => TreasureMap.generate(d.name, d.label));
-  }
+  TreasureMap _mapFor(Department d) =>
+      _maps.putIfAbsent(d, () => TreasureMap.generate(d.name, d.label));
 
   List<Question> _buildQuestions([int count = 10]) {
     final words = _allWords[_dept] ?? [];
@@ -98,9 +124,23 @@ class _AppNavigatorState extends State<AppNavigator> {
 
   void _go(AppPage p) => setState(() => _page = p);
 
+  void _onTabSelect(int idx) {
+    switch (idx) {
+      case 0: _go(AppPage.home);
+      case 1: _go(AppPage.progress);
+      case 2: _go(AppPage.leaderboard);
+      case 3: _go(AppPage.badges);
+    }
+  }
+
+  Future<void> _saveMap(Department d) => _progress.saveMap(_mapFor(d));
+
+  Future<void> _saveGameState() =>
+      _progress.saveGameState(gold: _gold, streak: _streak);
+
   @override
   Widget build(BuildContext context) {
-    if (_loading && _page != AppPage.splash && _page != AppPage.onboarding) {
+    if (_loading && _page != AppPage.splash) {
       return const Scaffold(
         backgroundColor: AppColors.bg,
         body: Center(child: CircularProgressIndicator(color: AppColors.fen)),
@@ -120,7 +160,19 @@ class _AppNavigatorState extends State<AppNavigator> {
       case AppPage.splash:
         return SplashScreen(
           key: const ValueKey('splash'),
-          onComplete: () => _go(AppPage.onboarding),
+          onComplete: () {
+            if (_loading) {
+              // Henüz yüklenmediyse yükleme bitmesini bekle
+              Future.doWhile(() async {
+                await Future.delayed(const Duration(milliseconds: 100));
+                return _loading;
+              }).then((_) {
+                _go(_maps.isNotEmpty ? AppPage.home : AppPage.onboarding);
+              });
+            } else {
+              _go(_maps.isNotEmpty ? AppPage.home : AppPage.onboarding);
+            }
+          },
         );
 
       case AppPage.onboarding:
@@ -131,6 +183,7 @@ class _AppNavigatorState extends State<AppNavigator> {
               _dept = d;
               _maps.remove(d);
             });
+            _progress.saveSelectedDept(d.name);
             _go(AppPage.home);
           },
         );
@@ -146,6 +199,9 @@ class _AppNavigatorState extends State<AppNavigator> {
             _go(AppPage.map);
           },
           wordCounts: _wordCounts,
+          gold: _gold,
+          streak: _streak,
+          onTabSelect: _onTabSelect,
         );
 
       case AppPage.map:
@@ -164,8 +220,9 @@ class _AppNavigatorState extends State<AppNavigator> {
             setState(() {
               _chestRewards = ChestRewards.treasure();
               _gold += 25;
-              
             });
+            _saveGameState();
+            _saveMap(_dept);
             _go(AppPage.chest);
           },
         );
@@ -179,9 +236,9 @@ class _AppNavigatorState extends State<AppNavigator> {
           onComplete: (result) {
             setState(() {
               _lastResult = result;
-              
               _mapFor(_dept).unlockNext();
             });
+            _saveMap(_dept);
             _go(AppPage.result);
           },
           onBack: () => _go(AppPage.map),
@@ -198,9 +255,10 @@ class _AppNavigatorState extends State<AppNavigator> {
               _chestRewards = rewards;
               _mapFor(_dept).bossDefeated = true;
               _gold += 80;
-              
               _streak++;
             });
+            _saveGameState();
+            _saveMap(_dept);
             _go(AppPage.chest);
           },
           onDefeat: () => _go(AppPage.map),
@@ -213,6 +271,7 @@ class _AppNavigatorState extends State<AppNavigator> {
           onContinue: () {
             if (_mapFor(_dept).bossDefeated) {
               setState(() => _maps.remove(_dept));
+              _progress.saveSelectedDept(_dept.name);
             }
             _go(AppPage.map);
           },
@@ -230,6 +289,19 @@ class _AppNavigatorState extends State<AppNavigator> {
         return ProgressScreen(
           key: const ValueKey('progress'),
           wordCounts: _wordCounts,
+          onTabSelect: _onTabSelect,
+        );
+
+      case AppPage.leaderboard:
+        return LeaderboardScreen(
+          key: const ValueKey('leaderboard'),
+          onTabSelect: _onTabSelect,
+        );
+
+      case AppPage.badges:
+        return BadgesScreen(
+          key: const ValueKey('badges'),
+          onTabSelect: _onTabSelect,
         );
     }
   }

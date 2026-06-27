@@ -33,6 +33,7 @@ class _BossScreenState extends State<BossScreen> with TickerProviderStateMixin {
   int _qIndex = 0;
   bool _answered = false;
   int? _selectedIdx;
+  int _lives = 3;
 
   // Timer
   late AnimationController _timerCtrl;
@@ -108,9 +109,14 @@ class _BossScreenState extends State<BossScreen> with TickerProviderStateMixin {
     setState(() {
       _answered = true;
       _boss.onWrong();
+      _lives--;
     });
     _shakeCtrl.forward(from: 0);
-    Future.delayed(const Duration(milliseconds: 800), _nextQuestion);
+    if (_lives <= 0) {
+      Future.delayed(const Duration(milliseconds: 900), widget.onDefeat);
+    } else {
+      Future.delayed(const Duration(milliseconds: 800), _nextQuestion);
+    }
   }
 
   void _pick(int idx) {
@@ -128,6 +134,7 @@ class _BossScreenState extends State<BossScreen> with TickerProviderStateMixin {
       } else {
         _boss.onWrong();
         _shakeCtrl.forward(from: 0);
+        _lives--;
       }
     });
 
@@ -136,6 +143,8 @@ class _BossScreenState extends State<BossScreen> with TickerProviderStateMixin {
         final rewards = ChestRewards.forBossVictory(widget.department, _boss.maxCombo);
         widget.onVictory(rewards);
       });
+    } else if (_lives <= 0) {
+      Future.delayed(const Duration(milliseconds: 900), widget.onDefeat);
     } else {
       Future.delayed(const Duration(milliseconds: 800), _nextQuestion);
     }
@@ -198,7 +207,7 @@ class _BossScreenState extends State<BossScreen> with TickerProviderStateMixin {
           ),
           child: Column(
             children: [
-              // Boss isim + emoji
+              // Boss isim + emoji + canlar
               Row(
                 children: [
                   Text(_boss.bossEmoji, style: const TextStyle(fontSize: 32)),
@@ -214,6 +223,16 @@ class _BossScreenState extends State<BossScreen> with TickerProviderStateMixin {
                             style: AppTextStyles.body(11, color: AppColors.muted)),
                       ],
                     ),
+                  ),
+                  // Oyuncu canları
+                  Row(
+                    children: List.generate(3, (i) => Padding(
+                      padding: const EdgeInsets.only(left: 4),
+                      child: Text(
+                        i < _lives ? '❤️' : '🖤',
+                        style: const TextStyle(fontSize: 16),
+                      ),
+                    )),
                   ),
                 ],
               ),

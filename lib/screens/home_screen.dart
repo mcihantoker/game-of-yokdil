@@ -6,11 +6,17 @@ import '../widgets/shared_widgets.dart';
 class HomeScreen extends StatelessWidget {
   final Function(Department) onSelectDept;
   final Map<Department, int> wordCounts;
+  final int gold;
+  final int streak;
+  final Function(int) onTabSelect;
 
   const HomeScreen({
     super.key,
     required this.onSelectDept,
     required this.wordCounts,
+    this.gold = 0,
+    this.streak = 0,
+    required this.onTabSelect,
   });
 
   @override
@@ -33,9 +39,9 @@ class HomeScreen extends StatelessWidget {
                       ]),
                     ),
                     const Spacer(),
-                    StatPill(value: '0', icon: Icons.local_fire_department_rounded, iconColor: AppColors.sosyal),
+                    StatPill(value: streak.toString(), icon: Icons.local_fire_department_rounded, iconColor: AppColors.sosyal),
                     const SizedBox(width: 8),
-                    StatPill(value: '0', icon: Icons.star_rounded, iconColor: AppColors.fen),
+                    StatPill(value: gold.toString(), icon: Icons.monetization_on_rounded, iconColor: AppColors.sosyal),
                   ],
                 ),
               ),
@@ -114,7 +120,7 @@ class HomeScreen extends StatelessWidget {
           ],
         ),
       ),
-      bottomNavigationBar: _AppBottomNav(currentIndex: 0),
+      bottomNavigationBar: AppBottomNav(currentIndex: 0, onTap: onTabSelect),
     );
   }
 }
@@ -188,10 +194,11 @@ class _DailyMissionCard extends StatelessWidget {
   }
 }
 
-// ─── Alt Navigasyon ───────────────────────────────────────────────────────────
-class _AppBottomNav extends StatelessWidget {
+// ─── Alt Navigasyon (paylaşımlı) ─────────────────────────────────────────────
+class AppBottomNav extends StatelessWidget {
   final int currentIndex;
-  const _AppBottomNav({required this.currentIndex});
+  final Function(int) onTap;
+  const AppBottomNav({super.key, required this.currentIndex, required this.onTap});
 
   @override
   Widget build(BuildContext context) {
@@ -209,6 +216,7 @@ class _AppBottomNav extends StatelessWidget {
       ),
       child: BottomNavigationBar(
         currentIndex: currentIndex,
+        onTap: onTap,
         items: items,
         backgroundColor: Colors.transparent,
         selectedItemColor: AppColors.fen,

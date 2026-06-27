@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import '../theme/app_theme.dart';
 import '../models/models.dart';
 import '../widgets/shared_widgets.dart';
+import 'home_screen.dart' show AppBottomNav;
 
 // ═══════════════════════════════════════════════════════════════════════════════
 // SONUÇ EKRANI
@@ -158,8 +159,9 @@ class _LearnedWordRow extends StatelessWidget {
 // ═══════════════════════════════════════════════════════════════════════════════
 class ProgressScreen extends StatelessWidget {
   final Map<Department, int> wordCounts;
+  final Function(int) onTabSelect;
 
-  const ProgressScreen({super.key, required this.wordCounts});
+  const ProgressScreen({super.key, required this.wordCounts, required this.onTabSelect});
 
   @override
   Widget build(BuildContext context) {
@@ -209,7 +211,7 @@ class ProgressScreen extends StatelessWidget {
           ],
         ),
       ),
-      bottomNavigationBar: _ProgressBottomNav(),
+      bottomNavigationBar: AppBottomNav(currentIndex: 1, onTap: onTabSelect),
     );
   }
 }
@@ -281,28 +283,176 @@ class _DeptProgressCard extends StatelessWidget {
   }
 }
 
-class _ProgressBottomNav extends StatelessWidget {
+// ═══════════════════════════════════════════════════════════════════════════════
+// SIRALAMA EKRANI
+// ═══════════════════════════════════════════════════════════════════════════════
+class LeaderboardScreen extends StatelessWidget {
+  final Function(int) onTabSelect;
+  const LeaderboardScreen({super.key, required this.onTabSelect});
+
+  static const _entries = [
+    ('👑', 'Ahmet Y.', 4820, 'Fen'),
+    ('🥈', 'Elif K.',  3910, 'Sağlık'),
+    ('🥉', 'Mehmet D.', 3540, 'Sosyal'),
+    ('4', 'Zeynep A.', 2980, 'Fen'),
+    ('5', 'Can B.',    2710, 'Fen'),
+    ('6', 'Selin T.',  2490, 'Sağlık'),
+    ('7', 'Burak O.',  2200, 'Sosyal'),
+    ('8', 'Ayşe M.',   1960, 'Fen'),
+    ('9', 'Kaan S.',   1720, 'Sağlık'),
+    ('10', 'İrem C.',   1500, 'Sosyal'),
+  ];
+
   @override
   Widget build(BuildContext context) {
-    return Container(
-      decoration: const BoxDecoration(
-        color: AppColors.bg2,
-        border: Border(top: BorderSide(color: AppColors.border)),
+    return Scaffold(
+      backgroundColor: AppColors.bg,
+      body: SafeArea(
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Padding(
+              padding: const EdgeInsets.fromLTRB(22, 28, 22, 4),
+              child: Text('Sıralama', style: AppTextStyles.display(22, weight: FontWeight.w700)),
+            ),
+            Padding(
+              padding: const EdgeInsets.fromLTRB(22, 0, 22, 20),
+              child: Text('Bu hafta en çok XP kazananlar', style: AppTextStyles.body(13, color: AppColors.muted)),
+            ),
+            Expanded(
+              child: ListView.builder(
+                padding: const EdgeInsets.symmetric(horizontal: 16),
+                itemCount: _entries.length,
+                itemBuilder: (ctx, i) {
+                  final (rank, name, xp, dept) = _entries[i];
+                  final isTop3 = i < 3;
+                  return Container(
+                    margin: const EdgeInsets.only(bottom: 8),
+                    padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
+                    decoration: BoxDecoration(
+                      color: isTop3 ? AppColors.bg3 : AppColors.bg2,
+                      borderRadius: AppRadius.mdBR,
+                      border: Border.all(
+                        color: isTop3 ? AppColors.fen.withValues(alpha: 0.25) : AppColors.border,
+                      ),
+                    ),
+                    child: Row(
+                      children: [
+                        SizedBox(
+                          width: 36,
+                          child: Text(rank, style: TextStyle(fontSize: isTop3 ? 20 : 14, color: AppColors.muted)),
+                        ),
+                        Expanded(
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              Text(name, style: AppTextStyles.display(14, weight: FontWeight.w600)),
+                              Text(dept, style: AppTextStyles.body(11, color: AppColors.muted)),
+                            ],
+                          ),
+                        ),
+                        Text('$xp XP', style: AppTextStyles.mono(13, color: AppColors.fen, weight: FontWeight.w600)),
+                      ],
+                    ),
+                  );
+                },
+              ),
+            ),
+          ],
+        ),
       ),
-      child: BottomNavigationBar(
-        currentIndex: 1,
-        items: const [
-          BottomNavigationBarItem(icon: Icon(Icons.home_outlined),     label: 'Ana sayfa'),
-          BottomNavigationBarItem(icon: Icon(Icons.bar_chart_rounded),  label: 'İlerleme'),
-          BottomNavigationBarItem(icon: Icon(Icons.people_outline),    label: 'Sıralama'),
-          BottomNavigationBarItem(icon: Icon(Icons.emoji_events_outlined), label: 'Rozetler'),
-        ],
-        backgroundColor: Colors.transparent,
-        selectedItemColor: AppColors.fen,
-        unselectedItemColor: AppColors.dim,
-        type: BottomNavigationBarType.fixed,
-        elevation: 0,
+      bottomNavigationBar: AppBottomNav(currentIndex: 2, onTap: onTabSelect),
+    );
+  }
+}
+
+// ═══════════════════════════════════════════════════════════════════════════════
+// ROZETLER EKRANI
+// ═══════════════════════════════════════════════════════════════════════════════
+class BadgesScreen extends StatelessWidget {
+  final Function(int) onTabSelect;
+  const BadgesScreen({super.key, required this.onTabSelect});
+
+  static const _badges = [
+    ('🔥', 'İlk Adım', '10 kelime öğren', true),
+    ('⚔️', 'İlk Zafer', 'İlk boss\'u yen', true),
+    ('💰', 'Hazine Avcısı', '3 hazine aç', false),
+    ('🗺️', 'Kaşif', 'Haritayı %50 tamamla', false),
+    ('👹', 'Boss Katili', '5 boss\'u yen', false),
+    ('📚', 'Kelime Ustası', '100 kelime öğren', false),
+    ('🏆', 'Şampiyon', 'Tüm bölümleri tamamla', false),
+    ('⚡', 'Combo Ustası', 'x5 combo yap', false),
+    ('🌟', 'Yıldız', '7 gün üst üste oyna', false),
+    ('💎', 'Elmas', 'Tüm rozetleri kazan', false),
+  ];
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      backgroundColor: AppColors.bg,
+      body: SafeArea(
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Padding(
+              padding: const EdgeInsets.fromLTRB(22, 28, 22, 4),
+              child: Text('Rozetler', style: AppTextStyles.display(22, weight: FontWeight.w700)),
+            ),
+            Padding(
+              padding: const EdgeInsets.fromLTRB(22, 0, 22, 20),
+              child: Text('${_badges.where((b) => b.$4).length} / ${_badges.length} kazanıldı',
+                  style: AppTextStyles.body(13, color: AppColors.muted)),
+            ),
+            Expanded(
+              child: GridView.builder(
+                padding: const EdgeInsets.symmetric(horizontal: 16),
+                gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
+                  crossAxisCount: 2,
+                  crossAxisSpacing: 10,
+                  mainAxisSpacing: 10,
+                  childAspectRatio: 1.4,
+                ),
+                itemCount: _badges.length,
+                itemBuilder: (ctx, i) {
+                  final (emoji, title, desc, earned) = _badges[i];
+                  return Container(
+                    padding: const EdgeInsets.all(14),
+                    decoration: BoxDecoration(
+                      color: earned ? AppColors.bg3 : AppColors.bg2,
+                      borderRadius: AppRadius.mdBR,
+                      border: Border.all(
+                        color: earned
+                            ? AppColors.sosyal.withValues(alpha: 0.4)
+                            : AppColors.border,
+                      ),
+                    ),
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Text(emoji,
+                            style: TextStyle(
+                              fontSize: 24,
+                              color: earned ? null : const Color(0xFF333333),
+                            )),
+                        const SizedBox(height: 6),
+                        Text(title,
+                            style: AppTextStyles.display(12,
+                                weight: FontWeight.w600,
+                                color: earned ? AppColors.text : AppColors.muted)),
+                        Text(desc,
+                            style: AppTextStyles.body(10, color: AppColors.dim),
+                            maxLines: 2,
+                            overflow: TextOverflow.ellipsis),
+                      ],
+                    ),
+                  );
+                },
+              ),
+            ),
+          ],
+        ),
       ),
+      bottomNavigationBar: AppBottomNav(currentIndex: 3, onTap: onTabSelect),
     );
   }
 }
