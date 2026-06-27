@@ -6,6 +6,8 @@ import '../widgets/shared_widgets.dart';
 class HomeScreen extends StatelessWidget {
   final Function(Department) onSelectDept;
   final Map<Department, int> wordCounts;
+  final Map<Department, int> learnedCounts;
+  final Map<Department, int> mapOpenCounts;
   final int gold;
   final int streak;
   final Function(int) onTabSelect;
@@ -14,6 +16,8 @@ class HomeScreen extends StatelessWidget {
     super.key,
     required this.onSelectDept,
     required this.wordCounts,
+    this.learnedCounts = const {},
+    this.mapOpenCounts = const {},
     this.gold = 0,
     this.streak = 0,
     required this.onTabSelect,
@@ -62,19 +66,19 @@ class HomeScreen extends StatelessWidget {
                 delegate: SliverChildListDelegate([
                   _DailyMissionCard(
                     dept: Department.fen,
-                    total: wordCounts[Department.fen] ?? 0,
+                    openCells: mapOpenCounts[Department.fen] ?? 0,
                     onTap: () => onSelectDept(Department.fen),
                   ),
                   const SizedBox(height: 10),
                   _DailyMissionCard(
                     dept: Department.saglik,
-                    total: wordCounts[Department.saglik] ?? 0,
+                    openCells: mapOpenCounts[Department.saglik] ?? 0,
                     onTap: () => onSelectDept(Department.saglik),
                   ),
                   const SizedBox(height: 10),
                   _DailyMissionCard(
                     dept: Department.sosyal,
-                    total: wordCounts[Department.sosyal] ?? 0,
+                    openCells: mapOpenCounts[Department.sosyal] ?? 0,
                     onTap: () => onSelectDept(Department.sosyal),
                   ),
                 ]),
@@ -96,21 +100,21 @@ class HomeScreen extends StatelessWidget {
                 delegate: SliverChildListDelegate([
                   DeptListCard(
                     dept: Department.fen,
-                    learned: 0,
+                    learned: learnedCounts[Department.fen] ?? 0,
                     total: wordCounts[Department.fen] ?? 0,
                     onTap: () => onSelectDept(Department.fen),
                   ),
                   const SizedBox(height: 10),
                   DeptListCard(
                     dept: Department.saglik,
-                    learned: 0,
+                    learned: learnedCounts[Department.saglik] ?? 0,
                     total: wordCounts[Department.saglik] ?? 0,
                     onTap: () => onSelectDept(Department.saglik),
                   ),
                   const SizedBox(height: 10),
                   DeptListCard(
                     dept: Department.sosyal,
-                    learned: 0,
+                    learned: learnedCounts[Department.sosyal] ?? 0,
                     total: wordCounts[Department.sosyal] ?? 0,
                     onTap: () => onSelectDept(Department.sosyal),
                   ),
@@ -128,12 +132,12 @@ class HomeScreen extends StatelessWidget {
 // ─── Günlük Görev Kartı (bölüme göre) ────────────────────────────────────────
 class _DailyMissionCard extends StatelessWidget {
   final Department dept;
-  final int total;
+  final int openCells;
   final VoidCallback onTap;
 
   const _DailyMissionCard({
     required this.dept,
-    required this.total,
+    required this.openCells,
     required this.onTap,
   });
 
@@ -181,9 +185,9 @@ class _DailyMissionCard extends StatelessWidget {
               const SizedBox(height: 3),
               Text(_subtitle, style: AppTextStyles.body(12, color: AppColors.muted)),
               const SizedBox(height: 12),
-              AppProgressBar(value: 0.0, color: _color),
+              AppProgressBar(value: openCells / 25, color: _color),
               const SizedBox(height: 4),
-              Text('0 / 10 tamamlandı', style: AppTextStyles.mono(11, color: AppColors.muted)),
+              Text('$openCells / 25 hücre açıldı', style: AppTextStyles.mono(11, color: AppColors.muted)),
               const SizedBox(height: 14),
               PrimaryButton(label: 'Başla →', onTap: onTap, color: _color),
             ],

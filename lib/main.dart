@@ -62,7 +62,9 @@ class _AppNavigatorState extends State<AppNavigator> {
   final _wordService = WordService();
   final _progress = ProgressService();
   Map<Department, List<Word>> _allWords = {};
+  Map<String, WordProgress> _wordProgress = {};
   bool _loading = true;
+  bool _deptSaved = false;
 
   @override
   void initState() {
@@ -77,13 +79,15 @@ class _AppNavigatorState extends State<AppNavigator> {
       _wordService.getWords(Department.sosyal),
       _progress.loadGameState(),
       _progress.loadSelectedDept(),
+      _progress.load(),
     ]);
 
-    final fen    = results[0] as List<Word>;
-    final saglik = results[1] as List<Word>;
-    final sosyal = results[2] as List<Word>;
-    final gs     = results[3] as ({int gold, int streak});
-    final savedDept = results[4] as String?;
+    final fen        = results[0] as List<Word>;
+    final saglik     = results[1] as List<Word>;
+    final sosyal     = results[2] as List<Word>;
+    final gs         = results[3] as ({int gold, int streak});
+    final savedDept  = results[4] as String?;
+    final wordProg   = results[5] as Map<String, WordProgress>;
 
     // Kayıtlı haritaları yükle
     final savedFen    = await _progress.loadMap(Department.fen.name, Department.fen.label);
@@ -101,14 +105,27 @@ class _AppNavigatorState extends State<AppNavigator> {
         Department.saglik: saglik,
         Department.sosyal: sosyal,
       };
+      _wordProgress = wordProg;
       _gold   = gs.gold;
       _streak = gs.streak;
       _dept   = dept;
+      _deptSaved = savedDept != null;
       if (savedFen    != null) _maps[Department.fen]    = savedFen;
       if (savedSaglik != null) _maps[Department.saglik] = savedSaglik;
       if (savedSosyal != null) _maps[Department.sosyal] = savedSosyal;
       _loading = false;
     });
+  }
+
+  Map<Department, int> get _learnedCounts {
+    return _allWords.map((dept, words) => MapEntry(
+      dept,
+      words.where((w) => (_wordProgress[w.id]?.correctCount ?? 0) >= 2).length,
+    ));
+  }
+
+  Map<Department, int> get _mapOpenCounts {
+    return {for (final d in Department.values) d: _maps[d]?.openCount ?? 0};
   }
 
   Map<Department, int> get _wordCounts =>
@@ -167,10 +184,10 @@ class _AppNavigatorState extends State<AppNavigator> {
                 await Future.delayed(const Duration(milliseconds: 100));
                 return _loading;
               }).then((_) {
-                _go(_maps.isNotEmpty ? AppPage.home : AppPage.onboarding);
+                _go(_deptSaved ? AppPage.home : AppPage.onboarding);
               });
             } else {
-              _go(_maps.isNotEmpty ? AppPage.home : AppPage.onboarding);
+              _go(_deptSaved ? AppPage.home : AppPage.onboarding);
             }
           },
         );
@@ -199,6 +216,8 @@ class _AppNavigatorState extends State<AppNavigator> {
             _go(AppPage.map);
           },
           wordCounts: _wordCounts,
+          learnedCounts: _learnedCounts,
+          mapOpenCounts: _mapOpenCounts,
           gold: _gold,
           streak: _streak,
           onTabSelect: _onTabSelect,
@@ -211,6 +230,7 @@ class _AppNavigatorState extends State<AppNavigator> {
           department: _dept,
           gold: _gold,
           streak: _streak,
+          onBack: () => _go(AppPage.home),
           onStartQuiz: () => _go(AppPage.quiz),
           onBossReady: () {
             setState(() => _boss = BossBattle.forDepartment(_dept));
@@ -289,6 +309,7 @@ class _AppNavigatorState extends State<AppNavigator> {
         return ProgressScreen(
           key: const ValueKey('progress'),
           wordCounts: _wordCounts,
+          learnedCounts: _learnedCounts,
           onTabSelect: _onTabSelect,
         );
 

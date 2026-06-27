@@ -159,9 +159,15 @@ class _LearnedWordRow extends StatelessWidget {
 // ═══════════════════════════════════════════════════════════════════════════════
 class ProgressScreen extends StatelessWidget {
   final Map<Department, int> wordCounts;
+  final Map<Department, int> learnedCounts;
   final Function(int) onTabSelect;
 
-  const ProgressScreen({super.key, required this.wordCounts, required this.onTabSelect});
+  const ProgressScreen({
+    super.key,
+    required this.wordCounts,
+    this.learnedCounts = const {},
+    required this.onTabSelect,
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -183,7 +189,7 @@ class ProgressScreen extends StatelessWidget {
                 delegate: SliverChildListDelegate([
                   _DeptProgressCard(
                     dept: Department.fen,
-                    learned: 0,
+                    learned: learnedCounts[Department.fen] ?? 0,
                     total: wordCounts[Department.fen] ?? 0,
                     themes: const ['Araştırma', 'Biyoloji', 'Kimya', 'Fizik'],
                     themesDone: const [false, false, false, false],
@@ -191,7 +197,7 @@ class ProgressScreen extends StatelessWidget {
                   const SizedBox(height: 12),
                   _DeptProgressCard(
                     dept: Department.saglik,
-                    learned: 0,
+                    learned: learnedCounts[Department.saglik] ?? 0,
                     total: wordCounts[Department.saglik] ?? 0,
                     themes: const ['Klinik', 'Farmakoloji', 'Epidemiyoloji'],
                     themesDone: const [false, false, false],
@@ -199,7 +205,7 @@ class ProgressScreen extends StatelessWidget {
                   const SizedBox(height: 12),
                   _DeptProgressCard(
                     dept: Department.sosyal,
-                    learned: 0,
+                    learned: learnedCounts[Department.sosyal] ?? 0,
                     total: wordCounts[Department.sosyal] ?? 0,
                     themes: const ['Metodoloji', 'Sosyoloji', 'Ekonomi'],
                     themesDone: const [false, false, false],

@@ -34,6 +34,7 @@ class _BossScreenState extends State<BossScreen> with TickerProviderStateMixin {
   bool _answered = false;
   int? _selectedIdx;
   int _lives = 3;
+  bool _isDefeated = false;
 
   // Timer
   late AnimationController _timerCtrl;
@@ -113,7 +114,9 @@ class _BossScreenState extends State<BossScreen> with TickerProviderStateMixin {
     });
     _shakeCtrl.forward(from: 0);
     if (_lives <= 0) {
-      Future.delayed(const Duration(milliseconds: 900), widget.onDefeat);
+      Future.delayed(const Duration(milliseconds: 900), () {
+        if (mounted) setState(() => _isDefeated = true);
+      });
     } else {
       Future.delayed(const Duration(milliseconds: 800), _nextQuestion);
     }
@@ -144,7 +147,9 @@ class _BossScreenState extends State<BossScreen> with TickerProviderStateMixin {
         widget.onVictory(rewards);
       });
     } else if (_lives <= 0) {
-      Future.delayed(const Duration(milliseconds: 900), widget.onDefeat);
+      Future.delayed(const Duration(milliseconds: 900), () {
+        if (mounted) setState(() => _isDefeated = true);
+      });
     } else {
       Future.delayed(const Duration(milliseconds: 800), _nextQuestion);
     }
@@ -163,8 +168,9 @@ class _BossScreenState extends State<BossScreen> with TickerProviderStateMixin {
 
   @override
   Widget build(BuildContext context) {
+    if (_isDefeated) return _buildDefeatScreen();
     return Scaffold(
-      backgroundColor: const Color(0xFF100808), // boss ekranı için koyu kırmızımsı zemin
+      backgroundColor: const Color(0xFF100808),
       body: SafeArea(
         child: Column(
           children: [
@@ -188,6 +194,57 @@ class _BossScreenState extends State<BossScreen> with TickerProviderStateMixin {
               ),
             ),
           ],
+        ),
+      ),
+    );
+  }
+
+  Widget _buildDefeatScreen() {
+    return Scaffold(
+      backgroundColor: const Color(0xFF100808),
+      body: SafeArea(
+        child: Center(
+          child: Padding(
+            padding: const EdgeInsets.all(32),
+            child: Column(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                const Text('💀', style: TextStyle(fontSize: 72)),
+                const SizedBox(height: 20),
+                Text('Savaşı kaybettin',
+                    style: AppTextStyles.display(26, weight: FontWeight.w700,
+                        color: AppColors.danger),
+                    textAlign: TextAlign.center),
+                const SizedBox(height: 10),
+                Text('${_boss.bossName} seni yendi. Daha güçlü geri dön!',
+                    style: AppTextStyles.body(14, color: AppColors.muted),
+                    textAlign: TextAlign.center),
+                const SizedBox(height: 12),
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: List.generate(3, (i) => Padding(
+                    padding: const EdgeInsets.symmetric(horizontal: 6),
+                    child: Text(i < _lives ? '❤️' : '🖤',
+                        style: const TextStyle(fontSize: 28)),
+                  )),
+                ),
+                const SizedBox(height: 40),
+                SizedBox(
+                  width: double.infinity,
+                  child: ElevatedButton(
+                    onPressed: widget.onDefeat,
+                    style: ElevatedButton.styleFrom(
+                      backgroundColor: AppColors.bg3,
+                      foregroundColor: AppColors.text,
+                      padding: const EdgeInsets.symmetric(vertical: 16),
+                      shape: RoundedRectangleBorder(borderRadius: AppRadius.mdBR),
+                    ),
+                    child: Text('← Haritaya dön', style: AppTextStyles.display(15)),
+                  ),
+                ),
+              ],
+            ),
+          ),
         ),
       ),
     );

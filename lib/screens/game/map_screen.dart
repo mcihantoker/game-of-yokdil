@@ -10,9 +10,10 @@ class MapScreen extends StatefulWidget {
   final Department department;
   final int gold;
   final int streak;
-  final VoidCallback onStartQuiz;    // Soru sormaya başla (hücre açmak için)
-  final VoidCallback onBossReady;    // Boss'a git
-  final Function(int) onTreasure;   // Hazine hücresine basıldı
+  final VoidCallback onStartQuiz;
+  final VoidCallback onBossReady;
+  final Function(int) onTreasure;
+  final VoidCallback? onBack;
 
   const MapScreen({
     super.key,
@@ -23,6 +24,7 @@ class MapScreen extends StatefulWidget {
     required this.onStartQuiz,
     required this.onBossReady,
     required this.onTreasure,
+    this.onBack,
   });
 
   @override
@@ -86,8 +88,15 @@ class _MapScreenState extends State<MapScreen> with TickerProviderStateMixin {
       ),
       child: Row(
         children: [
-          // Logo küçük
-          Image.asset('assets/logo.png', width: 90, filterQuality: FilterQuality.high),
+          if (widget.onBack != null)
+            GestureDetector(
+              onTap: widget.onBack,
+              child: const Padding(
+                padding: EdgeInsets.only(right: 10),
+                child: Icon(Icons.arrow_back_ios_new_rounded, color: AppColors.muted, size: 18),
+              ),
+            ),
+          Image.asset('assets/logo.png', width: 80, filterQuality: FilterQuality.high),
           const Spacer(),
           StatPill(value: widget.streak.toString(),
               icon: Icons.local_fire_department_rounded, iconColor: AppColors.sosyal),
