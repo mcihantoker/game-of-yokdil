@@ -111,7 +111,6 @@ class _AppNavigatorState extends State<AppNavigator> {
       child: switch (_page) {
         AppPage.home => HomeScreen(
             key: const ValueKey('home'),
-            onStartQuiz: _goQuiz,
             onSelectDept: _goQuiz,
             wordCounts: _wordCounts,
           ),
