@@ -349,7 +349,7 @@ class _GameOverScreenState extends State<GameOverScreen>
               children: [
                 const Icon(Icons.castle_outlined, size: 16, color: _mutedText),
                 const SizedBox(width: 8),
-                Text("Kal'aya dön", style: _cinzel(13, color: _mutedText)),
+                Text("Haritaya dön", style: _cinzel(13, color: _mutedText)),
               ],
             ),
           ),
